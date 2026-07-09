@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation  (defensive signatures; not endorsements)
+
+alert ip any any -> 136.243.203.109 any (msg:"[Salamander CTI] X3D MINER infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 138.199.246.13 any (msg:"[Salamander CTI] X3D MINER infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 136.243.203.111 any (msg:"[Salamander CTI] X3D MINER infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 116.203.243.208 any (msg:"[Salamander CTI] X3D MINER infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)

@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Ransomware Analysis: Go Binary and Fast Encryption  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] The Gentlemen infrastructure domain"; dns.query; content:"tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

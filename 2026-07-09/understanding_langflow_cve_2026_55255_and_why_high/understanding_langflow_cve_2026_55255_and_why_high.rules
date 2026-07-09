@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Understanding Langflow CVE-2026-55255, and why higher CVSS vulnerabilities aren't always the most exploited  (defensive signatures; not endorsements)
+
+alert ip any any -> 45.207.216.55 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

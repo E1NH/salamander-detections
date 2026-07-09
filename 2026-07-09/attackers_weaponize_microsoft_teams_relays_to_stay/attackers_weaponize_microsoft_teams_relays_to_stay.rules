@@ -1,0 +1,12 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Attackers Weaponize Microsoft Teams Relays to Stay Hidden  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"comunidadesparentais.com.br"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"glanz-gmbh.de"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"mysimerp.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"professionalhomebasedbusiness.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"projetosmecanicos.com.br"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"safefire.jo"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"socialbizsolutions.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DragonForce infrastructure domain"; dns.query; content:"turnkeyaiagents.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert ip any any -> 62.164.177.25 any (msg:"[Salamander CTI] DragonForce infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)

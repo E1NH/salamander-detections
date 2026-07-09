@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# From emerging threat to top-tier ransomware-as-a-service: The evolution of INC ransomware  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] INC infrastructure domain"; dns.query; content:"incblog.su"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] INC infrastructure domain"; dns.query; content:"incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] INC infrastructure domain"; dns.query; content:"incpaykabjqc2mtdxq6c23nqh4x6m5dkps5fr6vgdkgzp5njssx6qkid.onion"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)

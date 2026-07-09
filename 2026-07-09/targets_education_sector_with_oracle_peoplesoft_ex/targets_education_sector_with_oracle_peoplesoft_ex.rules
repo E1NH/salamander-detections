@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Targets Education Sector with Oracle PeopleSoft Exploit  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] UNC6240 infrastructure domain"; dns.query; content:"azurenetfiles.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 176.120.22.24 any (msg:"[Salamander CTI] UNC6240 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
