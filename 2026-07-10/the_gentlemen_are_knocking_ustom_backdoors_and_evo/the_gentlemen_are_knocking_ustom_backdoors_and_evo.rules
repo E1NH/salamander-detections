@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# The Gentlemen are knocking: сustom backdoors and evolving tactics  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] The Gentlemen infrastructure domain"; dns.query; content:"rsat.activedirectory.ds-lds.tools"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 81.177.215.15 any (msg:"[Salamander CTI] The Gentlemen infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
