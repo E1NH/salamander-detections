@@ -1,113 +1,102 @@
 {
   "type": "bundle",
-  "id": "bundle--52fff7fc-6305-42b1-a3be-dc44778c6683",
+  "id": "bundle--b0bef705-8487-473f-95f8-f121b50d9253",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7c949cc2-4ccc-4d2a-94c4-5a152a3d6d93",
+      "id": "indicator--1d04490d-a5f3-4c07-af99-0a83a7e12cc8",
       "created": "2026-07-10T13:44:00.000Z",
       "modified": "2026-07-10T13:44:00.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
-      "pattern": "[file:hashes.'SHA-256' = 'c7e9332731b06644fc73e0046a2a89eaa59b09f54250e9bd622467187351711f']",
+      "pattern": "[file:hashes.'SHA-256' = 'c4fcae3847946173bf0b3cedf5d97a9e3d18090023842f942ba544fa7fda180d']",
       "valid_from": "2026-07-10T13:44:00.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e1c0605f-fd14-4697-a252-a467efada819",
-      "created": "2026-07-10T13:44:00.000Z",
-      "modified": "2026-07-10T13:44:00.000Z",
-      "name": "Malicious file (MD5)",
-      "pattern_type": "stix",
-      "pattern": "[file:hashes.'MD5' = 'ebcf977806f68af3147e0b78b55f6aed']",
-      "valid_from": "2026-07-10T13:44:00.000Z"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--e1bb0906-80c3-43c0-b9b2-3f0dac439d1d",
-      "created": "2026-07-10T13:44:00.000Z",
-      "modified": "2026-07-10T13:44:00.000Z",
-      "name": "Malicious file (SHA-1)",
-      "pattern_type": "stix",
-      "pattern": "[file:hashes.'SHA-1' = 'cc19e502e4201cc974c753b96429027925224f53']",
-      "valid_from": "2026-07-10T13:44:00.000Z"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--a5760429-1831-4c94-a419-028e994e815e",
+      "id": "indicator--28bf743c-3e91-47b2-ba30-1705643059a3",
       "created": "2026-07-10T13:44:00.000Z",
       "modified": "2026-07-10T13:44:00.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
-      "pattern": "[file:hashes.'SHA-256' = '2ab684d93c1553fad87041b4dea97188a97e78589deee2a7bacff905564f3a35']",
+      "pattern": "[file:hashes.'SHA-256' = 'c84739655ce1af0a0269138263d47567418f69e0f75e249f8e23bc21802209e2']",
       "valid_from": "2026-07-10T13:44:00.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--dda52d26-1aeb-4502-91db-7332b6efbdf2",
+      "id": "indicator--9e931e52-c934-4d03-bc27-6114bdd9c331",
       "created": "2026-07-10T13:44:00.000Z",
       "modified": "2026-07-10T13:44:00.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
-      "pattern": "[file:hashes.'SHA-256' = '68257a6f9ff196179ec03624e849927f26599eb180a7c82e14ef5bc4e93bc309']",
+      "pattern": "[file:hashes.'SHA-256' = 'eb083365dc70d0294e8c4f55a2e78be0edb0f3497f2a06a70c9f474dafab48d8']",
       "valid_from": "2026-07-10T13:44:00.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--b438333b-2a73-4ea5-bb10-175b8ea4d845",
-      "created": "2026-07-10T13:44:00.000Z",
-      "modified": "2026-07-10T13:44:00.000Z",
-      "name": "Malicious file (SHA-256)",
-      "pattern_type": "stix",
-      "pattern": "[file:hashes.'SHA-256' = 'd83fdb9e53c5ff03c4cb0451ea1bebd79b53f29eadc1e2fa394c7af13a86ce2f']",
-      "valid_from": "2026-07-10T13:44:00.000Z"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--3a4117da-3d8e-4603-ae30-1358a08c158e",
-      "created": "2026-07-10T13:44:00.000Z",
-      "modified": "2026-07-10T13:44:00.000Z",
-      "name": "Malicious file (SHA-256)",
-      "pattern_type": "stix",
-      "pattern": "[file:hashes.'SHA-256' = 'f02a924c9ff92a8780ce812511341182c6b509d45bc59f3f7b522e37225d24fc']",
-      "valid_from": "2026-07-10T13:44:00.000Z"
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--4eae1216-49bf-4bf3-8b71-13b5de31f706",
+      "id": "indicator--105c98b0-9cd4-4e7d-bc92-c6f32d17de9d",
       "created": "2026-07-10T13:44:00.000Z",
       "modified": "2026-07-10T13:44:00.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
-      "pattern": "[domain-name:value = 'azurenetfiles.net']",
+      "pattern": "[domain-name:value = 'doauthentication.do']",
       "valid_from": "2026-07-10T13:44:00.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d9bdb8e8-c5ad-4294-aabf-4375747739af",
+      "id": "indicator--7efb1829-1edc-44e8-a4dc-e5b90f113716",
       "created": "2026-07-10T13:44:00.000Z",
       "modified": "2026-07-10T13:44:00.000Z",
-      "name": "C2/infra IP",
+      "name": "C2/infra domain",
       "pattern_type": "stix",
-      "pattern": "[ipv4-addr:value = '176.120.22.24']",
+      "pattern": "[domain-name:value = 'vpts.us']",
+      "valid_from": "2026-07-10T13:44:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--44b9c57c-9389-4098-bf35-4d39ed557ea1",
+      "created": "2026-07-10T13:44:00.000Z",
+      "modified": "2026-07-10T13:44:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'opa.tlsd.shop']",
+      "valid_from": "2026-07-10T13:44:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1a578f3e-55b8-4665-b4f7-acb98ed91d0d",
+      "created": "2026-07-10T13:44:00.000Z",
+      "modified": "2026-07-10T13:44:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'relay.dltsolutions.top']",
+      "valid_from": "2026-07-10T13:44:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--58e6addb-c644-4e05-83b1-abcb7c5dbe2b",
+      "created": "2026-07-10T13:44:00.000Z",
+      "modified": "2026-07-10T13:44:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'relay.eurofin.digital']",
       "valid_from": "2026-07-10T13:44:00.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--d7bbc2c1-ecab-404c-bde0-28749c983acc",
+      "id": "threat-actor--b7035ebd-6afd-45ec-86fa-f29cf3fb3bdd",
       "created": "2026-07-10T13:44:00.000Z",
       "modified": "2026-07-10T13:44:00.000Z",
-      "name": "UNC6240"
+      "name": "DragonForce"
     }
   ]
 }

@@ -8,7 +8,7 @@ rule Salamander_Hive0163__Rhysida__Vanilla_Tempest__TAG
     author = "Salamander CTI"
     reference = "https://salacti.com"
     actor = "Hive0163, Rhysida, Vanilla Tempest, TAG-124, ITG23"
-    malware = "INTERLOCK"
+    malware = "NodeSnake, InterlockRAT, JunkFiction, Supper, Interlock, Rhysida, Broomstick, Endico, Tomb, IceNova, Latrodectus, Gootloader, SocGholish, MintLoader, ModeloRAT, Brave Prince - S0252, Vidar, Dave, SystemBC, Sliver, Berserk Stealer, Mallard, Plus Keylogger, NtlmThief, PortStarter"
   condition:
     hash.md5(0, filesize) == "f0b3e112ce4807a28e2b5d66a840ed7f" or
     hash.sha1(0, filesize) == "54a6743781fd4ceb720331fce92f16186931192d" or
