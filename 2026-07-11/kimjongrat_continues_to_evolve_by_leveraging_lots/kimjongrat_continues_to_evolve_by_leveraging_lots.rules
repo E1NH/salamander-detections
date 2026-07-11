@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# KimJongRAT Continues to Evolve by Leveraging LOTS  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"lutkdd.corpsecs.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"pxqtkc.corpsecs.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"googleoba.servequake.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 104.200.67.46 any (msg:"[Salamander CTI] Kimsuky infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)

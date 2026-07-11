@@ -1,0 +1,15 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Operation Endgame vs. SocGholish Fake Updates  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"trademark.iglesiaelarca.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"content.garretttrails.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"promo.summat10n.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"billing.roofnrack.us"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"devel.asurans.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"storehouse.beautysupplysalonllc.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"samples.addisgraphix.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"api-app.uppercrafteroom.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"pa-portal.benningtonspringsmhp.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"shop.steadycompanion.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"platform.exathomeswebuyarizona.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"app-front.anmaradigital.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100012; rev:1;)

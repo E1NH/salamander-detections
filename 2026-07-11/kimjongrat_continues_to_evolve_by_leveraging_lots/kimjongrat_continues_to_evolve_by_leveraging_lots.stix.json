@@ -1,0 +1,102 @@
+{
+  "type": "bundle",
+  "id": "bundle--ba8426d8-fb83-4014-bbf2-c84ef65890de",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d5a9640b-32c0-43e2-b499-e5ba9c90d9b2",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '9758e76b601798a30d903bf05052a53df80451e5c156548ce9da828f608b6470']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--beac28f6-e9c1-465f-8959-ae6ce799e33d",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '221a39856b37e3c682f62427f1e6b965b36a2405764689c914672770a01a1fa9']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fd9063f9-1d68-4160-a420-0b29b1016771",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '107b5aa3c4ef30b9b832e0a10b1efb1dcf433158bc6af8d890d66c0c9ed50d21']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a740c6fb-2b6f-4d71-a783-556dc666824b",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'e4ccb2328c06710a7f0254cb6315e1b106396b0ff525f9cf3eada6e85d285c1c']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--acd27eec-ede4-4b76-83c4-1e56d4819410",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'lutkdd.corpsecs.com']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c9a1bdc2-cb39-4660-982d-cafc155f249e",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'pxqtkc.corpsecs.com']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e1283b7a-4874-4ddb-b3fa-0beedf1f049f",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'googleoba.servequake.com']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--72f25bd4-6995-4c09-90c2-d9ca4e227a5c",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '104.200.67.46']",
+      "valid_from": "2026-07-11T20:35:26.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--f56a1890-6cba-4202-a1ff-377e19f38fdc",
+      "created": "2026-07-11T20:35:26.000Z",
+      "modified": "2026-07-11T20:35:26.000Z",
+      "name": "Kimsuky"
+    }
+  ]
+}
