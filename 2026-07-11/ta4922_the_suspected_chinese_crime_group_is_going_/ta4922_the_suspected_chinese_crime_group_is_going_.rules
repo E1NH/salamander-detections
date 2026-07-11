@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# TA4922: The Suspected Chinese Crime Group is Going Global  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"nwphotoblog.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"ws.ztts88.cyou"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# India's government and energy sectors targeted with ZOHOMURK and MINIRECON  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] MUSTANG PANDA infrastructure domain"; dns.query; content:"couldinstallup.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] MUSTANG PANDA infrastructure domain"; dns.query; content:"www.zohoapis.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

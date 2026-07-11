@@ -1,0 +1,25 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// From Invoice to AnyDesk: Uncovering a Phishing Campaign Targeting Russian Aerospace Organizations
+
+rule Salamander_Rare_Werewolf
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "Rare Werewolf"
+    malware = "DYEPACK"
+  condition:
+    hash.sha256(0, filesize) == "0dc0fa727f900ed5033f46f8ba6cf2d97d20ab95fd334cabc0f216da6e0622b0" or
+    hash.md5(0, filesize) == "144a0a499e007931628c98f38929466f" or
+    hash.sha1(0, filesize) == "c7eccd855d2e97b57420afd23a4b9261f42f5b84" or
+    hash.sha256(0, filesize) == "12648cd9d425f78db2dbc6e03c14f11e6ac6aadf8b3975c23cce9519e2b58d33" or
+    hash.sha256(0, filesize) == "47854deb456cb08c651b7f9ae2f9d87c72d0719de6af233340632efb3c1980f4" or
+    hash.sha256(0, filesize) == "f57e010541fb4ccbf23aefc4a827f753a6ff3f8792d9c04c3eea83f6963c6bae" or
+    hash.md5(0, filesize) == "6cc3c68c56e099792fdeadde76256d56" or
+    hash.md5(0, filesize) == "7884be8a701f31421717c0835add92d5" or
+    hash.md5(0, filesize) == "eabd440c996846d0992e37ab01d01208" or
+    hash.sha1(0, filesize) == "5d9d91cf9da3b37d8eee87d5d4dd38dbfec28358" or
+    hash.sha1(0, filesize) == "7d415612a00d99617bd89670e1570c145863ad08" or
+    hash.sha1(0, filesize) == "ee577f1880397a00480b210fcd6bc84d2330a19e"
+}
