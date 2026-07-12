@@ -1,0 +1,113 @@
+{
+  "type": "bundle",
+  "id": "bundle--f2c3f1fa-d501-4ac2-bd86-e505231d8a21",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--47246b9f-35a0-4185-af19-bc3f6b7622dd",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'ab5681266f70af7df24383f15de876e411fc18e35cb6f24603b12f580b05ccb3']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--129991dd-5643-4476-80c2-4f72e60c3c9b",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '8de34006dafd990853a45cbe9aaab4ee18c8cd4c1ad0a98fe71f8d63cd60db25']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--80de92ef-6532-42b3-8dc1-f0ecaa28decc",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'b1834634820ae696f0514ca2b6723061f115857232306e573f4d115bc6ead012']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--82944bf9-ed58-4788-8f12-e4e2ff150063",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '16a59e1fece21ca5394a8ec9ea596fec']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9eb999fc-92a6-4ae1-a5ad-2c3c06e82268",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '6da30ad8677b058fad4d3d3031a428ec']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1da52ef8-3d38-43cc-b41e-39e6d1d14de6",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'd0a66dd44ee64b76de79cddab13d2745']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d6a1d786-a3fb-4451-bfdc-fa0475f56967",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '4b5f407f5966f49f8c1005a94a822c83b20fa325']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b22f85ce-ace2-4dbd-8465-53e5b4329f0b",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '52a1b02e4fe0998069c777bec37eb394781e8fda']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--71f4e46d-bdee-4731-ac0f-08b9db7f8f3f",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'c4834de90f419c5517f3a1c13d219d71fc85e742']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--af8d07c0-42c6-40c9-b3de-136e544109c2",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "GhostShell"
+    }
+  ]
+}

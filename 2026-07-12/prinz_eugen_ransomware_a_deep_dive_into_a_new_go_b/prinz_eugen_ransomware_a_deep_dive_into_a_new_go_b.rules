@@ -1,0 +1,12 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Prinz Eugen ransomware: a deep dive into a new Go-based encryptor  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"6cudc5cqa2bjpwdhcwm2lj6dbqejjjqzeo6ipwvmbazr6cgu7vfk3dad.onion"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"stndrdbnk.cc"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"prinzfkbjiazbrur4mjje6mntjc4vydx3iatkkzycufoylqcoo4y7pqd.onion"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"captchafestung.sbs"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"darkempire.fun"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"g-captchafestung.sbs"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"old-pidop.ru"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ROOTBOY infrastructure domain"; dns.query; content:"festung-e.duckdns.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert ip any any -> 212.80.7.74 any (msg:"[Salamander CTI] ROOTBOY infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)

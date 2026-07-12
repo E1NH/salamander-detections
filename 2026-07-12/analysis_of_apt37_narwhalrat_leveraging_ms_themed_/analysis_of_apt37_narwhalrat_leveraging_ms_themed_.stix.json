@@ -1,0 +1,179 @@
+{
+  "type": "bundle",
+  "id": "bundle--bdf3035c-ad9c-4d80-8243-89704bc83212",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fe14ea9e-4ea6-40c0-af3a-219b7d15c382",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '3715092aa00f380cefe8b4d2eddb7d08']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e94569da-98b1-4554-a084-5e413e6e457a",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '7cef19f9c4480adac0cd4702ff98f46c']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ce32b6ef-d82f-439b-b439-1cc079a6c14a",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '7eb9cee1f696727752169f25cf79a338']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d91b4d02-482d-42a1-a0d4-d2db90ecd140",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'b6b0602310bb2d4360c52685119aac1b']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8a50685e-90bc-4dba-8e8d-64275d468baf",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'crwellfood.com']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8372ab46-f004-4b09-97ae-63af7d962edd",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'fe01.co.kr']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ac242f67-4473-43a2-864e-9c9653da2d98",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'novel21.co.kr']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7fedba96-f18f-43de-a1b1-9ce098a2f445",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'webhostingkorea.com']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9396d390-4a4a-4001-a400-f64f9f586d45",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'www.novel21.co.kr']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6f66ff74-ef21-4a50-993c-caea200b81ce",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '211.239.157.126']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--212cfdf9-08c3-4fcf-b620-f8aef2d73b33",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '218.150.78.198']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ccb4e148-e16c-4dae-a05b-79acbadf0946",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '121.254.222.10']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--62140af9-4b37-4c23-b178-b2cde57c7290",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '121.254.222.80']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b6b62f35-53c7-4851-82ae-37ca72420a30",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '218.150.78.231']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1f906847-f046-44cf-8ced-f333547605b6",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '61.100.9.206']",
+      "valid_from": "2026-07-12T08:39:34.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--b5a69f3c-f68d-4110-8c3a-3d63d1a31004",
+      "created": "2026-07-12T08:39:34.000Z",
+      "modified": "2026-07-12T08:39:34.000Z",
+      "name": "APT37"
+    }
+  ]
+}

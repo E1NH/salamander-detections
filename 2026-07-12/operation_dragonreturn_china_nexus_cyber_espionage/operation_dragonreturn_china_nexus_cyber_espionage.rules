@@ -1,0 +1,14 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Operation DragonReturn: China-Nexus Cyber Espionage Campaign Targeting Govt. of India/MoF Tax Infrastructure via Multi-Stage DcRAT Deployment  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Void Arachne infrastructure domain"; dns.query; content:"1kkkkddd.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Arachne infrastructure domain"; dns.query; content:"govtop.one"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Arachne infrastructure domain"; dns.query; content:"ikkkkddd.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Arachne infrastructure domain"; dns.query; content:"jiayingjing.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Arachne infrastructure domain"; dns.query; content:"kkxqbh.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Arachne infrastructure domain"; dns.query; content:"simaqz.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert ip any any -> 27.50.54.191 any (msg:"[Salamander CTI] Void Arachne infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert ip any any -> 117.44.201.119 any (msg:"[Salamander CTI] Void Arachne infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert ip any any -> 118.107.0.197 any (msg:"[Salamander CTI] Void Arachne infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert ip any any -> 204.194.48.250 any (msg:"[Salamander CTI] Void Arachne infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert ip any any -> 223.26.63.40 any (msg:"[Salamander CTI] Void Arachne infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)
