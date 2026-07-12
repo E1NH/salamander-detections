@@ -1,0 +1,37 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// Analysis of Gamaredon campaign targeting Ukraine weaponizing CVE-2025-8088
+
+rule Salamander_Gamaredon
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "Gamaredon"
+    malware = "Gamaredon"
+  condition:
+    hash.sha256(0, filesize) == "2add9429d2822ae0c01c08bbd66c3a110ef2e9c3a00cded1477657e9024e391e" or
+    hash.sha256(0, filesize) == "cb65f5873c72d707371ec56fb8ba501a5c7f5940e9c5a2d28c9b379ce216900c" or
+    hash.sha256(0, filesize) == "1c170b7470d507378ddb78e9d66305f1184e965baaf2d27ededb23a318a58953" or
+    hash.sha256(0, filesize) == "507b2fcdae058cebbd550965b90c44e878d7a2463058c846eeb68f0dc1b48eda" or
+    hash.sha256(0, filesize) == "bf338d88f60c0d352cd0d1b5e4bc6a1d9f1ac8fe1df48516ec0042cafda821e9" or
+    hash.sha256(0, filesize) == "f668bd551859007cf2cc2a62bf0bf5414870a04e9782590c9bf85c849ddb308b" or
+    hash.sha256(0, filesize) == "f9d2907d6b1de3078a0f111cc98764a92baf5ebd06cc8ab02637a65eff3b7f3a" or
+    hash.sha256(0, filesize) == "0a9bc91e7ea2c3931f662eea37c00c7c26c8996b65f6f7afe6cce8f6114f94b6" or
+    hash.sha256(0, filesize) == "39dd1bd3bccc314d8933e5c41ed2ab084e4e20af569f77b7cf09abc5855b9483" or
+    hash.sha256(0, filesize) == "1ebbdf3671cd5ca25a8a8e7ca2f6e46dd22c631e01bfcc5c909ae2fd680bf458" or
+    hash.md5(0, filesize) == "a113090d748d0dac7d488c97f1305af2" or
+    hash.md5(0, filesize) == "473c65b922d3308a98c6b76c7d99a196" or
+    hash.md5(0, filesize) == "4082096ec0b8f723a79a224a6b6d37cd" or
+    hash.md5(0, filesize) == "587a464ffc174288d3f66d1845133229" or
+    hash.md5(0, filesize) == "8ca36b9cbd72d1f4ab4a9c8fcf85fe7e" or
+    hash.md5(0, filesize) == "addf25d1f994729f2d3cbb3d0ab49897" or
+    hash.md5(0, filesize) == "ea610ea6a8d69cb1e93fb79d4a8fa26f" or
+    hash.sha1(0, filesize) == "02462fa8f816b2ff21898612552d7845abcb9070" or
+    hash.sha1(0, filesize) == "1f34a8fad545554420650a8518d4199431fc2920" or
+    hash.sha1(0, filesize) == "23e076f5db64fb51226ef56a60bae6424b06a432" or
+    hash.sha1(0, filesize) == "42428f21b0114e390c6129f1fb24b42e97a8f7f7" or
+    hash.sha1(0, filesize) == "4f29c2059dcba412c3ef0100e839cf85fb0f62c1" or
+    hash.sha1(0, filesize) == "ad102478adda75ef6c6985187fc1e8b0bc1edded" or
+    hash.sha1(0, filesize) == "d8d789af0ede2ce38a50b516f7603376589ae141"
+}

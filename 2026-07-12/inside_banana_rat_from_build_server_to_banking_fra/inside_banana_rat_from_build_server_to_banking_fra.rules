@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Inside Banana RAT: From Build Server to Banking Fraud  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] SHADOW-WATER-063 infrastructure domain"; dns.query; content:"windowsk-cdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] SHADOW-WATER-063 infrastructure domain"; dns.query; content:"c.windowsk-cdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] SHADOW-WATER-063 infrastructure domain"; dns.query; content:"convitemundial2026.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)

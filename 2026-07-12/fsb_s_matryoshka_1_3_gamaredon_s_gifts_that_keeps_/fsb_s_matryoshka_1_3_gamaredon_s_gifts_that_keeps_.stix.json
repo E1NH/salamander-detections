@@ -1,0 +1,80 @@
+{
+  "type": "bundle",
+  "id": "bundle--67c05dd3-c189-4aff-977b-cd85c43ed4fe",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--30a526b0-4ebb-4c49-b014-86f828a23c67",
+      "created": "2026-07-12T17:51:04.000Z",
+      "modified": "2026-07-12T17:51:04.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '1794369214b7f62e70a0485e61335c61']",
+      "valid_from": "2026-07-12T17:51:04.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0a20118e-1311-49e1-8719-dbb60e763a63",
+      "created": "2026-07-12T17:51:04.000Z",
+      "modified": "2026-07-12T17:51:04.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '8e1624d110c090ff57d4b493a9107c66']",
+      "valid_from": "2026-07-12T17:51:04.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c5545490-60f4-4eee-9004-b5c13a739696",
+      "created": "2026-07-12T17:51:04.000Z",
+      "modified": "2026-07-12T17:51:04.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'iiwdsxwamylbwwsoyrmj.supabase.co']",
+      "valid_from": "2026-07-12T17:51:04.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6a9ec705-1f9a-4598-be08-d39155e06fd2",
+      "created": "2026-07-12T17:51:04.000Z",
+      "modified": "2026-07-12T17:51:04.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'quitethepastry.ru']",
+      "valid_from": "2026-07-12T17:51:04.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0cc0e69c-6c65-4e81-ad96-623459cd2751",
+      "created": "2026-07-12T17:51:04.000Z",
+      "modified": "2026-07-12T17:51:04.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'efficiency-planes-emotions-fascinating.trycloudflare.com']",
+      "valid_from": "2026-07-12T17:51:04.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--121f2222-30ac-4a91-a778-a8a2a010b34e",
+      "created": "2026-07-12T17:51:04.000Z",
+      "modified": "2026-07-12T17:51:04.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'moment-cat-qld-place.trycloudflare.com']",
+      "valid_from": "2026-07-12T17:51:04.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--d195d206-67f4-4eaf-99a9-281e2e053fa3",
+      "created": "2026-07-12T17:51:04.000Z",
+      "modified": "2026-07-12T17:51:04.000Z",
+      "name": "Gamaredon"
+    }
+  ]
+}

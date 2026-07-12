@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Public and Private Medical Community Targeted by Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research  (defensive signatures; not endorsements)
+
+alert ip any any -> 23.169.65.49 any (msg:"[Salamander CTI] UNC6508 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
