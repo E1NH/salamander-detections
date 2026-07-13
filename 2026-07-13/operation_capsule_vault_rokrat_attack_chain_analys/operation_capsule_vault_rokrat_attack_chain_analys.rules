@@ -1,0 +1,9 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Operation Capsule Vault: RokRAT Attack Chain Analysis Using EMBED_PAYLOAD_v2  (defensive signatures; not endorsements)
+
+alert ip any any -> 89.187.161.220 any (msg:"[Salamander CTI] APT37 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 5.180.208.57 any (msg:"[Salamander CTI] APT37 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 5.180.208.60 any (msg:"[Salamander CTI] APT37 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 160.238.37.95 any (msg:"[Salamander CTI] APT37 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 89.147.101.197 any (msg:"[Salamander CTI] APT37 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert ip any any -> 160.238.37.100 any (msg:"[Salamander CTI] APT37 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
