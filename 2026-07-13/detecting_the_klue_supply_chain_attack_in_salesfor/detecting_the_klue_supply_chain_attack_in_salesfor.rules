@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Detecting the Klue supply chain attack in Salesforce instances  (defensive signatures; not endorsements)
+
+alert ip any any -> 138.226.246.94 any (msg:"[Salamander CTI] Icarus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 212.86.125.24 any (msg:"[Salamander CTI] Icarus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 94.154.32.160 any (msg:"[Salamander CTI] Icarus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)

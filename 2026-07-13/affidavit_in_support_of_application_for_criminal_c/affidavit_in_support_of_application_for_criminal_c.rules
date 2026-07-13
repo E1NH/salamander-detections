@@ -1,0 +1,8 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Affidavit in Support of Application for Criminal Complaint  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"lnstagram.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"ebsummlt.eu"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"miscrsosoft.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"ffice365.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"micsroft.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)

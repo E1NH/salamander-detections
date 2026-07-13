@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Sayonara, SocGholish: Operation Endgame Disrupts Major Cybercrime Operation  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"platform.exathomeswebuyarizona.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] GOLD PRELUDE infrastructure domain"; dns.query; content:"js-new.newtoyourgame.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

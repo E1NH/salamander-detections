@@ -1,0 +1,25 @@
+{
+  "type": "bundle",
+  "id": "bundle--a8fdb542-d0c5-4c76-93f2-30a2a1a2a4d9",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--175989ce-1ade-447f-b59e-909a7c3ad89e",
+      "created": "2026-07-13T09:31:00.000Z",
+      "modified": "2026-07-13T09:31:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'justsstop.ru']",
+      "valid_from": "2026-07-13T09:31:00.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--5916b0a4-537e-4655-bd88-f1b5abdc0019",
+      "created": "2026-07-13T09:31:00.000Z",
+      "modified": "2026-07-13T09:31:00.000Z",
+      "name": "Gamaredon"
+    }
+  ]
+}

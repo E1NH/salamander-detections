@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Matryoshka #3/3: Gamaredon's Gammasteel Infostealer  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Gamaredon infrastructure domain"; dns.query; content:"justsstop.ru"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

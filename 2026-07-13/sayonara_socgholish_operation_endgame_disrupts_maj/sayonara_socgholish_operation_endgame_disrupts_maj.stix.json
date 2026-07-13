@@ -1,0 +1,36 @@
+{
+  "type": "bundle",
+  "id": "bundle--232b33a8-675a-4eb9-9169-95b143c7e276",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--581d4662-6554-4064-ac7a-46f6156cfade",
+      "created": "2026-07-13T09:31:00.000Z",
+      "modified": "2026-07-13T09:31:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'platform.exathomeswebuyarizona.com']",
+      "valid_from": "2026-07-13T09:31:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b9882506-3e71-48d0-a6c2-1b62c4bcc331",
+      "created": "2026-07-13T09:31:00.000Z",
+      "modified": "2026-07-13T09:31:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'js-new.newtoyourgame.com']",
+      "valid_from": "2026-07-13T09:31:00.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--eafacf6b-6081-4317-92f2-ef78969c3199",
+      "created": "2026-07-13T09:31:00.000Z",
+      "modified": "2026-07-13T09:31:00.000Z",
+      "name": "GOLD PRELUDE"
+    }
+  ]
+}
