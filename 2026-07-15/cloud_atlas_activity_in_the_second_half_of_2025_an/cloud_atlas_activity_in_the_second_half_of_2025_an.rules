@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Inception Framework infrastructure domain"; dns.query; content:"allgoodsdirect.com.au"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Inception Framework infrastructure domain"; dns.query; content:"istochnik.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Inception Framework infrastructure domain"; dns.query; content:"onedrivesupport.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)

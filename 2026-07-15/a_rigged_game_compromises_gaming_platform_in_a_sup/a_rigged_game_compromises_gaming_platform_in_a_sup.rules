@@ -1,0 +1,14 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# A rigged game: compromises gaming platform in a supply-chain attack  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"1980food.co.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"cndsoft.co.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"colorncopy.co.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"sejonghaeun.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"www.inodea.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"www.lawwell.co.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"inodea.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"sqgame.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"sqgame.com.cn"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"www.sqgame.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] APT37 infrastructure domain"; dns.query; content:"xiazai.sqgame.com.cn"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)

@@ -1,0 +1,14 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] TAG-179 infrastructure domain"; dns.query; content:"cms.balochistanpolice.gov.pk"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 172.94.9.19 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 172.111.233.105 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 172.111.233.96 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 142.171.183.8 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert ip any any -> 172.111.233.12 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert ip any any -> 193.42.25.65 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert ip any any -> 45.125.32.218 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert ip any any -> 89.31.121.220 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert ip any any -> 172.94.9.43 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert ip any any -> 172.94.9.49 any (msg:"[Salamander CTI] TAG-179 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)

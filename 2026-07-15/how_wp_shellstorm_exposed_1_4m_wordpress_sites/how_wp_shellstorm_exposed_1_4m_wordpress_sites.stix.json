@@ -1,0 +1,80 @@
+{
+  "type": "bundle",
+  "id": "bundle--0f0b2d2d-b678-43a8-99ad-ac55b2faacef",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--60bebc8c-589b-4e57-9ba4-721e6206a934",
+      "created": "2026-07-15T09:46:47.000Z",
+      "modified": "2026-07-15T09:46:47.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '84f7e396a48913851a10cc78c5cc22a25634564abd0694465236d2f365e2bdee']",
+      "valid_from": "2026-07-15T09:46:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--81466e84-a815-4bf8-8d46-9bafcead9ed6",
+      "created": "2026-07-15T09:46:47.000Z",
+      "modified": "2026-07-15T09:46:47.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'xs.xxooonline.eu.cc']",
+      "valid_from": "2026-07-15T09:46:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--97e4902e-e9a1-4e43-8fac-f6b3e4d47532",
+      "created": "2026-07-15T09:46:47.000Z",
+      "modified": "2026-07-15T09:46:47.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '43.108.17.80']",
+      "valid_from": "2026-07-15T09:46:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--df96f9d1-316f-4175-aff0-ad06eb00a9dd",
+      "created": "2026-07-15T09:46:47.000Z",
+      "modified": "2026-07-15T09:46:47.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '137.175.93.126']",
+      "valid_from": "2026-07-15T09:46:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a6c35874-b7c5-442e-8bc8-03fc95e7c01f",
+      "created": "2026-07-15T09:46:47.000Z",
+      "modified": "2026-07-15T09:46:47.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '113.196.56.150']",
+      "valid_from": "2026-07-15T09:46:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3a93969e-51ea-4d05-bbe2-ec05aa940f3a",
+      "created": "2026-07-15T09:46:47.000Z",
+      "modified": "2026-07-15T09:46:47.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '113.196.59.51']",
+      "valid_from": "2026-07-15T09:46:47.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--6faed869-2ffe-4fab-b302-ce036fcd3da7",
+      "created": "2026-07-15T09:46:47.000Z",
+      "modified": "2026-07-15T09:46:47.000Z",
+      "name": "WP-SHELLSTORM"
+    }
+  ]
+}

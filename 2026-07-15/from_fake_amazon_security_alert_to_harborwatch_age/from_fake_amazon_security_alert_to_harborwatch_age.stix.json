@@ -1,0 +1,116 @@
+{
+  "type": "bundle",
+  "id": "bundle--bbf6a103-9089-48a0-af03-63801a697444",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f89d328f-9b7e-4461-ada5-5e3a5e0041c2",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '09c121225fe254676a27c21943506714']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--65542033-9e01-431a-abff-b0b9bdb71a0f",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '33760b2aa86deea5805e647197c34ef5']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a5ef0938-cdfd-48fe-a13a-4301e4311ce2",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '9abebe5a34eefb80db12bf8d51bfe7f7']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a6596a40-5e65-4591-9c41-e845e2c1469e",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'b31f62e1d3b28808daad3ec5efa5df54ae56898d']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e075fee3-f229-42d7-8e41-aea84eff05a4",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '3a87cab1e8c6868a7939eb422f1851ecc746405cda6b3d3502b9d8eedc360898']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3cf6d09e-9568-46fe-9dab-d5c37efa150f",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '5f7bb80bf85c1fae7413eb534cc2f022402c8753f75666525adb1dc85a677f4c']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--378ee23c-a882-4bdf-a0a2-9b313c4219c8",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'cf94ff2ecc4f3157704c9cfed5e446c405e7729141019045cb05ef6ffad122d5']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--13b5bc83-56a4-4751-8f14-74ab1035719a",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'amazonalert.xyz']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fee40d63-860a-4e74-95d9-d1cdb3ee01c0",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'amazonattention.com']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ae7a1ecc-abee-4ee5-a6cf-abd7bafe7524",
+      "created": "2026-07-15T09:20:12.000Z",
+      "modified": "2026-07-15T09:20:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'security.amazonassist.xyz']",
+      "valid_from": "2026-07-15T09:20:12.000Z"
+    }
+  ]
+}

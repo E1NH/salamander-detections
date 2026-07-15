@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# An Analysis of ValleyRAT Infection Campaigns from Fake Installers, Japanese Malicious Emails  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] SilverFox infrastructure domain"; dns.query; content:"frehf.oss-cn-hongkong.aliyuncs.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 154.92.16.22 any (msg:"[Salamander CTI] SilverFox infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

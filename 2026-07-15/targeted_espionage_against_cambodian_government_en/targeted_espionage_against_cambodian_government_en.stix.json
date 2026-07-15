@@ -1,0 +1,113 @@
+{
+  "type": "bundle",
+  "id": "bundle--d50481fd-05d5-4b79-ae94-69236e02658b",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ec299e88-966a-450b-bb48-a175938f0728",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '03e7a4065df354a99add76e8ba7dd37b']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3f7aa973-876b-4e4e-93f5-310f2bb06d2c",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '04e7a98fb3b7738cca42557c3e2d9906d04fa2f6']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7f7ef505-1e5c-4818-9dc2-417fcb557034",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '15278c52f4e0d8b5bbfe288a5e826ab2ebeaedb7fb85572940cf1263e384761f']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f6825604-43ee-4fdf-9a8a-0c02f33928f1",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '1852120a84a328edd1995e633dfd2009867898a8e3f0b385e2490cf21c77a994']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9a1e85bc-b298-45b2-8c6b-224560fb8c88",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '90bbfa9e7af176b85d110f4f1789cae6777fcb60813b047133c8f12caa344a17']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0a05ea61-2359-417c-b269-64f0d9094e4e",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'b3e853eee14fb7948c6907888ee07139085ba9af4231c30e97ff6236b86ca024']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e96bd307-c0ad-45a0-aeb0-c60c8f34bee9",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'linkednewsapi.top']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e09e9c06-2fb2-43ea-91bb-7fa96788a644",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'sharingfile.cloud']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fc41da49-8dee-4bd2-ae4d-0ff8b3eafd1c",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'www.sharingfile.cloud']",
+      "valid_from": "2026-07-15T09:38:26.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--9b2f36cd-c7b3-47ec-9a13-26206e39c39a",
+      "created": "2026-07-15T09:38:26.000Z",
+      "modified": "2026-07-15T09:38:26.000Z",
+      "name": "Khmer Shadow"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// Massive offensive launched on Russian businesses
+
+rule Salamander_Clubfoot_Wolf
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "Clubfoot Wolf"
+    malware = "NetSupport Manager"
+  condition:
+    hash.sha256(0, filesize) == "b24b8d96ebea10cb7e9ffb73256cc46f9041123e7c2cc26fe92d355a8378a87c" or
+    hash.sha256(0, filesize) == "490585f82a0ddaafd9eead803859e06dafc0219a5bd1c08482c98f3d37eec231" or
+    hash.sha256(0, filesize) == "31b0f515012355e104a1e4f10baff85c3066a037f17272ce9c2445fd8377a96a" or
+    hash.sha256(0, filesize) == "38d96dd1c26a7a98c8b55c925863d0f5c8c099a73192c65e3a1e47ea636d3d29" or
+    hash.md5(0, filesize) == "1e5c289739f75271e0f5136b93d0dae7" or
+    hash.md5(0, filesize) == "56cc6b8260c676dca2ee4e4ef4785373" or
+    hash.md5(0, filesize) == "5c56fd9d306a62642cfe6c6b3989efdd" or
+    hash.md5(0, filesize) == "909194b6162b9c1c4e4e88dc1e8d4c9a" or
+    hash.md5(0, filesize) == "9cc761eefd1cd30408a4328aec6ea511" or
+    hash.md5(0, filesize) == "c9386d789015d30f85546d04c1331f60" or
+    hash.md5(0, filesize) == "ce89b9cb3ba97432bc7d06c72e9149b0" or
+    hash.md5(0, filesize) == "ddc68b4d2612db3c44f3590ee3603eb6" or
+    hash.md5(0, filesize) == "fc00460dda7b44a1fea71cf24f4cfa6d" or
+    hash.sha1(0, filesize) == "44785a4297a233cf36adbe1ac7cb0523372d1338" or
+    hash.sha1(0, filesize) == "54ba6a4ee9d006f60e74c3fc749d6ece9ae7e90d" or
+    hash.sha1(0, filesize) == "6a495bafab006d577bebd4ef1ec026cda1d360b2" or
+    hash.sha1(0, filesize) == "82c03c4ee142e862da2e736c691caa65fecc2acb" or
+    hash.sha1(0, filesize) == "ba33bbe881c02e628ea8f2751749ee9afb4c2441" or
+    hash.sha1(0, filesize) == "c65f5d8b9072aefafeee73227610f4082843762a" or
+    hash.sha1(0, filesize) == "c8d51044d37f247937616adb489836c62b25b599" or
+    hash.sha1(0, filesize) == "d1813eb15ed321fc7fa4e1c8c0552a02fc789d69" or
+    hash.sha1(0, filesize) == "fbdb66de614bd41a1d68f3fa0abc85fb092b28bc" or
+    hash.sha256(0, filesize) == "03dbaee9cbc05abb6a35fd7804dcf7e83e0675da40eabcfd161d1d6b387363b3" or
+    hash.sha256(0, filesize) == "0c2947904711ef63ac3cc24ba2e7a059e318dc219d14eeaebb6b46fd277f7f3d" or
+    hash.sha256(0, filesize) == "100e0ca51a6a25efac16627be80c7ce992a5506470136e43cb8b24d8828ba82b" or
+    hash.sha256(0, filesize) == "11ad9f6c235ea561317d89590fa41d75348019850735b998b60661635ad99e9a" or
+    hash.sha256(0, filesize) == "20c8fd700796b80ea093e23ec812943adfc63c3b8653bb09b581fd7f4127c652" or
+    hash.sha256(0, filesize) == "3325be6c18c35b66e7f527950af97a4235e04d026a81780c135d6cec3f8245db" or
+    hash.sha256(0, filesize) == "41c1b4b09cb3185075f57befd5278119ee0a952418144779898378f0963897e9" or
+    hash.sha256(0, filesize) == "45154678b808a70316f0172a5012ffdfc7d7ddcde856440099fcdbad64e84ddb" or
+    hash.sha256(0, filesize) == "4972b6583645d28600f076e73def05890b54a9d98c8b328d61f421c79a021db6" or
+    hash.sha256(0, filesize) == "53c6a0a51ef3cf9d38034a7600c94e1ae3968dbec5bbb5d9fdcd26764c6b30e2" or
+    hash.sha256(0, filesize) == "644ad315071324e7f86e9b04dfc7dae515ca1a7ae386b21207c4ab38d1a164d6" or
+    hash.sha256(0, filesize) == "6478585efed46b0616ca201c51464de7af5ba8985c3b948f9b67db09cbd62e97" or
+    hash.sha256(0, filesize) == "6a8dfd602daa3b9dc2ceb146837a7966a37af8ab224ed11478e1f6d87f375b7f" or
+    hash.sha256(0, filesize) == "73bd4f12f3e7d155dfbcb6d016b99d40cce8554964ecc51de40b70fab3a4c3a5" or
+    hash.sha256(0, filesize) == "79f169be997f883ef02559a0af3f014f63c1c0308931913decd79c0aafaf659f" or
+    hash.sha256(0, filesize) == "7b6f6fe88ff9d953965e81b1bed256528c93ff159156bc17b8811d7cfd5dfe47" or
+    hash.sha256(0, filesize) == "7f58b98e9d4b2d06dadef2b8656d337283118a135806dd711fb9de51ca63911d" or
+    hash.sha256(0, filesize) == "82671b7f09811ff38b3cab186776d06cc9e89d434080f1eb26fa1c35767eaca5" or
+    hash.sha256(0, filesize) == "8fde3f60f9ae901a9fa04888d3050c9a65fb63722a4b41a6d6ad7d38183c37d5" or
+    hash.sha256(0, filesize) == "9fa461bd75788d27ceb778dc0f9773d641e804b3e10103c482ba4747153178f8" or
+    hash.sha256(0, filesize) == "aedcfbac94161f74b2ce63ad9da2f613809860fc8aa09d6ea0b57e964c47f8a8" or
+    hash.sha256(0, filesize) == "b2e8f9f9a69c1be0d1814b064b73586afbf730e2ab9d9fb10dd5711be4febe85" or
+    hash.sha256(0, filesize) == "b38032f5b2059cacc28246dd0b739e19b6a68daf34add740d5ce6be87354b498" or
+    hash.sha256(0, filesize) == "b90a7f17b5406db3ee17ec4bc82a704c6128b4ad8652776b4f55bc3948fa8385" or
+    hash.sha256(0, filesize) == "bea07bc2359e8f3ce914b0027b5548ae58c9a019f330446b2c81050cd9ca1b0d" or
+    hash.sha256(0, filesize) == "bed54c819cc8ff502fff41f6d9c726836b6086c9afdd47f2261809196c973c38" or
+    hash.sha256(0, filesize) == "c5a1dee1ae7f0a04dfa91481d0c1d5ad5c887a77e657def8878af600a98fd8c6" or
+    hash.sha256(0, filesize) == "c709c30074155f8f0a431828c23cc08df6959505051578ec28659a47a4da2fa6" or
+    hash.sha256(0, filesize) == "cdf7c97cfb494ade90886765606294db0b98a2576bc1d152bc8c4ec97672b687" or
+    hash.sha256(0, filesize) == "cee0ad69647d4840013e836b657d8fd79b9be7389ccbc70e15c5cb96bf926f8a" or
+    hash.sha256(0, filesize) == "d3c90e61c3ffa059658c36e39334cb38c0b23cbde46f5078705fcfad67c9f3d8" or
+    hash.sha256(0, filesize) == "e20c0900513551265dda37ce5334c71f5b0e8b20e19f9d8391f77987e2458f20" or
+    hash.sha256(0, filesize) == "f15e4e140fceeb393bcb2c8d61a2333b37c30270527b5c48d8440e3ec1e02ae4" or
+    hash.sha256(0, filesize) == "fa07773b3af0539442504f86973fe2a68e040f80ebea388c5ed62d8f94eddb6a" or
+    hash.sha256(0, filesize) == "fa877d45432e7712d1832508c77f063958a5cec05038152eb2be5e79992c3966"
+}

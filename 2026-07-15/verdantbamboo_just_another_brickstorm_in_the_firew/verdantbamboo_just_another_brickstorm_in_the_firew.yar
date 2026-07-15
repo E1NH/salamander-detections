@@ -1,0 +1,37 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// VerdantBamboo: Just Another BRICKSTORM in the Firewall
+
+rule Salamander_VerdantBamboo
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "VerdantBamboo"
+    malware = "BrickStorm"
+  condition:
+    hash.sha256(0, filesize) == "42692bd13333623e9085d0c1326574a3391efcbf18158bb04972103c9ee4a3b8" or
+    hash.sha256(0, filesize) == "b42159d68ba58d7857c091b5acc59e30e50a854b15f7ce04b61ff6c11cdf0156" or
+    hash.md5(0, filesize) == "123e80a34508c4dede7cc70e76931fcc" or
+    hash.md5(0, filesize) == "b1b7aaa5bd4408a4d3003a9fabcdd041" or
+    hash.sha1(0, filesize) == "130fdc32de36a362e65c7138b560eb8d8f6ae599" or
+    hash.sha1(0, filesize) == "b8eed63ab9cbdca494f26a6f66bfd4a0a693b3f0" or
+    hash.sha256(0, filesize) == "2388ed7aee0b6b392778e8f9e98871c06499f476c9e7eae6ca0916f827fe65df" or
+    hash.sha256(0, filesize) == "90b760ed1d0dcb3ef0f2b6d6195c9d852bcb65eca293578982a8c4b64f51b035" or
+    hash.md5(0, filesize) == "84b573305b732a8372a082c057242953" or
+    hash.sha1(0, filesize) == "f1f64ed1ee74d3b84f338a612e59c81997d6f70e" or
+    hash.sha256(0, filesize) == "aa688682d44f0c6b0ed7f30b981a609100107f2d414a3a6e5808671b112d1878" or
+    hash.sha256(0, filesize) == "320a0b5d4900697e125cebb5ff03dee7368f8f087db1c1570b0b62f5a986d759" or
+    hash.md5(0, filesize) == "9c44bc9373377831c45dd0ac2661a28e" or
+    hash.sha1(0, filesize) == "b439749a581ac5a29b5c9d91fc092bf4ceaa76a4" or
+    hash.sha256(0, filesize) == "24a11a26a2586f4fba7bfe89df2e21a0809ad85069e442da98c37c4add369a0c" or
+    hash.md5(0, filesize) == "2654c08491a0f7c4a3dfc6282de5638b" or
+    hash.sha1(0, filesize) == "4b8ab808442bf7cb084fddf983a558c2cd4b3ff2" or
+    hash.md5(0, filesize) == "625b6535321d58bb5c613e85332bf731" or
+    hash.sha1(0, filesize) == "70686215a49afbae21c351e912940e50dbabadd6" or
+    hash.sha256(0, filesize) == "45313a6745803a7f57ff35f5397fdf117eaec008a76417e6e2ac8a6280f7d830" or
+    hash.sha256(0, filesize) == "92fb4ad6dee9362d0596fda7bbcfe1ba353f812ea801d1870e37bfc6376e624a" or
+    hash.sha256(0, filesize) == "dfb37247d12351ef9708cb6631ce2d7017897503657c6b882a711c0da8a9a591" or
+    hash.md5(0, filesize) == "00e195d94d3b1f7092eb9ed132f89d1b" or
+    hash.md5(0, filesize) == "c392262fa86c390a20b998970639a51c"
+}

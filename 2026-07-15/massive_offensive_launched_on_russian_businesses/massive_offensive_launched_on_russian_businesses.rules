@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Massive offensive launched on Russian businesses  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Clubfoot Wolf infrastructure domain"; dns.query; content:"imhfamily.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Clubfoot Wolf infrastructure domain"; dns.query; content:"fleepsterones.fun"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
