@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# New APT-Q-27 sample spotted  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] APT-Q-27 infrastructure domain"; dns.query; content:"api.keensie.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

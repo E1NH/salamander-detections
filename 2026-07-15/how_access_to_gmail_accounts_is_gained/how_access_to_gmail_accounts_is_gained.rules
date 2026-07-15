@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# How access to Gmail accounts is gained  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] ToddyCat infrastructure domain"; dns.query; content:"2fuserinfo.email"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

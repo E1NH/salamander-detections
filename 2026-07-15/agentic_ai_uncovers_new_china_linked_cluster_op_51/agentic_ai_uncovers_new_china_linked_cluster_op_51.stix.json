@@ -1,0 +1,36 @@
+{
+  "type": "bundle",
+  "id": "bundle--daed5ed7-7dd5-4909-8018-9ad771ade4cf",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cff7eeeb-85e1-4e18-b2d7-63a8c7188332",
+      "created": "2026-07-15T16:19:46.000Z",
+      "modified": "2026-07-15T16:19:46.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'hcgos.com']",
+      "valid_from": "2026-07-15T16:19:46.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6db9e4b6-ef63-4fe5-be8a-c034c579dac8",
+      "created": "2026-07-15T16:19:46.000Z",
+      "modified": "2026-07-15T16:19:46.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'ashx.lhlsjcb.com']",
+      "valid_from": "2026-07-15T16:19:46.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--0758a73d-f913-4a13-ae25-b928fc00d72b",
+      "created": "2026-07-15T16:19:46.000Z",
+      "modified": "2026-07-15T16:19:46.000Z",
+      "name": "OP-512"
+    }
+  ]
+}
