@@ -1,0 +1,58 @@
+{
+  "type": "bundle",
+  "id": "bundle--943452f0-c9e2-4aa0-8600-f4521ae73d5b",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--110f2c3f-34b6-4db7-912a-1cfe559d2b3d",
+      "created": "2026-07-16T08:47:35.000Z",
+      "modified": "2026-07-16T08:47:35.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'ad7e4f47f9ddb2f97c8818d89374a82278922bac1bc41209ecd0b5ad027dcb45']",
+      "valid_from": "2026-07-16T08:47:35.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e9f74a44-9678-4f1d-94d2-b05cb0ad4983",
+      "created": "2026-07-16T08:47:35.000Z",
+      "modified": "2026-07-16T08:47:35.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'b3007c3b0f140df374a6756215bde55409124822203d309dcc82e10aa8115a91']",
+      "valid_from": "2026-07-16T08:47:35.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--86e319a2-352b-4bd0-97c8-0bcd36080353",
+      "created": "2026-07-16T08:47:35.000Z",
+      "modified": "2026-07-16T08:47:35.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'db1cb4aaee4ad2f1b2907b2c2d3393544a6a05f9a4d8819eb0078606402c416c']",
+      "valid_from": "2026-07-16T08:47:35.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1f6d877a-9fec-421a-b7fb-553408405785",
+      "created": "2026-07-16T08:47:35.000Z",
+      "modified": "2026-07-16T08:47:35.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'e9f8a7e6275c263d2a1c9c5c9725addbf484c77c1aa8387093c16f50ebdc11ab']",
+      "valid_from": "2026-07-16T08:47:35.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--4179487b-e2e2-420d-a28f-c892b69c3f94",
+      "created": "2026-07-16T08:47:35.000Z",
+      "modified": "2026-07-16T08:47:35.000Z",
+      "name": "SideCopy"
+    }
+  ]
+}
