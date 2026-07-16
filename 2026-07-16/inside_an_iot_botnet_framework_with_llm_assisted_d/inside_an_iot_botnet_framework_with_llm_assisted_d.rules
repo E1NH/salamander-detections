@@ -1,0 +1,10 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Inside an IoT Botnet Framework With LLM-Assisted Development  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"jetross.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"cfcybernews.eu"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"digikalas.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"newtuxdev.sevielw.digikalas.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 185.10.68.127 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert ip any any -> 194.46.59.169 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert ip any any -> 154.6.197.43 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)

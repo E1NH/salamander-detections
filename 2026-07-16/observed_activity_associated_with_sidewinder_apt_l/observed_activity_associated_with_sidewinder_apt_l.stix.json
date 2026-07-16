@@ -1,0 +1,25 @@
+{
+  "type": "bundle",
+  "id": "bundle--bd60ccb7-190a-4be7-8ad8-f0d990c61f11",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--18f5ae81-b835-4d3a-af04-448741b0948d",
+      "created": "2026-07-16T15:26:29.000Z",
+      "modified": "2026-07-16T15:26:29.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '64f2681ad0940e6c2c9c76e6834117bf']",
+      "valid_from": "2026-07-16T15:26:29.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--14ebbadf-3c6a-4af3-b779-82ae9aebaad7",
+      "created": "2026-07-16T15:26:29.000Z",
+      "modified": "2026-07-16T15:26:29.000Z",
+      "name": "RAZOR TIGER"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# 11 Malicious NuGet Tools Pose as Game Cheats to Drop a Windows Host-Surveillance Payload  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"s3.ru-3.storage.selcloud.ru"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"bots.pepesoft.ru"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"grandrp.su"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
