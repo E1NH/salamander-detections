@@ -1,0 +1,94 @@
+{
+  "type": "bundle",
+  "id": "bundle--4317b09a-9e9d-4ea8-9a11-e3cbabbb85c0",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f8b26021-ba21-4f08-be03-f50a0c327c5c",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '96097e0612d9575cb133021017fb1a5c68a03b60f9f3d24ebdc0e628d9034144']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--080dafb2-2ace-49dd-b765-e22c3508e645",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '78a82d93b4f580835f5823b85a3d9ee1f03a15ee6f0e01b4eac86252a7002981']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--741a2ad8-6e2c-448d-b96a-59fd2b849845",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'c2f4dc64aec4631540a568e88932b61daebbfb7e8281b812fa01b7215f9be9ea']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1c6b7dd4-d644-4308-8894-5736e0fc6172",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '449e4265979b5fdb2d3446c021af437e815debd66de7da2fe54f1ad93cbcc75e']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--36dbbbf4-9418-4d80-8e34-010076c2b291",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'bf9d8c0c3ed3ceaa831a13de27f1b1c7c7b7f01d2db4103bfdba4191940b0301']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--283690a0-dbac-460c-ba22-9076e6a4b6cf",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'sh.azurestaticprovider.net']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8a2a16e9-4649-4557-a4eb-da49b6bfc786",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'atlantis-software.net']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6fcfe834-7e13-4456-8a13-407bd2d0a1db",
+      "created": "2026-07-17T15:09:19.000Z",
+      "modified": "2026-07-17T15:09:19.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'child.channel']",
+      "valid_from": "2026-07-17T15:09:19.000Z"
+    }
+  ]
+}
