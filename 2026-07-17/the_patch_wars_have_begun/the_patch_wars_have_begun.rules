@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# The Patch Wars have begun  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"w32.b8be9a5e0a-95.sbx.tg"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

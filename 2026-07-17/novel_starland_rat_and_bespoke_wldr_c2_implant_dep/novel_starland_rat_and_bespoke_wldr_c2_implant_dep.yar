@@ -1,0 +1,43 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// Novel Starland RAT and bespoke WLDR C2 implant deployed in financially motivated campaign
+
+rule Salamander_UAT_11795
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "UAT-11795"
+    malware = "Unknown RAT"
+  condition:
+    hash.sha256(0, filesize) == "a6821c7e9bfe2e6af0f690d906ec6a26161e2198c256fb60f3b4731c317f3ad9" or
+    hash.md5(0, filesize) == "c33f097fdb2b69b4cbb1c3f29ae88b43" or
+    hash.sha1(0, filesize) == "650e751e8ee5f5958c6a70288a24a4e3d19904a2" or
+    hash.sha256(0, filesize) == "162e436f18fe6099c57855c8d63fd747493624e87702dc749b242eb9a6b758ca" or
+    hash.sha256(0, filesize) == "17e41d66ebfd56edc960f58f4285697ceceaa812514bb15092672c747979896e" or
+    hash.sha256(0, filesize) == "1a01ad25712d306f27f526332fdccf959f2de53207b54e4e80f60faa804d6cb6" or
+    hash.sha256(0, filesize) == "1b46f761719dce44baa2d7b417c5214fc41c080f7f9ba485e7e489d949097f1f" or
+    hash.sha256(0, filesize) == "2751281d3800d82ecd3fad7c1d2293f3b947875a343b0672b4f4024a261165d2" or
+    hash.sha256(0, filesize) == "2a27b3415114b874da295c19cce5227a8b8d9525cc2da331034a1f45528eecae" or
+    hash.sha256(0, filesize) == "2c7a99f137efd718f89cf8b260379c99af89ea1939568df09314918f2c5999a3" or
+    hash.sha256(0, filesize) == "365024336c7681ac0854321ac6c140a245b9593285da02d2a590124cdc592370" or
+    hash.sha256(0, filesize) == "36e3838d07978f49ebe6546d57d2f311b8d6566558bcd58448e921c988cc346a" or
+    hash.sha256(0, filesize) == "451ac8ca34d5bcdfe476465f69eb517b2608f267c7e8d69f8ef36197a6f1d949" or
+    hash.sha256(0, filesize) == "47dedb08385449d48d8b6543030310317c92cddafa25e14ee0cb9a32d53ced5c" or
+    hash.sha256(0, filesize) == "575ce92c473e6d47810321e309a4e29dd7f52f4152526b0bdca80f54b53aed2f" or
+    hash.sha256(0, filesize) == "5b9bf7957a9f8869c87ace1a6d76b48e2623073e72739ad0636b5dfa4bb2e0c3" or
+    hash.sha256(0, filesize) == "603fd9724de346a06e00c1b8502c2ac1180812a18bbf30032dab8d469e5c18e1" or
+    hash.sha256(0, filesize) == "6ae334ce60d1a9b7fb96d1d0d0eda5ec7c2c31d3f0cf3e4d7e3056504d50043d" or
+    hash.sha256(0, filesize) == "6ca7a458985350ac082a9c9820d7f8d39128a4c4bda2f5d32f169a45b7b22bc6" or
+    hash.sha256(0, filesize) == "7dc77a5abab119960fbe42b1535c957020cce1b8e0a3cf58d4eddc51b5bf9940" or
+    hash.sha256(0, filesize) == "896185a89bd7eb0520b03fdcfb8db0be98b43cf15f14041d73b23d3988c1bcab" or
+    hash.sha256(0, filesize) == "964256d3259b6e0c701ec04116c45cf0ec381c1c209dc29b09a7930cd7a4810b" or
+    hash.sha256(0, filesize) == "a080b5380ccc8fc40b24c02151d305efc32d931dc547881e01a2e6f2b070c7dc" or
+    hash.sha256(0, filesize) == "a1835d333ac3db961a8ff1f4864e3c10a6f73a872c040599091390a009ac7804" or
+    hash.sha256(0, filesize) == "a32ac345e39cb7606322e2155bd7b4d6941c1678619e48d1f14d9301ee53e6c0" or
+    hash.sha256(0, filesize) == "a59742d3086924c5f511d248df01601bfbf723359590fb3f3ba355f2792cc455" or
+    hash.sha256(0, filesize) == "d52540621dec5ed56cac8532f0e4fe10a7575c3e17e984f59646909fa587dd35" or
+    hash.sha256(0, filesize) == "ddcf66ecc61dc6b8cd36748d284d8cb45a470201b5373dd2bfc47700c7da32e1" or
+    hash.sha256(0, filesize) == "f4491736743a16f1278b8ba01649ee93343764e35ae5e1c0d5e0c0e1d7e32c14" or
+    hash.sha256(0, filesize) == "f8da52ff98e66b137b5d31908f0a5d0fa1eb446034337f8bba3d5bba60f586be"
+}

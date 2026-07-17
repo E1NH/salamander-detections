@@ -1,0 +1,12 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Novel Starland RAT and bespoke WLDR C2 implant deployed in financially motivated campaign  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"windowscreenrepairnearme.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"zynaris.io"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"aipythondevs.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"alphabitcapital.info"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"eorthopaedics.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"niggerdemon.in"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"sastoro.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UAT-11795 infrastructure domain"; dns.query; content:"web-devtools.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert ip any any -> 193.149.176.254 any (msg:"[Salamander CTI] UAT-11795 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)

@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# GoSerpent backdoor attacks in Southeast Asia  (defensive signatures; not endorsements)
+
+alert ip any any -> 144.48.6.46 any (msg:"[Salamander CTI] TetrisPhantom infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 103.138.13.30 any (msg:"[Salamander CTI] TetrisPhantom infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
