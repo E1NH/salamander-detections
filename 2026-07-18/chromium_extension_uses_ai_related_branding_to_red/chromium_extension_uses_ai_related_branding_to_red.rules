@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Chromium extension uses AI‑related branding to redirect browser search  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"perplexity-ai.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

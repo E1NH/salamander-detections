@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# LabubaRAT: A Rust Based Remote Access Tool Masquerading as NVIDIA Software  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"pipicka.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 168.222.254.204 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 191.44.109.130 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 87.120.108.18 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
