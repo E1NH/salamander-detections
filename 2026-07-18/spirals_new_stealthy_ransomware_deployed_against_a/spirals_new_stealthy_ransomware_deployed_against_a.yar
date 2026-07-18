@@ -1,0 +1,22 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// Spirals: New Stealthy Ransomware Deployed Against Asian IT Company
+
+rule Salamander_Data_Insufficient
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "Data Insufficient"
+    malware = "Spirals, ASP.NET web shell, revsocks, Chisel, Cloudflare Tunnel"
+  condition:
+    hash.md5(0, filesize) == "26a15a6a9bea58e9ad2ada9a6c8606b5" or
+    hash.sha1(0, filesize) == "e25c56bd13eff7280e493bf58501c47891fe63bf" or
+    hash.sha256(0, filesize) == "0f9574dc38e5c34a31153f0bcc603c6ec29cb3bf65c3d25380dbe86d42573141" or
+    hash.sha256(0, filesize) == "4cab935d0ec400059a3fcdc95b6623efdd51a61dff401fba8d5da244cc2de649" or
+    hash.sha256(0, filesize) == "7f0d49b11d0a3697685622ce510c570199bf2dc76515b3f9a6b6735de8c9134b" or
+    hash.sha256(0, filesize) == "83a7e51f3787ac5a8a9884edd0a58ddbef380969aa6529d282a461a1a614a892" or
+    hash.sha256(0, filesize) == "84b9a9a1668145df04faa3d0e118e2f0acbebd3d9d260baf3a355b44c815c22d" or
+    hash.sha256(0, filesize) == "862a3ca7e944ccf0ff3a6d556b34faade4b68343015c35a014a43725ac14a2a1" or
+    hash.sha256(0, filesize) == "b5d598b00cc3a28cabc5812d9f762819334614bae452db4e7f23eefe7b081556"
+}

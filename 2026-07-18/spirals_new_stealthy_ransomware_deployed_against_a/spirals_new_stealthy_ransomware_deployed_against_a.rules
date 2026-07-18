@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Spirals: New Stealthy Ransomware Deployed Against Asian IT Company  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"beta.padmin.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"computer.kplus.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 185.141.216.194 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
