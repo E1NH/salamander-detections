@@ -1,0 +1,8 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Millenium: A RAT Rewritten, A Threat Multiplied  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Y2K Operators infrastructure domain"; dns.query; content:"blackhatusa.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Y2K Operators infrastructure domain"; dns.query; content:"modedapk.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 62.60.226.97 any (msg:"[Salamander CTI] Y2K Operators infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 130.12.180.43 any (msg:"[Salamander CTI] Y2K Operators infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 158.94.208.168 any (msg:"[Salamander CTI] Y2K Operators infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)

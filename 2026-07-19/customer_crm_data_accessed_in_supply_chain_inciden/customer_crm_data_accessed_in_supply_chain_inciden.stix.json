@@ -1,0 +1,39 @@
+{
+  "type": "bundle",
+  "id": "bundle--0741ef79-15b1-4863-93a0-bf740ddd17fa",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ece69133-a3a2-4c02-b84d-4dac7a6d5421",
+      "created": "2026-07-19T12:59:35.000Z",
+      "modified": "2026-07-19T12:59:35.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'baccarat.com.au']",
+      "valid_from": "2026-07-19T12:59:35.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--72b42dbb-1d7c-43ce-972a-d89d95dbd596",
+      "created": "2026-07-19T12:59:35.000Z",
+      "modified": "2026-07-19T12:59:35.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '138.226.246.94']",
+      "valid_from": "2026-07-19T12:59:35.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2ddab2af-c7a6-4c81-ae03-49043644d59e",
+      "created": "2026-07-19T12:59:35.000Z",
+      "modified": "2026-07-19T12:59:35.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '94.154.32.160']",
+      "valid_from": "2026-07-19T12:59:35.000Z"
+    }
+  ]
+}

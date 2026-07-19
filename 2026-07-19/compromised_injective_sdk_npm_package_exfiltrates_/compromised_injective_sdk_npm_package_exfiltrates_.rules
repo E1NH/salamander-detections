@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Compromised Injective SDK npm Package Exfiltrates Wallet Keys and Mnemonics  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"testnet.archival.chain.grpc-web.injective.network"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
