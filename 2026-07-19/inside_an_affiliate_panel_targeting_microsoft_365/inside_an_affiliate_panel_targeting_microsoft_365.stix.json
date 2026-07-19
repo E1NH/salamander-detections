@@ -1,0 +1,28 @@
+{
+  "type": "bundle",
+  "id": "bundle--ccf96777-ed00-4f03-9423-5cb56fd696f8",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--611bdb7e-9072-4bb5-90ef-f28976c0aac8",
+      "created": "2026-07-19T20:33:33.000Z",
+      "modified": "2026-07-19T20:33:33.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'dashboard-bl.pamconj.com']",
+      "valid_from": "2026-07-19T20:33:33.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cd1805f0-33d7-494a-9295-6bfbd6d5d496",
+      "created": "2026-07-19T20:33:33.000Z",
+      "modified": "2026-07-19T20:33:33.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'spx.pamconj.com']",
+      "valid_from": "2026-07-19T20:33:33.000Z"
+    }
+  ]
+}
