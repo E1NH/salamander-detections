@@ -1,0 +1,10 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Unpacking "Cruciferra": An Analysis of a Sophisticated Crypter Service  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"almacensantangel.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"gatuso.duckdns.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"0zbqnac1t4dv2t2wuodv1m.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"digital-magicians.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"fiusyevr.live"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA4922 infrastructure domain"; dns.query; content:"fvxcuvuyte.live"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert ip any any -> 89.34.90.99 any (msg:"[Salamander CTI] TA4922 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)

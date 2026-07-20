@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Still Circling: Toolkit Keeps Evolving  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] APT-C-36 infrastructure domain"; dns.query; content:"rema200426.duckdns.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 178.16.52.80 any (msg:"[Salamander CTI] APT-C-36 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 64.89.160.17 any (msg:"[Salamander CTI] APT-C-36 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 181.235.8.24 any (msg:"[Salamander CTI] APT-C-36 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
