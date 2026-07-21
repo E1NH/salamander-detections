@@ -1,0 +1,11 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Analysis of Ongoing Ousaban Attacks Targeting the Iberian Peninsula  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"controlfacturas.site"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"faturanova.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"facture-arsys.duckdns.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"faturanova.duckdns.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 162.33.179.46 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert ip any any -> 91.92.240.140 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert ip any any -> 78.40.209.32 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert ip any any -> 213.159.64.191 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)

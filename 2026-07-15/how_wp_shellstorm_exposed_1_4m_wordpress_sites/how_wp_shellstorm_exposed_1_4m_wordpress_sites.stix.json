@@ -1,79 +1,79 @@
 {
   "type": "bundle",
-  "id": "bundle--9c1a98dd-e3ae-4ee3-9839-a52aa21e5c7e",
+  "id": "bundle--49f1ab8b-3b43-48ff-9c61-df82141a42a3",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e8e5a709-5d66-4801-b8ce-03043f11d44c",
-      "created": "2026-07-20T17:49:55.000Z",
-      "modified": "2026-07-20T17:49:55.000Z",
+      "id": "indicator--2114f6a1-5bd3-44bc-9040-fdeebd986c8d",
+      "created": "2026-07-21T09:41:35.000Z",
+      "modified": "2026-07-21T09:41:35.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '84f7e396a48913851a10cc78c5cc22a25634564abd0694465236d2f365e2bdee']",
-      "valid_from": "2026-07-20T17:49:55.000Z"
+      "valid_from": "2026-07-21T09:41:35.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--bf38d98c-1b16-4532-9442-866d71227423",
-      "created": "2026-07-20T17:49:55.000Z",
-      "modified": "2026-07-20T17:49:55.000Z",
+      "id": "indicator--30e45e43-93bc-4b46-9b48-795ad8e6aee3",
+      "created": "2026-07-21T09:41:35.000Z",
+      "modified": "2026-07-21T09:41:35.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'xs.xxooonline.eu.cc']",
-      "valid_from": "2026-07-20T17:49:55.000Z"
+      "valid_from": "2026-07-21T09:41:35.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8d18bb3d-64fb-4341-8139-1e892e50beb7",
-      "created": "2026-07-20T17:49:55.000Z",
-      "modified": "2026-07-20T17:49:55.000Z",
+      "id": "indicator--c7286b3a-860f-4edd-92f0-387430f7d8f8",
+      "created": "2026-07-21T09:41:35.000Z",
+      "modified": "2026-07-21T09:41:35.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '43.108.17.80']",
-      "valid_from": "2026-07-20T17:49:55.000Z"
+      "valid_from": "2026-07-21T09:41:35.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--739ee1df-aa31-4fd1-a705-d2deb786a5e1",
-      "created": "2026-07-20T17:49:55.000Z",
-      "modified": "2026-07-20T17:49:55.000Z",
+      "id": "indicator--4668e2f2-95d7-4659-a891-4435d5e20d84",
+      "created": "2026-07-21T09:41:35.000Z",
+      "modified": "2026-07-21T09:41:35.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '137.175.93.126']",
-      "valid_from": "2026-07-20T17:49:55.000Z"
+      "valid_from": "2026-07-21T09:41:35.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--18fdc854-ecd9-4034-95bd-68ebdfad9312",
-      "created": "2026-07-20T17:49:55.000Z",
-      "modified": "2026-07-20T17:49:55.000Z",
+      "id": "indicator--44c2e8af-e0af-4ffc-b59c-6c38b576536a",
+      "created": "2026-07-21T09:41:35.000Z",
+      "modified": "2026-07-21T09:41:35.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '113.196.56.150']",
-      "valid_from": "2026-07-20T17:49:55.000Z"
+      "valid_from": "2026-07-21T09:41:35.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--de234bbd-6cbc-4d17-87e0-499259575fc6",
-      "created": "2026-07-20T17:49:55.000Z",
-      "modified": "2026-07-20T17:49:55.000Z",
+      "id": "indicator--b0868ad3-4b26-4a1b-971c-47e415be603b",
+      "created": "2026-07-21T09:41:35.000Z",
+      "modified": "2026-07-21T09:41:35.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '113.196.59.51']",
-      "valid_from": "2026-07-20T17:49:55.000Z"
+      "valid_from": "2026-07-21T09:41:35.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--de7a58e9-1e9a-4dd3-937d-3beb63e63d55",
-      "created": "2026-07-20T17:49:55.000Z",
-      "modified": "2026-07-20T17:49:55.000Z",
+      "id": "threat-actor--bd7bedd4-fe31-48af-8ada-824bedd8a0d4",
+      "created": "2026-07-21T09:41:35.000Z",
+      "modified": "2026-07-21T09:41:35.000Z",
       "name": "WP-SHELLSTORM"
     }
   ]
