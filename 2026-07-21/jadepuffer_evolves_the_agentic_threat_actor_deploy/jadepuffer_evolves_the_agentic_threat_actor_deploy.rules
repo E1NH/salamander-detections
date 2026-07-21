@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models  (defensive signatures; not endorsements)
+
+alert ip any any -> 45.131.66.106 any (msg:"[Salamander CTI] JADEPUFFER infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

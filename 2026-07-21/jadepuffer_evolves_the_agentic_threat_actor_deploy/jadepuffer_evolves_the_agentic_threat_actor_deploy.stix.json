@@ -1,0 +1,58 @@
+{
+  "type": "bundle",
+  "id": "bundle--2e9ff4d2-dd83-40e3-93b7-f7e9123a03be",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--603e648a-23e4-402e-9fc7-99dceb75878e",
+      "created": "2026-07-21T18:46:50.000Z",
+      "modified": "2026-07-21T18:46:50.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '8cb0c223b018cecef1d990ec81c67b826eb3c30d54f06193cf69969e9a8baea2']",
+      "valid_from": "2026-07-21T18:46:50.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b76dad7f-06ef-4ac5-9934-b04512f70955",
+      "created": "2026-07-21T18:46:50.000Z",
+      "modified": "2026-07-21T18:46:50.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'ab9824b61587c77a8d8649545cdbdc63ed2c384e45c9aba534e3f457f96efa7a']",
+      "valid_from": "2026-07-21T18:46:50.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1fd88085-03bc-4b17-a613-e7608712064f",
+      "created": "2026-07-21T18:46:50.000Z",
+      "modified": "2026-07-21T18:46:50.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'ea7822eac6cecef7746c606b862b4d3034856caf754c4cf69533662637905328']",
+      "valid_from": "2026-07-21T18:46:50.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8e2ac76e-b9cc-4113-a4f2-e9e13207f5de",
+      "created": "2026-07-21T18:46:50.000Z",
+      "modified": "2026-07-21T18:46:50.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '45.131.66.106']",
+      "valid_from": "2026-07-21T18:46:50.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--8f081874-f478-4c39-a290-1385ea37175a",
+      "created": "2026-07-21T18:46:50.000Z",
+      "modified": "2026-07-21T18:46:50.000Z",
+      "name": "JADEPUFFER"
+    }
+  ]
+}

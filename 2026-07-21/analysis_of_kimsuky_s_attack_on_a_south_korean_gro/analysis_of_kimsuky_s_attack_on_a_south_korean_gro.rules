@@ -1,0 +1,14 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Analysis of Kimsuky's Attack on a South Korean Groupware Vendor Using a New Gomir Family Variant  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"commit.hanbiro.o-r.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"node828765.dwservice.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"node896147.dwservice.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"auth.samecloud.o-r.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"global.webjine.o-r.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"node449013.dwservice.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"oauth.shacloud.o-r.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"oobe.webjine.o-r.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kimsuky infrastructure domain"; dns.query; content:"www.ilskdeid.o-r.kr"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert ip any any -> 163.245.195.172 any (msg:"[Salamander CTI] Kimsuky infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert ip any any -> 69.10.50.165 any (msg:"[Salamander CTI] Kimsuky infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)

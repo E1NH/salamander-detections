@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# HOLLOWGRAPH: Turning Microsoft 365 Calendars into Covert Command-and-Control Channels  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] LYCEUM infrastructure domain"; dns.query; content:"cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] LYCEUM infrastructure domain"; dns.query; content:"p.cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] LYCEUM infrastructure domain"; dns.query; content:"q.cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
