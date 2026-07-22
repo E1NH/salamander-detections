@@ -1,0 +1,9 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# OkoBot framework infection chain  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"coffeesaloon.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"livewallpapers.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"2baserec2.guru"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"kbeautyreviews.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"recavb22.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"thatwascringe.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)

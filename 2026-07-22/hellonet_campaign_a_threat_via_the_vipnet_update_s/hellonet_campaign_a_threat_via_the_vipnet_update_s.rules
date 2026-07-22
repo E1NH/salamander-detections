@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# HelloNet campaign: a threat via the ViPNet update system  (defensive signatures; not endorsements)
+
+alert ip any any -> 176.32.34.135 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 5.39.253.206 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

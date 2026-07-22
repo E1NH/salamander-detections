@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery  (defensive signatures; not endorsements)
+
+alert ip any any -> 85.137.53.71 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

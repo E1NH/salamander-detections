@@ -1,0 +1,8 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# The Crown Prince, Nezha  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"gd.bj2.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"c.mid.al"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"host.404111.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 45.207.220.12 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 38.246.250.201 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
