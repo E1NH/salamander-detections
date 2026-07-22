@@ -1,0 +1,12 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# New Project CAV3RN .NET Native AOT communication module  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"clipeditskill.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"accesslinkssl.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"d.53466d4c67515a.0.p.cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"google.com.ayalon-print.co.il"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"ns1.cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"ns2.cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"ns3.cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] CHRYSENE infrastructure domain"; dns.query; content:"ns4.cloudlanecdn.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)

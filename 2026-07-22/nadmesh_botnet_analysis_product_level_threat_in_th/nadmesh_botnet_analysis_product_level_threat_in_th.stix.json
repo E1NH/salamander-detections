@@ -1,0 +1,61 @@
+{
+  "type": "bundle",
+  "id": "bundle--2fb7a215-a0a7-4db8-add7-8f2f9a5c3e41",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--24e216c9-70d9-4764-8f3d-57ada331a165",
+      "created": "2026-07-22T09:34:30.000Z",
+      "modified": "2026-07-22T09:34:30.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'ca024acead8f54cfe5b07ac4bdf7fcea']",
+      "valid_from": "2026-07-22T09:34:30.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b8d0b623-5022-4d88-9e9d-ea1cccc837c9",
+      "created": "2026-07-22T09:34:30.000Z",
+      "modified": "2026-07-22T09:34:30.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '31c69b3e12936abca770d430066f379ec1d997ec']",
+      "valid_from": "2026-07-22T09:34:30.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e6677ec7-14ec-46df-9945-055d0d67373a",
+      "created": "2026-07-22T09:34:30.000Z",
+      "modified": "2026-07-22T09:34:30.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'fc4109f5dd1d30b65dd60e57dc639ac1d313bfa5241e36e61fbc4aabc1cda482']",
+      "valid_from": "2026-07-22T09:34:30.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7ef3ea12-61f6-4d4d-9e50-a410716430f1",
+      "created": "2026-07-22T09:34:30.000Z",
+      "modified": "2026-07-22T09:34:30.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cdnorigin.net']",
+      "valid_from": "2026-07-22T09:34:30.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--faf7ead7-70fc-4749-a791-2d9462d82423",
+      "created": "2026-07-22T09:34:30.000Z",
+      "modified": "2026-07-22T09:34:30.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '209.99.186.235']",
+      "valid_from": "2026-07-22T09:34:30.000Z"
+    }
+  ]
+}
