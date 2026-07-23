@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Dolphin X Stealer Targets 300+ Apps and Profiles Users with AI  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Kontraktnik infrastructure domain"; dns.query; content:"thedolphinx.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Kontraktnik infrastructure domain"; dns.query; content:"backend.thedolphinx.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

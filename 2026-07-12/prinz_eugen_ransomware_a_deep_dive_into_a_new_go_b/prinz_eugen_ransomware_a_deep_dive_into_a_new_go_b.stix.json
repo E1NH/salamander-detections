@@ -1,145 +1,145 @@
 {
   "type": "bundle",
-  "id": "bundle--677f96eb-1464-485c-9a36-af494066f485",
+  "id": "bundle--47d17a3b-387d-4133-b23a-b7f077e29734",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f0fda03c-0f5f-4afa-9008-a9676a098e2c",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--a9d3fa2a-84e9-4982-b4be-b6d469415630",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '686213cc11d36af764de824801bced9366dfca3823fe0d51b752f74149bcf1f4']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--1be118fc-099f-4225-96c7-4f42c58e83e0",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--53ac14a3-fcfd-46ec-9e6b-e51b80a7cce1",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = '17dd3f59f13f54a34761cef0c2b73cd7']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--42735bd6-54be-40f6-8281-9845976ea555",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--fa6a8431-932d-4800-8295-03015cc1a5a8",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '9d94e2a15b75e1ef4487429ac71fc13e186c4a2d']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--60390efe-6c52-403d-a2c6-6b42536c273d",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--0da61d60-fb8f-4514-b7c1-83c3ad0f5619",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = '6cudc5cqa2bjpwdhcwm2lj6dbqejjjqzeo6ipwvmbazr6cgu7vfk3dad.onion']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7d37ad41-2a5d-4211-b846-37278fcc08fd",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--647f69b6-613c-4e1e-8025-45b122e644f2",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'stndrdbnk.cc']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--fdf653a2-4f3d-4335-9d08-9f8bf95cc952",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--3cdea89e-eaad-4c90-9270-b2351429b317",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'prinzfkbjiazbrur4mjje6mntjc4vydx3iatkkzycufoylqcoo4y7pqd.onion']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--1876f0b0-fdf4-4a06-8dce-9596295119d8",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--84890cae-15e5-4196-952f-8e7156698bcd",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'captchafestung.sbs']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--fb484cd6-7f1d-435d-86d7-c902fcbe4849",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--8c3f946c-151e-4f8b-bd13-3cb58fad27b9",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'darkempire.fun']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--ad16fce7-51be-423b-83ad-85f8fb4a6edf",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--e72153f8-4018-407c-9f1e-e79aca97c2cc",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'g-captchafestung.sbs']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--08fbe267-b6fe-4c14-9d4f-6cc699fc4865",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--b8206010-9467-40e2-a6bb-a2232ba6a011",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'old-pidop.ru']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9cd59465-588a-4f03-a27f-7d3cab3c6272",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--5cdc6b75-19a3-4d47-b5fa-43467b6d1193",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'festung-e.duckdns.org']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--acf8d9cc-c9c2-4691-88dc-abeb0bd3fd65",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "indicator--aac2fc05-2c61-431d-90f5-a334618edda5",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '212.80.7.74']",
-      "valid_from": "2026-07-22T17:39:29.000Z"
+      "valid_from": "2026-07-23T09:43:43.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--e60bdcbb-6a7e-4fef-bca2-4846d8d67b7f",
-      "created": "2026-07-22T17:39:29.000Z",
-      "modified": "2026-07-22T17:39:29.000Z",
+      "id": "threat-actor--012ba14b-6bed-4c21-86ac-e477bf7a17f2",
+      "created": "2026-07-23T09:43:43.000Z",
+      "modified": "2026-07-23T09:43:43.000Z",
       "name": "ROOTBOY"
     }
   ]

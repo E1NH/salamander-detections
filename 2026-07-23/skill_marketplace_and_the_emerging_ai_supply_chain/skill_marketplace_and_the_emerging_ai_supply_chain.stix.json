@@ -1,0 +1,116 @@
+{
+  "type": "bundle",
+  "id": "bundle--03548b24-c9d5-4239-ada8-ad0fe42da7f9",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9d292a95-6c1d-4a39-8157-a887b87e8aee",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '818aea6143282b352fdfdc0f3ebf77a36e54eb3befb5cad1a355a99ab97c6aa7']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--90981084-dc45-4a0f-b54d-453bad6cdf90",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '881ce5cb124c4d2e814783724cc1388f6a1cbf6eee274c3f3366e77ba3503ad7']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0c911da9-1b06-49bb-becf-f3d9ed347121",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'b30eaed1f7478c28f4ec50d07ed5ef014ffbc4b2bc5a38d689ba9f7abb5e19c2']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7fbf928b-56bb-4054-ba6b-ec93dcbb389f",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'b6c7e0bf573b1c7d9d3a05eb08d26579199515b847df984862805f44a7af8007']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f108c9db-0168-44c2-ac91-acf7a92e3251",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'ebb73dbb5aac1f6fe1a88e8f26126a1e1aa34c9f3345ad4345189b40d9bf1d1d']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2d7fb4d4-cf45-4b1e-953f-f868e20f5680",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'f4e41aa269c88bf11a2022701a9cf41e9a186aa1b224d837c31bf34e0b875d0e']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2c1aeab7-7323-4fd2-a2a5-02359d8a9dcf",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'laosji.net']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0f9f050d-f4af-4201-8e54-00ed3434e544",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'download.setup-service.com']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b0ca9da7-4909-4b0f-a31d-3a940c0a29d5",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '91.92.242.30']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d970c0b3-b814-4bae-8176-9986d3d6b1ca",
+      "created": "2026-07-23T09:43:45.000Z",
+      "modified": "2026-07-23T09:43:45.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '2.26.75.16']",
+      "valid_from": "2026-07-23T09:43:45.000Z"
+    }
+  ]
+}
