@@ -1,0 +1,25 @@
+{
+  "type": "bundle",
+  "id": "bundle--5663a13c-5a29-4920-86b8-2bf03a968cc3",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--875a021d-9ea6-4be2-8aba-3bb4596698a9",
+      "created": "2026-07-23T16:31:49.000Z",
+      "modified": "2026-07-23T16:31:49.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'is-01-ast.ols-img-12.workers.dev']",
+      "valid_from": "2026-07-23T16:31:49.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--c7578030-f19a-4a7b-ae56-3e8ef34557d6",
+      "created": "2026-07-23T16:31:49.000Z",
+      "modified": "2026-07-23T16:31:49.000Z",
+      "name": "Chaos"
+    }
+  ]
+}

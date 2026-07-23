@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# PHISH ALERT: From a Simple Phishing Email to a Full Attack Arsenal: The Evolution of "ClickFix"  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"italy-news.info"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"lootrioya.info"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"document-auth.icu"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)

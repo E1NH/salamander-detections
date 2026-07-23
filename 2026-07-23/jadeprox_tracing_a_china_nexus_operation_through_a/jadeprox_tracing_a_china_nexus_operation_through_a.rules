@@ -1,0 +1,14 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# JadeProx: Tracing a China-nexus Operation Through an OPSEC Mistake  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"sylverixstrategy.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"claude-pro.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"gouvvbo.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"update-crowdstrike.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"update-sentinelone.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"update-trellix.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"license.claude-pro.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"vertextrust-advisors.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"photo.pokok.edu.hk"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] JadeProx infrastructure domain"; dns.query; content:"pta.sfaeps.edu.hk"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert ip any any -> 192.252.186.62 any (msg:"[Salamander CTI] JadeProx infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)

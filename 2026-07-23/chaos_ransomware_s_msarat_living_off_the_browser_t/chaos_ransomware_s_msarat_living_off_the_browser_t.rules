@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Chaos infrastructure domain"; dns.query; content:"is-01-ast.ols-img-12.workers.dev"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
