@@ -1,0 +1,8 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Operation RoundPress Rolls on with More Half-Click Webmail Zero-Days  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] TA458 infrastructure domain"; dns.query; content:"upgybj.store"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA458 infrastructure domain"; dns.query; content:"xsza.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA458 infrastructure domain"; dns.query; content:"hgmydr.wiki"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA458 infrastructure domain"; dns.query; content:"share-ya.space"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA458 infrastructure domain"; dns.query; content:"zxzaq.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)

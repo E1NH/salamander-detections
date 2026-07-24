@@ -1,0 +1,179 @@
+{
+  "type": "bundle",
+  "id": "bundle--081e5dac-e871-45b1-a686-c10ee63aac09",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ce05cdd1-ebd7-4b65-bf0b-937280e84b83",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'c010f64080b0b0997b362a8e6b9c618e']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8cea6167-969a-408a-ba0a-43022de84db8",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'e3ce7d13a83716594787a12edf6cbeedc76b9a65']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bb357cdf-dc87-4b1c-9007-6a45c60752b2",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '98df604ecc57f884a2e6ce3266a0013ad64455cac48442c2312cfa4765007aaf']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0fd55f7d-858d-445e-b0fa-8a318bbc1e76",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '1517b3caa495f6c4e832df9c75fc94667e3c233773f7fa4e056d5e30e5ead760']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c6e7b902-cd0a-45bb-9d6f-d03fdd28eea2",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '60db9abae75cd8ccc49dd7ea5feb41677566dcd442f12ebc5745ffd2810fb874']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d627e18e-7c19-48c6-9c45-7831358ef3db",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'b1f5beb1175fc5c7d1806a2f0d900eb124c54f0286c5c52b66eea7a6633adb1d']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1f647870-f534-4d5c-bfbd-b289ed187604",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'zimbra-metadata.com']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--83e7ea6c-d241-4697-8038-0e47ad24a3a0",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'emailanalytics.com.ua']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7914fe06-33d9-4681-a81a-0839ff689c28",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'mailnalysis.com']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f3ef1209-8ff2-47af-9c3c-f34c3a13223b",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'analyticemailmeter.com']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a86d4f68-6b1a-4893-8fbf-077dd89c033d",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'zimbrastat.com']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--61e2f78d-6cdc-4a05-890e-c9d04430f082",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'zimbrasoft.com.ua']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--23dea127-2615-42f7-b4a0-bf4618a9d93f",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'istc-cloud.com']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a480f4e2-0be7-435f-b977-7502555ba11f",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'synacorzimbra.nl']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--670563cd-a7e0-4dc7-9abe-39ed4967cd47",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'zmailanalytics.com']",
+      "valid_from": "2026-07-24T10:34:00.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--05d964ef-b222-4c78-b0c6-8895245da40d",
+      "created": "2026-07-24T10:34:00.000Z",
+      "modified": "2026-07-24T10:34:00.000Z",
+      "name": "TA488"
+    }
+  ]
+}

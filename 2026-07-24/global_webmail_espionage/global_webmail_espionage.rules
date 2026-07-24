@@ -1,0 +1,14 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Global Webmail Espionage  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"zimbra-metadata.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"emailanalytics.com.ua"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"mailnalysis.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"analyticemailmeter.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"zimbrastat.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"zimbrasoft.com.ua"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"istc-cloud.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"synacorzimbra.nl"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Void Blizzard infrastructure domain"; dns.query; content:"zmailanalytics.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert ip any any -> 185.86.79.95 any (msg:"[Salamander CTI] Void Blizzard infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert ip any any -> 194.156.103.193 any (msg:"[Salamander CTI] Void Blizzard infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)

@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Large-Scale GitHub Actions Abuse Powers a Distributed cPanel and WHM Exploitation Campaign  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"f5b0b742-240a-4811-8a5b-b0ba6060685d.dnshook.site"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

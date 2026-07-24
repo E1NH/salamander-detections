@@ -1,0 +1,12 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Zimbra Mailservers Targeted with Half-Click Exploits  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"zimbra-metadata.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"emailanalytics.com.ua"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"mailnalysis.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"analyticemailmeter.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"zimbrastat.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"zimbrasoft.com.ua"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"istc-cloud.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"synacorzimbra.nl"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] TA488 infrastructure domain"; dns.query; content:"zmailanalytics.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
