@@ -1,0 +1,28 @@
+{
+  "type": "bundle",
+  "id": "bundle--af65d6ae-6020-4c70-9b44-bd0d4359f9c6",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b24a6da4-06e6-4fee-9426-695b04bdcd1b",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'b98575f3c0259b480a31b917aa73bc56']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--013f13f6-1e5f-424b-8c42-0e5f0eca71a4",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'fd01262bd56510088b9ddfe58ca101ab']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    }
+  ]
+}

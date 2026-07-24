@@ -1,0 +1,226 @@
+{
+  "type": "bundle",
+  "id": "bundle--21e9c093-529f-48ad-aeb0-f5301fecd011",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ee94ef32-2ac9-4b6a-9c85-0b157b888c65",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '11420d6d693bf8b19195e6b98fedd03b9bcbc770b6988bc64cb788bfabe1a49d']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ad017977-1c63-452e-852e-9a5e43a19694",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '5db1ecbbb2c90c51d81bda138d4300b90ea5eb2885cce1bd921d692214aecbc6']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cea2e747-c221-42ec-ac84-01c551d7646c",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'b5a3346082ac566b4494e6175f1cd9873b64abe6c902db49bd4e8088876c9ead']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8bfbb964-8158-4ac0-9ca9-7d051e12ce21",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '467f4c566f8a49fa9bc5d36f50f89568']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--74e30653-4f5d-4b1b-abc3-0369eb829253",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '99ce8ecb93b9a43c5697bfa9cbd13b7b']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--48c72f04-1741-4e0f-be6c-721d269fcbfa",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '7d509d135292020a317b0f7a2f444b665396e891']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--95650b23-8b97-4032-87ff-2e46d9738a95",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'f5d0ee4f6eb348d10ccaa4f24cae392782b9bfa3']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--16b87762-09b3-48f6-ac22-1f4b3f0d959d",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'x2mails.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e5c9621b-a0d7-4946-9770-e9e428023bb3",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'acceptable-use-policy-calendly.de']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8d355d04-63aa-443a-b13a-e8c5dd9d0c3e",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cocinternal.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c8269952-67a2-4899-9991-52c127658a81",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'compliance-protectionoutlook.de']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e12716ba-9269-49d3-8499-7df6faa5d06c",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'na.businesshellosign.de']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b349c7c5-9619-432a-ad0a-fb0e3b0ad468",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'gadellinet.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8f4e99ba-4bb3-41db-9999-51d6e06bdb33",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'harteprn.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--054f0db7-f92a-4c77-8bd9-88804a4e6b8a",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = '9i6pokerdepot.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5e944351-6fdf-4318-8dd7-0d48dddcd11a",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'ecajovna.sk']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--435c4aad-dde1-4952-a7cf-06b257ab7a3e",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'ilyff.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ff181f42-428c-446a-95fc-c8f38e553361",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'j-gmails.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--73182e62-85d2-4fad-84cd-4ea316ebc753",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cocinternal.cm']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--15b1cb24-01b2-4c2c-a00c-28509d23c986",
+      "created": "2026-07-24T17:42:42.000Z",
+      "modified": "2026-07-24T17:42:42.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 't90141296286.p.clickup-attachments.com']",
+      "valid_from": "2026-07-24T17:42:42.000Z"
+    }
+  ]
+}

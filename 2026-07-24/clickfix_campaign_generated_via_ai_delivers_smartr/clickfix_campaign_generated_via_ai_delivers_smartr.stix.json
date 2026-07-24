@@ -1,0 +1,116 @@
+{
+  "type": "bundle",
+  "id": "bundle--538dcfb3-91b8-4cd3-ba96-5e27d50a29ba",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f7ec555e-8dd2-4d8e-9205-4cdfe7941c88",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '297eb45f028d44d750297d2f932b9c91']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--997a10bb-bc3a-4cb7-9f2f-f88ad627c5fe",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '3c72e1f37f115b00c3ad6ed31bacfe8a']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--91913e3d-21f5-43b8-88d8-d8f9cc48fc13",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '6bf4d4c62b5138ace281ce3d08297787']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e0bccb41-4af6-40c8-a9bb-ca659bc7add9",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'b17ccdb5531555e43f082d6e77c07227']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9c4f8e1e-4880-4bc3-995f-f8bae9635108",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'crefisa.online']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dfb43e40-f788-45ea-b319-065ffdbcc01d",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'windowsupdate-cdn.com']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3ac38617-dce2-4ec4-a74f-79720f521f3d",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'c.windowsupdate-cdn.com']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--da6d278d-f6dd-4aa2-910b-66cc2d095609",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cartaobb.com']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c06945b3-1de7-4a29-88e4-4bd81e2f2794",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cartaobrb.com.br']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d6c2c91f-9ed0-483d-b699-ea0af5be26c6",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'vfsgloball.net']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    }
+  ]
+}

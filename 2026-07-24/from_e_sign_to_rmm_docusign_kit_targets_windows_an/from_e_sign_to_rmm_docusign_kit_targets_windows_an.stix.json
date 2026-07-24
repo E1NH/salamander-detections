@@ -1,0 +1,61 @@
+{
+  "type": "bundle",
+  "id": "bundle--79c47c89-9bc3-467d-b063-3b6a848276ef",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f6e2ecfe-2b33-4845-bd9a-ebcf15b910b0",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '2a206b085fedf8b20d1db883814c15e0202617da223dbb4e28b7109df98645df']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c8990b83-44b2-45f6-bce3-6df806d9da16",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '4f1c8de304a855c2a4d1995b41069641dee84f1b51b6fb4a6e24eee59c6a30e4']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--23bec972-e971-4963-8a01-ccc88ae7b6ae",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'i8reactorsee.xyz']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e3259d2a-5672-4473-bbf0-e1a2ecc9b528",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'magroys.lat']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f0beba6e-6a91-4c83-9f83-9871c2825084",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'rosetomaz.com.br']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    }
+  ]
+}

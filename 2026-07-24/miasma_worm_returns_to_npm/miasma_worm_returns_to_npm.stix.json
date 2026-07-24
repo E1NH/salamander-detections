@@ -1,0 +1,28 @@
+{
+  "type": "bundle",
+  "id": "bundle--c27b5582-f89e-466b-bbfe-0facb351370a",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a4e08e41-95d4-43e1-a73c-1bfdec4327de",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'obfuscator.io']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e406890a-6dba-4c33-910b-9d48206802e7",
+      "created": "2026-07-24T13:40:53.000Z",
+      "modified": "2026-07-24T13:40:53.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '85.137.53.71']",
+      "valid_from": "2026-07-24T13:40:53.000Z"
+    }
+  ]
+}
