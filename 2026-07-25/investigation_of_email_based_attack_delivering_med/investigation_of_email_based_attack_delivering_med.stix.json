@@ -1,0 +1,28 @@
+{
+  "type": "bundle",
+  "id": "bundle--63b0f7c2-58e3-4676-b4b2-f21ee8ca56e2",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--addf060d-8921-45ee-bbed-2b9b81c13ab5",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'bsc.blockrazor.xyz']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c60133b6-5e62-437f-8c37-2acdfac25dee",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'xn--fiqq24b9hejs1c.clickvector.tech']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    }
+  ]
+}

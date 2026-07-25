@@ -1,0 +1,72 @@
+{
+  "type": "bundle",
+  "id": "bundle--09afd1b6-9115-47c4-b893-d34466752c87",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5e62b33c-0f47-47cd-84c8-4951aaade884",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '322a92b443faefe48fce629e8947e4e2']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--90e996ad-e00e-42e5-9728-83846f5a243f",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'e230bf859e582fe95df0b203892048df']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--04dda0ed-ed9b-4e09-98ca-f29f8515aa11",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'f3f8379ce6e0b8f80faf259db2443f13']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a561f982-0d09-4a57-8365-18e608db66e2",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'f782c936249b9786cc7fac580da3ae0f']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--11f714d3-fd14-491b-8324-fe9bf0f1f5ad",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '5fd4bcca28553ebe759ec97fcbc3a2a732268f85']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0aa0944c-3f07-467f-bb09-f3357e8f3d24",
+      "created": "2026-07-25T16:50:47.000Z",
+      "modified": "2026-07-25T16:50:47.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '0a1a85a026b6d477f59bc3d965b07d0d06e6ff2d34381aff79ea71c38fed802b']",
+      "valid_from": "2026-07-25T16:50:47.000Z"
+    }
+  ]
+}
