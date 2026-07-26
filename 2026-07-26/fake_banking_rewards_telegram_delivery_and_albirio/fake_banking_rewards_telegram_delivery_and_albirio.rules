@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Fake Banking Rewards, Telegram Delivery and Albiriox: Anatomy of an Android Malware Campaign  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"unicredit-tme.shop"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

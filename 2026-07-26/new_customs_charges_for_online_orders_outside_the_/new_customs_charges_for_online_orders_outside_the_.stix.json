@@ -1,0 +1,39 @@
+{
+  "type": "bundle",
+  "id": "bundle--cc9f44a9-d527-4092-8c2c-b6e4dabdb6ae",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a0ee25fa-1503-4094-888a-7c704a05be29",
+      "created": "2026-07-26T11:17:03.000Z",
+      "modified": "2026-07-26T11:17:03.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'anpost.ie-sci.help']",
+      "valid_from": "2026-07-26T11:17:03.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--27cd32b3-e0be-4dad-9534-4accb6bde732",
+      "created": "2026-07-26T11:17:03.000Z",
+      "modified": "2026-07-26T11:17:03.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'service-charge.help']",
+      "valid_from": "2026-07-26T11:17:03.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4579a4f9-5c34-4530-98f5-ac90c53d1f2e",
+      "created": "2026-07-26T11:17:03.000Z",
+      "modified": "2026-07-26T11:17:03.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '34.244.249.157']",
+      "valid_from": "2026-07-26T11:17:03.000Z"
+    }
+  ]
+}

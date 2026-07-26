@@ -1,0 +1,23 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// Operation Endgame disrupts Amadey and Stealc
+
+rule Salamander_Data_Insufficient
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "Data Insufficient"
+    malware = "Amadey"
+  condition:
+    hash.sha1(0, filesize) == "ff8d2afd9d7f0a828592fee34ca55d1a3542f7ed" or
+    hash.sha1(0, filesize) == "09002d4668a778853e8da5c488c6e421c0628357" or
+    hash.sha1(0, filesize) == "11a42ef076686cb27ba2c8845301943652a5aadc" or
+    hash.sha1(0, filesize) == "32d0c3300825b0bb991c4a8f1e6244f0ad2da989" or
+    hash.sha1(0, filesize) == "38d744543b2051e6f749af171b5ef8d6df8aac7b" or
+    hash.sha1(0, filesize) == "5f3f99b14243404c7cf57b40bb101244cce394bf" or
+    hash.sha1(0, filesize) == "87867ad29e621bf9ebf57e1757f75090842458be" or
+    hash.sha1(0, filesize) == "b4101027bf2f1261402bf6318c6eb016ce249037" or
+    hash.sha1(0, filesize) == "c0e178d26e1e67985a9c67e649d71d54642e0eed" or
+    hash.sha1(0, filesize) == "f61e3a643f2417e1a1ab2c83bbdbfc8a7cb96756"
+}
