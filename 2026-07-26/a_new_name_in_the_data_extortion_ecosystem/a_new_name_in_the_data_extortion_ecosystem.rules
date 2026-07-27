@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# A New Name in the Data Extortion Ecosystem?  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Helix infrastructure domain"; dns.query; content:"oskeysync.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 179.43.185.226 any (msg:"[Salamander CTI] Helix infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 179.43.185.230 any (msg:"[Salamander CTI] Helix infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 179.43.171.42 any (msg:"[Salamander CTI] Helix infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)

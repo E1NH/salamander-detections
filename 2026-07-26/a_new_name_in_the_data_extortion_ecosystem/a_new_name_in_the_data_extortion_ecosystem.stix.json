@@ -1,0 +1,58 @@
+{
+  "type": "bundle",
+  "id": "bundle--c69b06e2-befa-4adb-80db-f0019ea7b029",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a89b6836-8549-4434-a76c-164b50126fba",
+      "created": "2026-07-27T09:40:37.000Z",
+      "modified": "2026-07-27T09:40:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'oskeysync.com']",
+      "valid_from": "2026-07-27T09:40:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c94e7092-31ed-4cbc-8cdb-d76411553eb0",
+      "created": "2026-07-27T09:40:37.000Z",
+      "modified": "2026-07-27T09:40:37.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '179.43.185.226']",
+      "valid_from": "2026-07-27T09:40:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cbfa8109-b805-44df-ae2d-9ec41020680a",
+      "created": "2026-07-27T09:40:37.000Z",
+      "modified": "2026-07-27T09:40:37.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '179.43.185.230']",
+      "valid_from": "2026-07-27T09:40:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8b75aa19-e5c7-4e06-9e38-b871ebd93c10",
+      "created": "2026-07-27T09:40:37.000Z",
+      "modified": "2026-07-27T09:40:37.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '179.43.171.42']",
+      "valid_from": "2026-07-27T09:40:37.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--9087bfe9-e388-402a-a2c3-1c29b7945d12",
+      "created": "2026-07-27T09:40:37.000Z",
+      "modified": "2026-07-27T09:40:37.000Z",
+      "name": "Helix"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# ClickLock Stealer: Paste Once, Lose Everything  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] ClickLock Dev infrastructure domain"; dns.query; content:"update-check.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ClickLock Dev infrastructure domain"; dns.query; content:"cottonbox.co.il"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ClickLock Dev infrastructure domain"; dns.query; content:"panalobet.ph"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] ClickLock Dev infrastructure domain"; dns.query; content:"store.grafsynergy.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)

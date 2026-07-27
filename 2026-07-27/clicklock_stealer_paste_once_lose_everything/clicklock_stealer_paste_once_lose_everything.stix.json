@@ -1,0 +1,113 @@
+{
+  "type": "bundle",
+  "id": "bundle--ce6bc742-b257-47ff-8058-f7dbedae4920",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fe939af2-f188-416d-ba8a-eb95250eea90",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '0a1fb016bd10bac5455175c79aa4511e5ff1a330']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a2610066-eca2-4c0a-832b-30984ab41fe4",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '2fc970e25570532f9cbe33b7ebfe1f0383a7341a']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4f509b05-b5ee-40e1-b3e4-55ac450f75db",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '8dda05168ea8610a2449419a47517bc32823d6ec']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--df80bc36-37ef-4bc3-b9d3-d96d8ffdc677",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'b67aa4f598c0ea625a7409ea7884e10a7bc9c3ff']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--42fd7abb-f21c-4f62-a95c-3da4d47df09a",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'd9617710d4ed8e9b87f6fee0b7014c4101effba0']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--295b9777-0205-4900-853d-08698885f599",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'update-check.com']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--44a7438e-5bf2-4122-bbde-3b656e9722ef",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cottonbox.co.il']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1e96177e-e374-45a5-bc5c-a2dac6bb51d1",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'panalobet.ph']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--41e32714-8a11-4167-b018-b4c7f314a1c4",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'store.grafsynergy.com']",
+      "valid_from": "2026-07-27T09:40:38.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--769ead87-58d3-441d-8d6b-1ac17619e744",
+      "created": "2026-07-27T09:40:38.000Z",
+      "modified": "2026-07-27T09:40:38.000Z",
+      "name": "ClickLock Dev"
+    }
+  ]
+}
