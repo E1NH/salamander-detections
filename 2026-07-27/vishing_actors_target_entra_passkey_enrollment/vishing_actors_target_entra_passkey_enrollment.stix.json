@@ -1,0 +1,80 @@
+{
+  "type": "bundle",
+  "id": "bundle--6e483dde-7416-4fb5-9b6b-646e8c0d8775",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--45276f5f-3704-4b2f-b049-3938f5e37b20",
+      "created": "2026-07-27T16:43:37.000Z",
+      "modified": "2026-07-27T16:43:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'deploypasskey.com']",
+      "valid_from": "2026-07-27T16:43:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c1ddec0c-2556-43bb-a53d-998b8c78da3c",
+      "created": "2026-07-27T16:43:37.000Z",
+      "modified": "2026-07-27T16:43:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'passkeyadd.com']",
+      "valid_from": "2026-07-27T16:43:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ece18bd3-c28b-4af3-9527-bc2b148271ec",
+      "created": "2026-07-27T16:43:37.000Z",
+      "modified": "2026-07-27T16:43:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'passkeydeploy.com']",
+      "valid_from": "2026-07-27T16:43:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bb6134b6-5d2f-4080-b301-884bdbfefa39",
+      "created": "2026-07-27T16:43:37.000Z",
+      "modified": "2026-07-27T16:43:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'setpasskey.com']",
+      "valid_from": "2026-07-27T16:43:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7cdc4fc9-2976-422d-bdba-2632ece3ea24",
+      "created": "2026-07-27T16:43:37.000Z",
+      "modified": "2026-07-27T16:43:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'assignpasskey.com']",
+      "valid_from": "2026-07-27T16:43:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1bf4a35f-c512-4933-b1ba-e34aa7e58d4a",
+      "created": "2026-07-27T16:43:37.000Z",
+      "modified": "2026-07-27T16:43:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'exampleentity.setpasskey.com']",
+      "valid_from": "2026-07-27T16:43:37.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--b8c01acd-a2d2-4c4a-9a39-bf8da0f8bd9b",
+      "created": "2026-07-27T16:43:37.000Z",
+      "modified": "2026-07-27T16:43:37.000Z",
+      "name": "O-UNC-066"
+    }
+  ]
+}
