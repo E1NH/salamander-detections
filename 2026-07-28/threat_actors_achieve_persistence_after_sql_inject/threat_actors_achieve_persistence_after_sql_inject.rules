@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Threat Actors Achieve Persistence After SQL Injection  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"334thribetlhkyo977gqrcht1k7bvdj2.oastify.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
