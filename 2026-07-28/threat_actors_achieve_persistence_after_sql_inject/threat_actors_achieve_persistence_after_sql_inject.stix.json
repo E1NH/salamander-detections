@@ -1,28 +1,28 @@
 {
   "type": "bundle",
-  "id": "bundle--bb4ec42e-96f7-494d-9ec5-f9a2653568ad",
+  "id": "bundle--bc061c3b-807f-48c9-a14c-08eca0d04a9d",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d27252d0-439f-4032-9a2c-cdd6cfd331b6",
-      "created": "2026-07-28T08:16:53.000Z",
-      "modified": "2026-07-28T08:16:53.000Z",
+      "id": "indicator--4a001bcb-34be-4ca1-8d11-b0740e49367c",
+      "created": "2026-07-28T16:05:57.000Z",
+      "modified": "2026-07-28T16:05:57.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = 'c4c8e8c336c3429d97195076bf3bb6eb']",
-      "valid_from": "2026-07-28T08:16:53.000Z"
+      "valid_from": "2026-07-28T16:05:57.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--cea5394f-7b4a-40f7-bed9-d7ae4cad3305",
-      "created": "2026-07-28T08:16:53.000Z",
-      "modified": "2026-07-28T08:16:53.000Z",
+      "id": "indicator--f7b8de94-f634-4a87-ae6c-d60dc3b5e8e0",
+      "created": "2026-07-28T16:05:57.000Z",
+      "modified": "2026-07-28T16:05:57.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = '334thribetlhkyo977gqrcht1k7bvdj2.oastify.com']",
-      "valid_from": "2026-07-28T08:16:53.000Z"
+      "valid_from": "2026-07-28T16:05:57.000Z"
     }
   ]
 }
