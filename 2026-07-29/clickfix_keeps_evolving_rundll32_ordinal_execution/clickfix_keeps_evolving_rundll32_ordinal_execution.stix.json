@@ -1,0 +1,83 @@
+{
+  "type": "bundle",
+  "id": "bundle--553aa925-45d1-4c5d-a4a8-28a67d539cd5",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--24133784-9580-4579-8f88-49e20ea84945",
+      "created": "2026-07-29T17:46:05.000Z",
+      "modified": "2026-07-29T17:46:05.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'f11057ab58bef936d98ba189829c64260a6a540cdaa046f93613138e820c98c6']",
+      "valid_from": "2026-07-29T17:46:05.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5fddc3c3-0327-4aac-a2c5-01405df2674e",
+      "created": "2026-07-29T17:46:05.000Z",
+      "modified": "2026-07-29T17:46:05.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '5ef7bf4ed52be2a6d5ebbcf3076fba5f']",
+      "valid_from": "2026-07-29T17:46:05.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--29bcd1d4-99e0-4ba5-806a-2a1f2efe5f4d",
+      "created": "2026-07-29T17:46:05.000Z",
+      "modified": "2026-07-29T17:46:05.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '9e03e983e26d4782a3fef0a6ebb47fdcd46974c9']",
+      "valid_from": "2026-07-29T17:46:05.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bb05dbbd-8027-4781-9660-ec01255f72f0",
+      "created": "2026-07-29T17:46:05.000Z",
+      "modified": "2026-07-29T17:46:05.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'gentletouchchiropracticclinicauroracol.com']",
+      "valid_from": "2026-07-29T17:46:05.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--986b9c83-12f9-49ed-af99-bf35a06eee5d",
+      "created": "2026-07-29T17:46:05.000Z",
+      "modified": "2026-07-29T17:46:05.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'hcwjcope.poundbahis.com']",
+      "valid_from": "2026-07-29T17:46:05.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--448b2cef-5b50-44f9-8e91-93ffd4f9abbc",
+      "created": "2026-07-29T17:46:05.000Z",
+      "modified": "2026-07-29T17:46:05.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'uttepcheweaxtowxdj.gentletouchchiropracticclinicauroracol.com']",
+      "valid_from": "2026-07-29T17:46:05.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e7787438-8edc-49a4-9e88-aa42e9790a61",
+      "created": "2026-07-29T17:46:05.000Z",
+      "modified": "2026-07-29T17:46:05.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'vqrlwsmzu.webyek.com']",
+      "valid_from": "2026-07-29T17:46:05.000Z"
+    }
+  ]
+}
