@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# One Email Closer to the Edge: UNK_MassTraction & the Physics of Exploitation  (defensive signatures; not endorsements)
+
+alert ip any any -> 45.86.229.111 any (msg:"[Salamander CTI] UNK_MassTraction infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 194.213.18.133 any (msg:"[Salamander CTI] UNK_MassTraction infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 45.150.109.151 any (msg:"[Salamander CTI] UNK_MassTraction infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)

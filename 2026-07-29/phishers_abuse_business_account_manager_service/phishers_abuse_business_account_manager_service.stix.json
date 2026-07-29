@@ -1,0 +1,28 @@
+{
+  "type": "bundle",
+  "id": "bundle--a5189758-fc60-4a5c-bc07-a6997042241c",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2844a162-fac8-48a1-bf33-f9c1e9f6fd6a",
+      "created": "2026-07-29T08:30:18.000Z",
+      "modified": "2026-07-29T08:30:18.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'aussiecleaningservices.com']",
+      "valid_from": "2026-07-29T08:30:18.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5dd810be-f9d0-444e-8867-0ce5be28bf6e",
+      "created": "2026-07-29T08:30:18.000Z",
+      "modified": "2026-07-29T08:30:18.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'api.goautolink.com']",
+      "valid_from": "2026-07-29T08:30:18.000Z"
+    }
+  ]
+}
