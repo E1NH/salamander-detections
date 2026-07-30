@@ -1,0 +1,47 @@
+{
+  "type": "bundle",
+  "id": "bundle--dc68171a-7629-4659-bc46-ab4a7dfc1cae",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--85165c4a-e0a2-4504-aa74-e07f26d2600a",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'business-data-leaks.com']",
+      "valid_from": "2026-07-30T10:54:22.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--99d1dead-8fa1-4fba-9d7b-304f0b6b7759",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'lockbit.black']",
+      "valid_from": "2026-07-30T10:54:22.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a0eaeda9-d2af-4221-aa4a-6f61d95f4d9d",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'itdesk.com']",
+      "valid_from": "2026-07-30T10:54:22.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--a6c687b8-af9c-4cfd-8207-730c1d0c4221",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "UNC3753"
+    }
+  ]
+}

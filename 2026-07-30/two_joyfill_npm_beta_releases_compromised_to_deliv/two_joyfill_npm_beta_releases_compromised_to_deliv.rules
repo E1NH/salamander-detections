@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Two Joyfill npm Beta Releases Compromised to Deliver DEV#POPPER Remote Access Trojan  (defensive signatures; not endorsements)
+
+alert ip any any -> 23.27.202.27 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 198.105.127.210 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 166.88.134.62 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 23.27.13.43 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)

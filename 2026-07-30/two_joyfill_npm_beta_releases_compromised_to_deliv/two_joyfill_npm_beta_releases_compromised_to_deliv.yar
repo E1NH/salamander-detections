@@ -1,0 +1,30 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// Two Joyfill npm Beta Releases Compromised to Deliver DEV#POPPER Remote Access Trojan
+
+rule Salamander_Data_Insufficient
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "Data Insufficient"
+    malware = "DEV#POPPER, OmniStealer"
+  condition:
+    hash.sha256(0, filesize) == "2cfede38fb121a71a2f3607474aa8cd588a99f51b37e5e6f0d8cb789fa275032" or
+    hash.sha256(0, filesize) == "26351aed0397158d3a3b8cc8fd3047d4c015d264c9895f10f20f1521b974ed18" or
+    hash.sha256(0, filesize) == "36ff00b45e67baa7e3674b0c80f48e88737264c61e5c6b3b091200972de8157c" or
+    hash.sha256(0, filesize) == "adc4af90540d33cd1e98f44b51482ae9250fbeb97d6f8d7841c81b618cb2c6e6" or
+    hash.sha256(0, filesize) == "8e8b90dedd456ded0c5748119836e1ca1066112bc569c1b41ca70eb931d1d4dc" or
+    hash.sha256(0, filesize) == "5f6a92006ca2ea4b464d66fb41af777edce7296939a7c6ee491e2b3cbfe09848" or
+    hash.sha256(0, filesize) == "bcc93dc55bc7daedf4ca57254f0e7a7f1c40e09851eab98fe10cde801982db17" or
+    hash.sha256(0, filesize) == "1352ad22c99983d91e600348b7cbf58235131b1ee34cea9f09623206d5b7dea7" or
+    hash.sha256(0, filesize) == "67c6ef602cc850f10d935fee53fa40440df841adf081563bf4fc2631a71249ce" or
+    hash.sha256(0, filesize) == "c5742ea1875ecd2360022624149994909cd0546e221e4203dffd01f48de45469" or
+    hash.sha256(0, filesize) == "cb46f12d70824ea24ed1f8bcf45bf3f86680e02a9089aafc03b27f691be57be3" or
+    hash.sha256(0, filesize) == "f452f9cfa539f4a1fe25187a99a484391290d5dbaa422ba455edf6b04f81b7d1" or
+    hash.sha256(0, filesize) == "78f0de8682e0e894a5784eb7e95db4da6088f528918ca3107dd1e76f80a561d8" or
+    hash.sha256(0, filesize) == "ae7565109fd01b88d82acf7f73ab20709cbc2c9f26fdea13e429ccc87a55d4fb" or
+    hash.sha256(0, filesize) == "26e679eaf1e9baeb7c55eb48db482301171d4d26e1728544b23734a90dc70e1b" or
+    hash.md5(0, filesize) == "b7c8c84d1729e78ca9d64d1d6dd97fe4" or
+    hash.sha1(0, filesize) == "e147076dd588df4e2bc9db25fcc306fb34a04a55"
+}

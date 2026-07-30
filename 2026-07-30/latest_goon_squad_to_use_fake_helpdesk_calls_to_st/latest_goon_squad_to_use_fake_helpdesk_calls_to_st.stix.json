@@ -1,0 +1,47 @@
+{
+  "type": "bundle",
+  "id": "bundle--443c2a23-0828-4391-afe7-9b4cdba157bc",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2164b87b-6b6f-4ea0-9518-b0b6033afb22",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'deploypasskey.com']",
+      "valid_from": "2026-07-30T10:54:22.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--25c80077-d27d-468d-92db-f3bc8c5090e6",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'passkeyadd.com']",
+      "valid_from": "2026-07-30T10:54:22.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f2e3bc88-6e94-4d56-8ce0-c0f7c5cdbf22",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'passkeydeploy.com']",
+      "valid_from": "2026-07-30T10:54:22.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--215e16a4-4631-40f0-a7a6-ff4ef35b9cac",
+      "created": "2026-07-30T10:54:22.000Z",
+      "modified": "2026-07-30T10:54:22.000Z",
+      "name": "Pink"
+    }
+  ]
+}

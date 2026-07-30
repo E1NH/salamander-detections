@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Bundled to Steal: The Salat Stealer Campaign  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"xenoexecutor.in"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
