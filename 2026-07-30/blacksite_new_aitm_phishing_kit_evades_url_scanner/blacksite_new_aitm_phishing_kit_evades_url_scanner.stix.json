@@ -1,0 +1,102 @@
+{
+  "type": "bundle",
+  "id": "bundle--850317c2-6dfa-4b51-9db0-38d65160ae89",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dde5edf3-46fd-4dae-9496-f57041cf8d1e",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'allegro-pl.site']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7ba729d2-0934-484c-9705-05716e62a57b",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'allegro-pl.top']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3e2f75be-0b1a-4faf-8262-e7c4c3d97e06",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'charliesdemons.com']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--052e2982-1282-49eb-b0ec-5b890659f22f",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cloaked-demo.com']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7534e9cb-9623-4ab2-9877-83145cf875f9",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cloaked.gg']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--31a40306-3d31-4b8a-a2b9-51f883fc55b0",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'api.cloaked.gg']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--02204d1b-d9ca-47c9-acd4-a1970815c7ff",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'capture.cloaked.gg']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f1a968a2-5f35-4ace-88fa-3edac4464a75",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cdn.cloaked.gg']",
+      "valid_from": "2026-07-30T16:55:53.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--0ecbff45-33ce-4384-9b0c-8409de29b179",
+      "created": "2026-07-30T16:55:53.000Z",
+      "modified": "2026-07-30T16:55:53.000Z",
+      "name": "kirapayload"
+    }
+  ]
+}
