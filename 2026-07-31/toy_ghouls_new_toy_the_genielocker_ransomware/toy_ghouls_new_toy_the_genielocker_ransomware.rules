@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Toy Ghouls’ new toy: the GenieLocker ransomware  (defensive signatures; not endorsements)
+
+alert ip any any -> 89.125.66.101 any (msg:"[Salamander CTI] Toy Ghouls infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

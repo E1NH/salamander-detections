@@ -1,0 +1,39 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// OctLurk and SilkLurk: new Backdoors in Central Asia
+
+rule Salamander_Data_Insufficient
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "Data Insufficient"
+    malware = "OctLurk, SilkLurk, LurkProxy, PlugX - S0013, Thoper, TVT, DestroyRAT, Sogu, Kaba, Korplug, Impacket, FSCAN"
+  condition:
+    hash.md5(0, filesize) == "62944e26b36b1dcace429ae26ba66164" or
+    hash.md5(0, filesize) == "cf903e4a1629aa0582fd0363b5786676" or
+    hash.md5(0, filesize) == "9a1dd1d96481d61934dcc2d568971d06" or
+    hash.md5(0, filesize) == "18dc8bff47cc282508354771d0c8cf8c" or
+    hash.sha1(0, filesize) == "cc5cc2546d3ea8e27250cc4bec24f6ca13caf341" or
+    hash.sha256(0, filesize) == "23b122deea347dbe2407c1542c1cc6caaafca537eb5d1950a4ed7c8a69395dbb" or
+    hash.md5(0, filesize) == "082d49ef9f14e6811d68c7e0e82e5069" or
+    hash.md5(0, filesize) == "1415a78b75de7db4ba3d1e61d7db4501" or
+    hash.md5(0, filesize) == "2a571f6cee42a17d873f4c942649813f" or
+    hash.md5(0, filesize) == "2f18472866f38c1e1c2c5c14b9a6ab56" or
+    hash.md5(0, filesize) == "32a5985543433a4f60da2fafd873b927" or
+    hash.md5(0, filesize) == "37dc84e4bcad92fa28f1e7778d088283" or
+    hash.md5(0, filesize) == "3c9a1ba8e0c7475706adc6376e9d7b7c" or
+    hash.md5(0, filesize) == "45cf5916fab4272a1313c26e67aa9220" or
+    hash.md5(0, filesize) == "4e6d5c4770d5a822d7fcce6a74f7ad73" or
+    hash.md5(0, filesize) == "5e26df131ff0a679a0a2699b723b46e3" or
+    hash.md5(0, filesize) == "6ecf84fb18f6747ed08d7598364d853a" or
+    hash.md5(0, filesize) == "7c2f64461bb519c6cbf1fc687675514c" or
+    hash.md5(0, filesize) == "8269d6ba1b6842f9152c90cf7add9b93" or
+    hash.md5(0, filesize) == "a0cc7accc79abb0287aaba825d0351f0" or
+    hash.md5(0, filesize) == "a4d550a3ba0cd073fe3839b99d98a7a8" or
+    hash.md5(0, filesize) == "a56cce62930a6bee80d679b4c495a340" or
+    hash.md5(0, filesize) == "b874123a80fc4f40e06872b9cb54ebc6" or
+    hash.md5(0, filesize) == "be4731c09734da2e8eb6814a9c82f266" or
+    hash.md5(0, filesize) == "ef59aad625eebda8650aec5820d6ce69" or
+    hash.md5(0, filesize) == "f4578e869a735cfad691f927bae3e638"
+}
