@@ -1,46 +1,46 @@
 {
   "type": "bundle",
-  "id": "bundle--08904ebd-329c-4c32-b7a3-7907dc8e3f9d",
+  "id": "bundle--46cfff8b-b1f0-445a-ad32-c40ab41e16dc",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--344c8207-205f-4b4b-b866-6016545ffb39",
-      "created": "2026-08-02T12:07:54.000Z",
-      "modified": "2026-08-02T12:07:54.000Z",
+      "id": "indicator--c7254412-4a39-4937-bf4f-8d8ba183340c",
+      "created": "2026-08-02T18:20:40.000Z",
+      "modified": "2026-08-02T18:20:40.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '726e7fe23560fe03ea36163d5f510b494f41a78bf811c92ff219f64b4bfe2be0']",
-      "valid_from": "2026-08-02T12:07:54.000Z"
+      "valid_from": "2026-08-02T18:20:40.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--50fc017b-4c50-4693-8cf9-8ced299de38a",
-      "created": "2026-08-02T12:07:54.000Z",
-      "modified": "2026-08-02T12:07:54.000Z",
+      "id": "indicator--43d15bf3-5c66-4574-afd6-52642480dd45",
+      "created": "2026-08-02T18:20:40.000Z",
+      "modified": "2026-08-02T18:20:40.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'thedolphinx.top']",
-      "valid_from": "2026-08-02T12:07:54.000Z"
+      "valid_from": "2026-08-02T18:20:40.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--90da07ff-8de5-462e-b6a8-d792d591ded0",
-      "created": "2026-08-02T12:07:54.000Z",
-      "modified": "2026-08-02T12:07:54.000Z",
+      "id": "indicator--f3a5417c-6694-45f0-8679-8d12ad665f56",
+      "created": "2026-08-02T18:20:40.000Z",
+      "modified": "2026-08-02T18:20:40.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'backend.thedolphinx.top']",
-      "valid_from": "2026-08-02T12:07:54.000Z"
+      "valid_from": "2026-08-02T18:20:40.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--d62f0d2c-aa6d-4708-b106-1d82912171ca",
-      "created": "2026-08-02T12:07:54.000Z",
-      "modified": "2026-08-02T12:07:54.000Z",
+      "id": "threat-actor--b239b7c3-93b5-4eaa-a5c0-e42c3516435f",
+      "created": "2026-08-02T18:20:40.000Z",
+      "modified": "2026-08-02T18:20:40.000Z",
       "name": "Kontraktnik"
     }
   ]
