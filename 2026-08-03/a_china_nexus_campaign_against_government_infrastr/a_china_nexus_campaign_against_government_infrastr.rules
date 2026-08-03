@@ -1,0 +1,10 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# A China-Nexus Campaign Against Government Infrastructure  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] China-nexus infrastructure domain"; dns.query; content:"google.chromeupgrades.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] China-nexus infrastructure domain"; dns.query; content:"speedtest.qqmail.website"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 221.198.83.248 any (msg:"[Salamander CTI] China-nexus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 149.129.37.105 any (msg:"[Salamander CTI] China-nexus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 92.38.135.196 any (msg:"[Salamander CTI] China-nexus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert ip any any -> 130.94.30.168 any (msg:"[Salamander CTI] China-nexus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert ip any any -> 130.94.17.180 any (msg:"[Salamander CTI] China-nexus infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
