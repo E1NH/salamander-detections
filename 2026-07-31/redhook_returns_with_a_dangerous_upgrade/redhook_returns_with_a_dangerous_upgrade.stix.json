@@ -1,50 +1,50 @@
 {
   "type": "bundle",
-  "id": "bundle--54833f69-7032-438d-85ee-f5c2c022f9cd",
+  "id": "bundle--6f58ea17-466b-47e1-8df3-84ecaa3220cd",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7235fb77-251a-4fc5-80ff-fe1313db885f",
-      "created": "2026-08-04T08:33:07.000Z",
-      "modified": "2026-08-04T08:33:07.000Z",
+      "id": "indicator--ffbefd24-4762-4efe-98b1-fa530dee2850",
+      "created": "2026-08-04T16:36:38.000Z",
+      "modified": "2026-08-04T16:36:38.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '453333bffdd1850ea2e0647f7c805530b578919978a01b1e2be52d6eb2add946']",
-      "valid_from": "2026-08-04T08:33:07.000Z"
+      "valid_from": "2026-08-04T16:36:38.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--06228e26-cdfb-44c0-b78f-9b62c74fe179",
-      "created": "2026-08-04T08:33:07.000Z",
-      "modified": "2026-08-04T08:33:07.000Z",
+      "id": "indicator--694d30c0-a561-435a-9be4-de56a9520ae4",
+      "created": "2026-08-04T16:36:38.000Z",
+      "modified": "2026-08-04T16:36:38.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'api.3n7wj.com']",
-      "valid_from": "2026-08-04T08:33:07.000Z"
+      "valid_from": "2026-08-04T16:36:38.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e0845cdf-85e8-40ba-ac01-5204c965514d",
-      "created": "2026-08-04T08:33:07.000Z",
-      "modified": "2026-08-04T08:33:07.000Z",
+      "id": "indicator--c344772c-b7a1-42fe-8b70-16e2561d69d1",
+      "created": "2026-08-04T16:36:38.000Z",
+      "modified": "2026-08-04T16:36:38.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'skt.3n7wj.com']",
-      "valid_from": "2026-08-04T08:33:07.000Z"
+      "valid_from": "2026-08-04T16:36:38.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--288c2da3-cf6f-4360-9d42-b75805eca373",
-      "created": "2026-08-04T08:33:07.000Z",
-      "modified": "2026-08-04T08:33:07.000Z",
+      "id": "indicator--b6ec3c8e-0f82-4e6b-ba2b-bd90a36d0f4a",
+      "created": "2026-08-04T16:36:38.000Z",
+      "modified": "2026-08-04T16:36:38.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'sktv.3n7wj.com']",
-      "valid_from": "2026-08-04T08:33:07.000Z"
+      "valid_from": "2026-08-04T16:36:38.000Z"
     }
   ]
 }
