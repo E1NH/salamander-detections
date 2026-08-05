@@ -1,0 +1,47 @@
+{
+  "type": "bundle",
+  "id": "bundle--5b559aab-6cfc-4432-9e13-d491d51f0c0c",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4fea47d5-8355-480e-a3f7-f42781e272bb",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'a239e655709a2518dd0b7bdbed163679']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a158a3ce-9a5d-4a5c-9150-14421bf2fe8d",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '79f3ef6c6127edb0a5f43ef7a16bfb3418860e19']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2dfe23b4-84e3-4101-b4aa-f330fbdf4ddb",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '24771d0a69e442b9493ab1406e0253be1acd31d83f593177fd736f7f6d629ed9']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--b909345f-7498-43a7-9373-4e3a28d155f0",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Mirage Kitten"
+    }
+  ]
+}

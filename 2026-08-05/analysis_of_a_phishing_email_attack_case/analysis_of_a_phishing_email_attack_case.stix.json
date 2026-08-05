@@ -1,0 +1,135 @@
+{
+  "type": "bundle",
+  "id": "bundle--58392b97-ee44-4ab9-8507-ce5b389e4bf4",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2dbe1669-f4ec-4adf-8c84-1a61458d2e85",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '10b40185106eb3760cb71c46117aa0bf']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8d6e5f61-0ac5-4f65-80f7-b1d3377fe98c",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '1500fefcdda275b70e2051a3e7d9f794']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8603f032-39b9-44b7-8794-1309c8778240",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '2973fda8d0d0fa0200a05889fce85df6']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1bfd2685-49e2-4248-a1c1-19e6483fdf62",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '444fb3592cd1848660259a913684795b']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--966f6d67-8201-4ed7-a801-d383e9871023",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '4ad28d0313549e98383144d82982be6e']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--61b1dc35-d557-4853-b060-13d67897233d",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'pozeny.shop']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--82786c35-4415-43b0-9f98-3a604b8db7d3",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'aonexa.shop']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--89b49dd0-7dfe-441a-8d29-19567dcc1e5c",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'mainsec.site']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b413d0d8-5806-4936-ab53-9f24060f9cbf",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'serverdock.online']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b6cfbaa4-515a-4eef-bec0-f8947704a687",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'final.mainsec2.site']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d0952bdb-353b-412a-8294-c5a19c557435",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '217.77.6.50']",
+      "valid_from": "2026-08-05T13:11:53.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--b0efd90e-aeaf-477e-a5c8-e7a83bf0e2fe",
+      "created": "2026-08-05T13:11:53.000Z",
+      "modified": "2026-08-05T13:11:53.000Z",
+      "name": "Larva-24009"
+    }
+  ]
+}

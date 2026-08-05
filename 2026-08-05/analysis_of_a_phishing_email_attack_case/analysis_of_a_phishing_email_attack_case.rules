@@ -1,0 +1,9 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Analysis of a Phishing Email Attack Case  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Larva-24009 infrastructure domain"; dns.query; content:"pozeny.shop"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Larva-24009 infrastructure domain"; dns.query; content:"aonexa.shop"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Larva-24009 infrastructure domain"; dns.query; content:"mainsec.site"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Larva-24009 infrastructure domain"; dns.query; content:"serverdock.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Larva-24009 infrastructure domain"; dns.query; content:"final.mainsec2.site"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert ip any any -> 217.77.6.50 any (msg:"[Salamander CTI] Larva-24009 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
