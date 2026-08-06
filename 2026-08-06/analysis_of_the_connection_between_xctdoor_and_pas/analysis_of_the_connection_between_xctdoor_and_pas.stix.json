@@ -1,0 +1,190 @@
+{
+  "type": "bundle",
+  "id": "bundle--f866892e-7260-4742-8640-7e9ab662aafa",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fc1f8eec-679d-4478-92d3-7005c3c75e92",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '0d2e61c8a5e6280e065b61e75b848c68']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--34228d1c-4e38-40cc-b165-891b66453007",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '12391f66ee33d379108fd649a999e1a0']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--989f82db-2400-416c-97f4-060601fd8246",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '01b58f2ff2c14feed46a0768ea46686d']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--79ffc1b3-a4e6-4cc7-8cfe-5db5ca4f3378",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '07766e6e9d9f86775ad564a65af292c1']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--61011de2-2fb0-460b-b4a9-394fd9f378d8",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '08e19a0d516d14e564359ee111ed2586']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--966ac631-30f5-491d-b53e-4e6cb25b5310",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'www.fabioluciani.com']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9f95ca8a-a892-4e3c-8b72-a92651a97495",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'casinolegit.info']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0111d187-16ff-4d16-b5b8-cae2d172306b",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'ntsgo.name']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fdbfdde4-7360-4b9b-b039-cddae4d9e60d",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'ntsgo-corp.com']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8e3d1f0d-2222-491a-9531-59802ff0d161",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'casinolegit.fun']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--aeab954a-ca7e-4a02-9beb-bb6692db61b9",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'casinosec.info']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--60f8ec34-0b75-48ac-9223-6bfd654a86d7",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'cristiantirira.com']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d033fb28-4c3e-4f97-a071-c9fb2c697769",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'desk-azureft.info']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d84512e4-ba2b-4894-b864-f6e6e4f49179",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'hesenorm.info']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e5502a1f-7c36-4f47-a229-0e42f5a60341",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'koramate.fun']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--42936e7e-ff94-48f1-946d-774a502dd558",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'grace2019.teamernst.net']",
+      "valid_from": "2026-08-06T18:21:37.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--fdf0c142-25d8-4a0f-9ea4-73f97daf5214",
+      "created": "2026-08-06T18:21:37.000Z",
+      "modified": "2026-08-06T18:21:37.000Z",
+      "name": "Larva-26005"
+    }
+  ]
+}

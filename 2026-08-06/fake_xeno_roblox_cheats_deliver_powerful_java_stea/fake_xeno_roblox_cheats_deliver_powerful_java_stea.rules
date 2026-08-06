@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Fake Xeno Roblox Cheats Deliver Powerful Java Stealer Through Discord and Forums  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Data Insufficient infrastructure domain"; dns.query; content:"ce953a0eb08246617b7f849486c4b26a7af37e9d2e8f0e13b3ae1bf0da8a70a.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
