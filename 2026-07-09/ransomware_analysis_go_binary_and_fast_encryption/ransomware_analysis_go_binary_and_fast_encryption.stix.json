@@ -1,79 +1,79 @@
 {
   "type": "bundle",
-  "id": "bundle--d00d37c2-e216-4d35-81da-b665895caf38",
+  "id": "bundle--1e5cf044-6cae-41eb-a18e-3d720ebb0ea4",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d1e95302-2956-4bd8-8d94-27a736722333",
-      "created": "2026-08-05T20:32:46.000Z",
-      "modified": "2026-08-05T20:32:46.000Z",
+      "id": "indicator--7376f208-15dd-4ca5-a7ae-04d4664af088",
+      "created": "2026-08-06T11:33:48.000Z",
+      "modified": "2026-08-06T11:33:48.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '3ab9575225e00a83a4ac2b534da5a710bdcf6eb72884944c437b5fbe5c5c9235']",
-      "valid_from": "2026-08-05T20:32:46.000Z"
+      "valid_from": "2026-08-06T11:33:48.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--079f2e8a-59f1-43c2-afe4-7b94966aadf0",
-      "created": "2026-08-05T20:32:46.000Z",
-      "modified": "2026-08-05T20:32:46.000Z",
+      "id": "indicator--06869c45-81eb-493e-8f7e-8992614d3a1e",
+      "created": "2026-08-06T11:33:48.000Z",
+      "modified": "2026-08-06T11:33:48.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = '4200b46a93c6ab059e2b34ce200c4a5b']",
-      "valid_from": "2026-08-05T20:32:46.000Z"
+      "valid_from": "2026-08-06T11:33:48.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--6faa8d87-544f-4af1-940b-07554906e9c0",
-      "created": "2026-08-05T20:32:46.000Z",
-      "modified": "2026-08-05T20:32:46.000Z",
+      "id": "indicator--cd8de928-0907-44d9-a44d-b92791952976",
+      "created": "2026-08-06T11:33:48.000Z",
+      "modified": "2026-08-06T11:33:48.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '42bcc743c71a9ea083c1c750a398110582796762']",
-      "valid_from": "2026-08-05T20:32:46.000Z"
+      "valid_from": "2026-08-06T11:33:48.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--1a17bdb4-2b19-4edb-b65c-6bcd8175e522",
-      "created": "2026-08-05T20:32:46.000Z",
-      "modified": "2026-08-05T20:32:46.000Z",
+      "id": "indicator--1ce42d77-2ae6-4704-a4b4-5f8773865a5d",
+      "created": "2026-08-06T11:33:48.000Z",
+      "modified": "2026-08-06T11:33:48.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = 'ead0d7a8ae0a6ffb7f0a5873fec4ff5e']",
-      "valid_from": "2026-08-05T20:32:46.000Z"
+      "valid_from": "2026-08-06T11:33:48.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8eb390c0-363a-4684-9a9d-7baea832b6ed",
-      "created": "2026-08-05T20:32:46.000Z",
-      "modified": "2026-08-05T20:32:46.000Z",
+      "id": "indicator--f407a4cd-de6c-427d-816b-840afba2b636",
+      "created": "2026-08-06T11:33:48.000Z",
+      "modified": "2026-08-06T11:33:48.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '39bd9c888d3e8110c127ba60cc727d2538bf7da2']",
-      "valid_from": "2026-08-05T20:32:46.000Z"
+      "valid_from": "2026-08-06T11:33:48.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--13560108-c579-46eb-b16f-6a1a0aaf962f",
-      "created": "2026-08-05T20:32:46.000Z",
-      "modified": "2026-08-05T20:32:46.000Z",
+      "id": "indicator--eda5fc5e-6de5-45a6-94ec-19e3d2264338",
+      "created": "2026-08-06T11:33:48.000Z",
+      "modified": "2026-08-06T11:33:48.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion']",
-      "valid_from": "2026-08-05T20:32:46.000Z"
+      "valid_from": "2026-08-06T11:33:48.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--aeb8cb92-c67f-466d-86d1-0f0af23edf50",
-      "created": "2026-08-05T20:32:46.000Z",
-      "modified": "2026-08-05T20:32:46.000Z",
+      "id": "threat-actor--78de04fc-d3c0-44c2-987c-eb9490bf66a8",
+      "created": "2026-08-06T11:33:48.000Z",
+      "modified": "2026-08-06T11:33:48.000Z",
       "name": "The Gentlemen"
     }
   ]

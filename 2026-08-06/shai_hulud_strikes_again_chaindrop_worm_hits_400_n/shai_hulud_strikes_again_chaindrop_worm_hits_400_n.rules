@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Shai-Hulud infrastructure domain"; dns.query; content:"npm-cache.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Shai-Hulud infrastructure domain"; dns.query; content:"awqhnjewqjkl.icu"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

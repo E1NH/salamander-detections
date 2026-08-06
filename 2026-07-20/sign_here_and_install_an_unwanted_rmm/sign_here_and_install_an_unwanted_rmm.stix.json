@@ -1,523 +1,523 @@
 {
   "type": "bundle",
-  "id": "bundle--cc861002-404f-404f-881c-3518a35707f4",
+  "id": "bundle--af37f059-c62a-444a-9a6a-44e15aab3270",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--0972c933-7751-4c0a-ac9b-f93f952358c5",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--d6b5e805-aa4a-4b02-b272-bbe84cf02e67",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = '43a151ada3024e8f9a08b040d744ca7c']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8808170f-6e08-4461-8919-1a21f01e9bc4",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--a947ab57-96eb-411f-aa27-d30962e177e9",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '238df253ffd9f45faf5f503210116abad556fbbfd27c7584e9ad040201acb553']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--6a917d03-3bde-42bd-95be-1badf36c149e",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--5203910c-c553-4d21-a8ef-8c918b261438",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'avanzaringenieriaysalud.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--00aa4aee-84d5-4790-8e12-3eb214fc898b",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--dd1f5557-8fdb-4c68-8f4a-80adb19f8a3d",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'qualproengineering.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--42125a90-9a2e-44bb-99d5-561332cac238",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--2215723a-3828-4053-9e29-fd4970dd11b9",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'canetworkcabling.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--fb7bea4b-9c36-4847-b5ab-42a78629dfc4",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--8c5456d1-a671-4b97-8c47-e623ea88fa11",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'nobaggagechallenge.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f5dc6f3c-3913-4b82-a8fa-839e8675cb5b",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--53e431fa-57d4-4a68-85fd-37ae7823510a",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'lakewoodexteriors.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--bf879d20-3f8a-4f7d-ba17-ab82819395c4",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--bb321834-edfa-4667-9bcc-a0bd43fcd94d",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'pharmahubbd.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9434e3a4-8e83-4827-aa7a-f93fb3962251",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--73af31fb-d4c0-42cd-a6c2-dedcb1631455",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'cpadllc.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--30c70913-8ff0-4282-98f3-7d64d5e71b9c",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--19a31617-56e1-4374-90cf-07f1cd628a76",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'right-end.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--b2d5d9f1-ef9c-48b2-adba-b5fd91e98b86",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--8f44ddb7-c183-43ec-901e-5d6a920b6e30",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'docusnok.dn3.co']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c6139b07-fb44-4c05-b5f4-4a4acc7cdb4a",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--f5826934-cbbd-4d04-91ae-24945213b27d",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'ursinhofestas.com.br']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7f521afe-aa4f-46eb-88a2-4066e5917589",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--620903b0-7b50-47ea-a870-2f7f7a149093",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'verbodoavivamento.org.br']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c3de4431-9f46-4c16-819a-d912b96b88e8",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--8ee4202a-2fda-4421-98d0-daa22a234e50",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'nivelasemos.us']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--1acbb404-327c-4d96-82c6-629ba6980061",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--272aaad5-abf9-42f3-8f6f-dff6f647275d",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'elaborar.us']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--b7ece06b-a80c-4da9-9df9-22a4c863036e",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--7d31ffb7-e94a-4421-90e8-4789e70262b0",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'mikelmak.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--10909b3f-6bc9-49c9-af96-93ab137c6bb0",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--84f5fc9e-2fc4-4fe7-ab05-e97f22c0ab71",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'curitibaredes.com.br']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--dae4abca-7510-4010-9c15-d1ab5f16890c",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--b8825cbe-ef66-4eda-9805-9e647a83d87d",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'mogibusinesscenter.com.br']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--325da23b-a62b-40d3-8026-fa6c527f3806",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--e3c0c38d-438c-4a70-ad14-ed0ab78556fa",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'floresdecasa.cl']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d8b5f8fe-b334-4c72-9085-f4a394705cbc",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--00244eb0-26d5-4909-b94a-5c026fb72ed4",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'insureongo.net']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--686f7e05-4abb-4aca-b4fa-bd0cfea1271e",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--e30097dd-a3c7-49b3-90ef-e6c01f451c58",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'cotgfoods.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9914aa5d-a819-4835-a4f2-a7a3d7f0e44a",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--a23af105-aee7-4c9e-906c-dafdc79c2b50",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'pehnavni.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c45ed57b-74e4-4f12-a621-1b450f1c6695",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--5bd281cc-1a80-4fba-a7ba-709a7251cd9c",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'dpcuments.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a5acc492-b023-4eed-a087-f414b233af94",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--f8a15369-207c-4601-adef-c11980000adf",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'quickwebsign.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--6b4e2a46-7aa0-499d-a8a8-85751884fb87",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--c8e5e895-b6ce-4a59-b2e8-e176dec5223e",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'docsignsecured.info']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--5e57ca51-d1d9-4284-86dd-81c1a392deef",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--d164906d-087b-494b-90aa-e59b84460e44",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'micasaprefabricadadehormigon.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f21fe2e5-4165-4638-9a16-9b5f55f39edb",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--9aed6542-1d0a-40c9-b44e-a65c91859ac1",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'workspaceviewer.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--95c5962b-e9a9-418e-b7a7-baea23c99862",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--48e40740-ca50-4da2-8791-349811fcecab",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'firdous.pro']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--b01591ef-dd4a-4edd-8f58-3f48ab32fc95",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--de1903d9-976d-4e3b-aa58-313d711a0565",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'l.xpcbofl.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--b47a993f-cd54-41d8-943a-fc60cdb07758",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--aea8d4b6-d96b-4d3d-9199-6e1924497be1",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'gmapsistemas.com.br']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--608ca42a-0267-44f6-a1cb-27016f49d5ab",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--0f555e51-5275-4d70-b3ea-77fdd1aead16",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'livesocially.co']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--bc234eb4-c611-4744-a79d-f0ff156041de",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--8e52982c-29bd-41d0-94ff-3ef480898e6f",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'bobsrvsc.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--214958af-8f55-428f-9f92-0a0563e91f5b",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--f11b7bb3-7756-4f5d-9ac2-bc24fcaabdf8",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'docusign.nzworldtravel.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--2768a30b-f899-4b32-b0fe-91a27df5693c",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--cda2d8c4-b706-4fcb-b80a-9f9ec696efc1",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'vsilex.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--961bd2dd-7dd4-4b4f-98df-557ee9cba44e",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--589a828a-9a01-4e61-bad6-d325d588885d",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'wilsongroup.in']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--82d6d14d-301d-431d-8d84-6e13e322000a",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--e02afb56-025a-4d26-a0d5-e840061f182c",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'workspacegateway.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--98340686-6c4c-46d1-a3ec-3da9672d48b9",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--29a847b8-7c21-4efb-acf2-981bc1b2618f",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'bolsasgotadagua.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--698f505a-3a13-446c-9caf-b031142b6fa7",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--f31be9ae-b7ec-4961-8b8c-5f92bacdb894",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'zoom.allwellhealthcare.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4bb0dcb0-eb22-46fb-9a1b-3efce133fd02",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--4787f071-5403-495b-af92-f00f9ed021b9",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'dardsaaz.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--b85534a8-9879-411a-b81d-91e782d31361",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--df307a89-1a2c-491f-8a37-90f22b0f0984",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'absolutecaninepa.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--dfa92aac-0c8d-42a4-a4ae-ea55cdce1838",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--f3f19c35-37e2-45f1-9e38-f0768d5c5439",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'workspaceviewers.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--49a8bd29-b394-4163-9893-54c63b9622b8",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--7acb4019-d36e-4c3d-967c-684932ee2d77",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'americanmovingco.org']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--17f75c65-b22d-43d4-9959-d04b567c3de5",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--961e66a8-9e97-4f40-b29c-76e08529a1ee",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'alphabetica.net']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--33154481-11ca-4fff-8a35-081aaf003239",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--cdbc303e-e759-49a5-9caa-339322c5aba6",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'workspacegatewayhub.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--14803fde-f9b2-4a00-95aa-bc8ed8f1f447",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--051f98cc-cebc-4739-bd69-fde3632abd3b",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'srs-it.ro']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8ffaea5c-b404-4fb2-bf20-1c007ff710c4",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--5a66866d-f96d-48c9-be32-2f8b51798d77",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'adoducvew.com']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--bed4901a-68df-4638-922e-e6956c098d0f",
-      "created": "2026-08-05T20:32:47.000Z",
-      "modified": "2026-08-05T20:32:47.000Z",
+      "id": "indicator--9e27e57f-7eb5-4920-bce7-c3379b87509f",
+      "created": "2026-08-06T11:33:50.000Z",
+      "modified": "2026-08-06T11:33:50.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'aims-intl.org']",
-      "valid_from": "2026-08-05T20:32:47.000Z"
+      "valid_from": "2026-08-06T11:33:50.000Z"
     }
   ]
 }
