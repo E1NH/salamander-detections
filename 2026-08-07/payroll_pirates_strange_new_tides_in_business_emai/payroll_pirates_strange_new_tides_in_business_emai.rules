@@ -1,0 +1,10 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Payroll Pirates: Strange New Tides in Business Email Compromise  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Storm-2755 infrastructure domain"; dns.query; content:"idp.kualabemo.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Storm-2755 infrastructure domain"; dns.query; content:"idp.keyreniao.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Storm-2755 infrastructure domain"; dns.query; content:"idp.korminel.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Storm-2755 infrastructure domain"; dns.query; content:"msauth.monlinelogicaline.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Storm-2755 infrastructure domain"; dns.query; content:"mslogin.milocaroline.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Storm-2755 infrastructure domain"; dns.query; content:"msonline.logicalineonline.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Storm-2755 infrastructure domain"; dns.query; content:"office.ofrecie.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
