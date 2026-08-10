@@ -1,0 +1,7 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Integrating AI into Attack Operations, From AI-Generated Decoy Documents to a Local LLM  (defensive signatures; not endorsements)
+
+alert ip any any -> 112.216.9.171 any (msg:"[Salamander CTI] Kimsuky infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 27.102.137.126 any (msg:"[Salamander CTI] Kimsuky infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 27.102.138.44 any (msg:"[Salamander CTI] Kimsuky infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 27.102.137.159 any (msg:"[Salamander CTI] Kimsuky infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
