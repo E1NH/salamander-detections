@@ -1,0 +1,9 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] DeadLock infrastructure domain"; dns.query; content:"deadlock.liveblog365.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DeadLock infrastructure domain"; dns.query; content:"polygon.meowrpc.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DeadLock infrastructure domain"; dns.query; content:"deadblogdbdu5wprek7wa2o4ce7rnt6u6ntqeud3hzjjcveosgpsqqqd.onion"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DeadLock infrastructure domain"; dns.query; content:"deadlockblog.medianewsonline.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DeadLock infrastructure domain"; dns.query; content:"deadlockblog.great-site.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] DeadLock infrastructure domain"; dns.query; content:"dlock.liveblog365.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
