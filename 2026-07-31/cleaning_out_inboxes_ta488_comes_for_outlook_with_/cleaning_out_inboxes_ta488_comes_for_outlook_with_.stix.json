@@ -1,57 +1,57 @@
 {
   "type": "bundle",
-  "id": "bundle--ad0ebd0a-d000-486f-87aa-f00ff99ee607",
+  "id": "bundle--dea9513f-ca7f-40a6-961c-095ed200ab55",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--25163501-e75c-4655-84cb-fa04eb115f22",
-      "created": "2026-08-11T10:46:46.000Z",
-      "modified": "2026-08-11T10:46:46.000Z",
+      "id": "indicator--2cf0d5a0-e55d-49d6-ab55-21b730999e97",
+      "created": "2026-08-11T20:24:53.000Z",
+      "modified": "2026-08-11T20:24:53.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '6897b649f29e54d8910459963bbf94ed5c7a4fe66a56bc5962540b226b8e48c4']",
-      "valid_from": "2026-08-11T10:46:46.000Z"
+      "valid_from": "2026-08-11T20:24:53.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4062db3b-8609-46bc-b6a2-2089f24c5f1e",
-      "created": "2026-08-11T10:46:46.000Z",
-      "modified": "2026-08-11T10:46:46.000Z",
+      "id": "indicator--c3f2bc59-70bf-4925-b3bb-2a88404a8479",
+      "created": "2026-08-11T20:24:53.000Z",
+      "modified": "2026-08-11T20:24:53.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'acocdn.com']",
-      "valid_from": "2026-08-11T10:46:46.000Z"
+      "valid_from": "2026-08-11T20:24:53.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--6c50485f-5a40-4b37-9d81-bb5fba6323cc",
-      "created": "2026-08-11T10:46:46.000Z",
-      "modified": "2026-08-11T10:46:46.000Z",
+      "id": "indicator--1f672910-e9e8-437e-911e-40dc183841f9",
+      "created": "2026-08-11T20:24:53.000Z",
+      "modified": "2026-08-11T20:24:53.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'dnsrecursive.eu']",
-      "valid_from": "2026-08-11T10:46:46.000Z"
+      "valid_from": "2026-08-11T20:24:53.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--33f54217-5db5-49b7-b0d0-26ac544dc2a6",
-      "created": "2026-08-11T10:46:46.000Z",
-      "modified": "2026-08-11T10:46:46.000Z",
+      "id": "indicator--e7c6a8df-3caf-4ab2-a882-8e7cee32d378",
+      "created": "2026-08-11T20:24:53.000Z",
+      "modified": "2026-08-11T20:24:53.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'tdndns.com']",
-      "valid_from": "2026-08-11T10:46:46.000Z"
+      "valid_from": "2026-08-11T20:24:53.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--f269899a-dc77-4d11-9ac6-729b6a4dbec5",
-      "created": "2026-08-11T10:46:46.000Z",
-      "modified": "2026-08-11T10:46:46.000Z",
+      "id": "threat-actor--ec6ed197-8059-4b3f-b0a4-ca4512b422cf",
+      "created": "2026-08-11T20:24:53.000Z",
+      "modified": "2026-08-11T20:24:53.000Z",
       "name": "TA488"
     }
   ]
