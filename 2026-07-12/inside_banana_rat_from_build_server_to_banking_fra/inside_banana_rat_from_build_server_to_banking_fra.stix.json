@@ -1,90 +1,90 @@
 {
   "type": "bundle",
-  "id": "bundle--7bcf1759-51ed-4025-8165-7de2e1e0a225",
+  "id": "bundle--03ed51bb-f8f3-4824-9b93-6cb7a1c94afc",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--382c92c6-6165-4012-926d-ff21f7d3d07c",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "indicator--b3c55db1-4529-4706-a1a8-c6d0a1f25975",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '38dfeb772afbd01c04eddda120d283acfb1147a6dc3d54ac62fe23ad06e39d8f']",
-      "valid_from": "2026-08-11T20:24:52.000Z"
+      "valid_from": "2026-08-12T13:26:22.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--16b1ccd0-e66c-43dd-8b16-500fde6b0e93",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "indicator--cc9a7011-e865-4b26-86ec-747934bf5a3a",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '4912b1134e69ade7266e8508eec33ccb2d80ad693f1dbc4f1f4344c6dfcf2ff1']",
-      "valid_from": "2026-08-11T20:24:52.000Z"
+      "valid_from": "2026-08-12T13:26:22.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--01afa04f-f07a-4a86-b73e-4550c754db60",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "indicator--ec1b8f0c-ac23-4bc7-8d14-fcf3872c9a80",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'd7545b6dacebdae27effb3c778c5e349027ec789c76ae4f777bd9ba56a70cdaa']",
-      "valid_from": "2026-08-11T20:24:52.000Z"
+      "valid_from": "2026-08-12T13:26:22.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c8311557-6ee0-48b1-8c41-bcf9634f775a",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "indicator--81df9d93-00b9-44fb-9a06-12e91d7388c3",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'ecdc8fade561a75d68235859ad8b1fe131db2c458b4894268e38e90ecab1c47f']",
-      "valid_from": "2026-08-11T20:24:52.000Z"
+      "valid_from": "2026-08-12T13:26:22.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a4710293-2bf5-4276-b52d-1e399edf18bc",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "indicator--b274a198-0ebf-43c3-ac13-fcf4765652b3",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'windowsk-cdn.com']",
-      "valid_from": "2026-08-11T20:24:52.000Z"
+      "valid_from": "2026-08-12T13:26:22.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4176156a-69f5-4137-a22e-dbcd364c6b7c",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "indicator--98cf6125-c608-478f-a9e6-c88d8d7650ea",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'c.windowsk-cdn.com']",
-      "valid_from": "2026-08-11T20:24:52.000Z"
+      "valid_from": "2026-08-12T13:26:22.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--5df5f42e-f3c0-454f-8a9f-89d7bc6c44bd",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "indicator--5572314f-806b-4904-8056-bff54eb3eaaf",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'convitemundial2026.com']",
-      "valid_from": "2026-08-11T20:24:52.000Z"
+      "valid_from": "2026-08-12T13:26:22.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--04e86a00-1ff7-40e5-a9d9-db54dde2c6b8",
-      "created": "2026-08-11T20:24:52.000Z",
-      "modified": "2026-08-11T20:24:52.000Z",
+      "id": "threat-actor--8fe6314f-36bd-481f-93d7-d2c1286a7465",
+      "created": "2026-08-12T13:26:22.000Z",
+      "modified": "2026-08-12T13:26:22.000Z",
       "name": "SHADOW-WATER-063"
     }
   ]

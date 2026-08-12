@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Shattering the Dream - When a Job Offer Becomes a Zero-Day Attack  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Lazarus infrastructure domain"; dns.query; content:"enveil.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Lazarus infrastructure domain"; dns.query; content:"envell.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Lazarus infrastructure domain"; dns.query; content:"uxtramine.org"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
