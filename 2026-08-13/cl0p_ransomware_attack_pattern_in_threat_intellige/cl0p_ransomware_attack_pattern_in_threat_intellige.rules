@@ -1,0 +1,8 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Cl0p Ransomware: Attack Pattern in Threat Intelligence  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Cl0p infrastructure domain"; dns.query; content:"pubstorm.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Cl0p infrastructure domain"; dns.query; content:"pubstorm.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 45.129.137.232 any (msg:"[Salamander CTI] Cl0p infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 92.118.36.233 any (msg:"[Salamander CTI] Cl0p infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 200.107.207.26 any (msg:"[Salamander CTI] Cl0p infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)

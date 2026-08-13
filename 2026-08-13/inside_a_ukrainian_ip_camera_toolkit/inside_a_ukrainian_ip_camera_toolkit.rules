@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Inside a Ukrainian IP Camera Toolkit  (defensive signatures; not endorsements)
+
+alert ip any any -> 89.208.97.165 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 213.165.63.49 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

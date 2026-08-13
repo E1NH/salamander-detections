@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Hits Safe Mode: Ransomware Rebooting Around EDR  (defensive signatures; not endorsements)
+
+alert ip any any -> 72.23.77.35 any (msg:"[Salamander CTI] Storm-1567 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)

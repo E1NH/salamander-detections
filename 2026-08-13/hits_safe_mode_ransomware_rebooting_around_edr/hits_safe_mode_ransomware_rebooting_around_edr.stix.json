@@ -1,0 +1,69 @@
+{
+  "type": "bundle",
+  "id": "bundle--df5ac3d2-d5fd-41e5-8cc2-4a27d1ae5faa",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f89d210b-7e0a-4b82-bac2-225ab805c166",
+      "created": "2026-08-13T11:39:19.000Z",
+      "modified": "2026-08-13T11:39:19.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = 'e2356c742c74cce5c6b6100162d0071a3f71e2fed2ed895c2011061a95b3299a']",
+      "valid_from": "2026-08-13T11:39:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--273bdc0c-0778-43d8-b5eb-967bae4d8331",
+      "created": "2026-08-13T11:39:19.000Z",
+      "modified": "2026-08-13T11:39:19.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '61a1ad1b6a028a1833c85e6544383999']",
+      "valid_from": "2026-08-13T11:39:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--49754afb-0727-4f6d-a316-cb4cf602fcb3",
+      "created": "2026-08-13T11:39:19.000Z",
+      "modified": "2026-08-13T11:39:19.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'bb6f97878c8cbf762d69717b3480658fe9157ff0']",
+      "valid_from": "2026-08-13T11:39:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6c0ae249-fafc-4bde-8764-8b02147daefe",
+      "created": "2026-08-13T11:39:19.000Z",
+      "modified": "2026-08-13T11:39:19.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '414b9985f46714f44dd1bd63860d2a48dcfababcfe5c712a4b4f575378127a56']",
+      "valid_from": "2026-08-13T11:39:19.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c8827403-bfac-4102-8b1a-15129a83b10d",
+      "created": "2026-08-13T11:39:19.000Z",
+      "modified": "2026-08-13T11:39:19.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '72.23.77.35']",
+      "valid_from": "2026-08-13T11:39:19.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--41dacb09-6c9a-4af3-a320-2e0723c47680",
+      "created": "2026-08-13T11:39:19.000Z",
+      "modified": "2026-08-13T11:39:19.000Z",
+      "name": "Storm-1567"
+    }
+  ]
+}
