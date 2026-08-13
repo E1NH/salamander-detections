@@ -1,0 +1,41 @@
+import "hash"
+// Salamander CTI  //  https://salacti.com
+// China-based hackers-for-hire group staging espionage attacks alongside a cryptocurrency fraud business
+
+rule Salamander_REF7707
+{
+  meta:
+    author = "Salamander CTI"
+    reference = "https://salacti.com"
+    actor = "REF7707"
+    malware = "Antino, ClientKing, PDF Viewer, XG-Web, Rekoobe, TinySHell"
+  condition:
+    hash.sha256(0, filesize) == "e6ff096a0562c0042b09d250bd60272ffcd8d72bd95c563842acf765a8dc8bcf" or
+    hash.sha256(0, filesize) == "01b5c6acb20e41799a0e96d9d1d6e1c44791883706b6285e874fcb15cc93b31a" or
+    hash.sha256(0, filesize) == "e809da86bd81463347fa7f922d3e088755a94a331889d32acb55aa8f57778a34" or
+    hash.sha256(0, filesize) == "f1ef5fe4c0cdcff13cc750c867728b89719f81437bdc49041edd1ae1f3edb4e8" or
+    hash.sha256(0, filesize) == "e2eb7703047b37b28dc34e6990205d758a2454b39bc655b460606745fadcb530" or
+    hash.sha256(0, filesize) == "e7e3b0bcd6798634adf8b49d305f3a7b7682e4b76db549682a183c5a186df4bb" or
+    hash.sha256(0, filesize) == "09ef7c736bccfafefc44d9910d499173b88063b73b221fc0dc9e9105107e5cff" or
+    hash.sha256(0, filesize) == "c11714f9fe2df1ca906585c81498cd77f5ec05b132aab73fa3a71d71d71e42cc" or
+    hash.sha256(0, filesize) == "b90a4e770869c28fd2140acb3ebdc50c113bb6f096b4bbdb9ac87c349c70e85e" or
+    hash.sha256(0, filesize) == "0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af578bd" or
+    hash.sha256(0, filesize) == "9b7df409c9a89f7536d3ba7b6d43fb6dbac618c8bb52615ba34cc971ad71bbf3" or
+    hash.sha256(0, filesize) == "153d077bcb58e00f5746573cba25f6b0788b809bf7b2a52fca0dc22d3bb5c94e" or
+    hash.sha256(0, filesize) == "297413a3e49e7353bf484a3eb15ec647de729211059df8fc68678d2378b6f561" or
+    hash.sha256(0, filesize) == "30f5122cc199b9c2e524503b343a9ee13a6f9773dcbc1df82c8b25ad20bca61d" or
+    hash.sha256(0, filesize) == "430f12970f8d58f12edccee9019a1aa90fa232c961449bdcc69c8d348a52cf55" or
+    hash.sha256(0, filesize) == "5ccdf53881f6c758af8d94fe67066af209b4bc0a3cb80b6a4c724fad86eb97ef" or
+    hash.sha256(0, filesize) == "5edb8d1023b8babf302871b68fa2b26d5ca57633f64951922998e8f1d6c8f7ac" or
+    hash.sha256(0, filesize) == "6d5fe6b6a34eeb470798b970b70f41a07ccf59b22f49ad9b3dfff7aa3256f3c2" or
+    hash.sha256(0, filesize) == "97c3a6be1711c5340d8806e4a54f7297f3f763d0aa4240b667f1e4e1f98f2aad" or
+    hash.sha256(0, filesize) == "ac3d453d3c9b0310ebb8a67cef35e2ac954d4acdf70cf497fe43a02c7a510813" or
+    hash.sha256(0, filesize) == "e782a6d4919f194d41e524ebd6df5894197043cf772fcf60455127b246f302c0" or
+    hash.sha256(0, filesize) == "ea893abf20b00d9bfc042a88fbf7b4bd42e68ce07c116d3e3b002e5b4a853877" or
+    hash.sha256(0, filesize) == "ed96e7f1085a50251eb8967ac53777272a617831084f0edad8a769c583a18869" or
+    hash.md5(0, filesize) == "abfa7742e315485a98a5fafd6dbfb68e" or
+    hash.md5(0, filesize) == "bf681f76dc3b6f497d8c58e705585ae0" or
+    hash.md5(0, filesize) == "cc648bee6b11ce487565ef67576eb1c6" or
+    hash.sha1(0, filesize) == "13425b473576aa1e58eee248e7c6a2e216889c58" or
+    hash.sha1(0, filesize) == "e3b2bba523c035177241f6f66168e60fa6abbaaf"
+}
