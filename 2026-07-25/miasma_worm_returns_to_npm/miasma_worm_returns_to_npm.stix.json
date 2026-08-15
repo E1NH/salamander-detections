@@ -1,28 +1,28 @@
 {
   "type": "bundle",
-  "id": "bundle--9127e92c-963a-4a1d-ad0f-b1bc294a3b43",
+  "id": "bundle--53ac0c0b-c4ae-4c4e-9e33-ff4096d13423",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--ae3b7187-24c2-4b3a-87ce-4979a67cf080",
-      "created": "2026-08-13T20:52:44.000Z",
-      "modified": "2026-08-13T20:52:44.000Z",
+      "id": "indicator--d813ce3d-8d0a-46c7-b5d4-1e1b202a9b8c",
+      "created": "2026-08-15T20:34:15.000Z",
+      "modified": "2026-08-15T20:34:15.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'obfuscator.io']",
-      "valid_from": "2026-08-13T20:52:44.000Z"
+      "valid_from": "2026-08-15T20:34:15.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e54fc7cd-34cf-4eef-a187-40306a6834cf",
-      "created": "2026-08-13T20:52:44.000Z",
-      "modified": "2026-08-13T20:52:44.000Z",
+      "id": "indicator--3e50f555-ad76-4868-8670-f397bc679ccc",
+      "created": "2026-08-15T20:34:15.000Z",
+      "modified": "2026-08-15T20:34:15.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '85.137.53.71']",
-      "valid_from": "2026-08-13T20:52:44.000Z"
+      "valid_from": "2026-08-15T20:34:15.000Z"
     }
   ]
 }

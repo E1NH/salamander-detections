@@ -1,0 +1,9 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# New Armored Likho tools target Telegram and eavesdropping  (defensive signatures; not endorsements)
+
+alert ip any any -> 213.252.244.123 any (msg:"[Salamander CTI] Armored Likho infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 159.198.37.74 any (msg:"[Salamander CTI] Armored Likho infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 23.26.237.250 any (msg:"[Salamander CTI] Armored Likho infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 23.27.24.30 any (msg:"[Salamander CTI] Armored Likho infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 145.223.69.143 any (msg:"[Salamander CTI] Armored Likho infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert ip any any -> 145.223.68.66 any (msg:"[Salamander CTI] Armored Likho infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)

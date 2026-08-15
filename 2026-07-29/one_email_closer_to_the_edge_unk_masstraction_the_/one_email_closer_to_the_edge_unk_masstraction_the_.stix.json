@@ -1,57 +1,57 @@
 {
   "type": "bundle",
-  "id": "bundle--e965367f-73c5-4cd0-994f-164123ca7480",
+  "id": "bundle--f150dd84-dd31-4b0d-a2fd-9c6c8e217672",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4639b661-6f3a-41ce-8251-6650eeca63c2",
-      "created": "2026-08-13T20:52:45.000Z",
-      "modified": "2026-08-13T20:52:45.000Z",
+      "id": "indicator--4a8e9a6f-d31d-44e2-a7ab-3b41bc50bea7",
+      "created": "2026-08-15T20:34:15.000Z",
+      "modified": "2026-08-15T20:34:15.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'a02f124c5ce4180bd130a62ee03262f399c33491de3aed36e0b15155ae4926c0']",
-      "valid_from": "2026-08-13T20:52:45.000Z"
+      "valid_from": "2026-08-15T20:34:15.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8b0a7586-011f-43ce-bf72-277535d9a2e7",
-      "created": "2026-08-13T20:52:45.000Z",
-      "modified": "2026-08-13T20:52:45.000Z",
+      "id": "indicator--428a7a4f-f423-4e18-8465-e2bf759189ac",
+      "created": "2026-08-15T20:34:15.000Z",
+      "modified": "2026-08-15T20:34:15.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '45.86.229.111']",
-      "valid_from": "2026-08-13T20:52:45.000Z"
+      "valid_from": "2026-08-15T20:34:15.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--3bb9ba20-a311-4ac2-8dce-6127c924b1ec",
-      "created": "2026-08-13T20:52:45.000Z",
-      "modified": "2026-08-13T20:52:45.000Z",
+      "id": "indicator--9f5c5a30-5ecc-4f82-a147-350314a6f395",
+      "created": "2026-08-15T20:34:15.000Z",
+      "modified": "2026-08-15T20:34:15.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '194.213.18.133']",
-      "valid_from": "2026-08-13T20:52:45.000Z"
+      "valid_from": "2026-08-15T20:34:15.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8a7d8d7e-c436-4c00-97be-69869b62840f",
-      "created": "2026-08-13T20:52:45.000Z",
-      "modified": "2026-08-13T20:52:45.000Z",
+      "id": "indicator--de80f29c-bdf4-4a7b-a42e-e7a9b78161eb",
+      "created": "2026-08-15T20:34:15.000Z",
+      "modified": "2026-08-15T20:34:15.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '45.150.109.151']",
-      "valid_from": "2026-08-13T20:52:45.000Z"
+      "valid_from": "2026-08-15T20:34:15.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--f60f6ce6-8186-41e1-8e66-56067610c425",
-      "created": "2026-08-13T20:52:45.000Z",
-      "modified": "2026-08-13T20:52:45.000Z",
+      "id": "threat-actor--0cb8606a-d421-441d-b126-8ceb3a8d4d0d",
+      "created": "2026-08-15T20:34:15.000Z",
+      "modified": "2026-08-15T20:34:15.000Z",
       "name": "UNK_MassTraction"
     }
   ]
