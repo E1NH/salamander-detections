@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies  (defensive signatures; not endorsements)
+
+alert ip any any -> 91.92.40.118 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
