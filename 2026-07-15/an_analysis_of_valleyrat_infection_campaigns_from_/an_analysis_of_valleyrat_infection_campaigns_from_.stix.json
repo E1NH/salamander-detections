@@ -1,68 +1,68 @@
 {
   "type": "bundle",
-  "id": "bundle--8c6971c6-e306-46d5-96e6-214feffc3137",
+  "id": "bundle--85c8be58-9751-4bc9-8c84-69de4a882805",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--5201f94a-41ee-4a9c-b6af-9800c88ed628",
-      "created": "2026-08-17T21:46:23.000Z",
-      "modified": "2026-08-17T21:46:23.000Z",
+      "id": "indicator--b0af02c2-9174-460a-b061-b121f2fd09dd",
+      "created": "2026-08-18T18:22:44.000Z",
+      "modified": "2026-08-18T18:22:44.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = 'e8be03f19ada1f5cec74b143e21d4939e781671d']",
-      "valid_from": "2026-08-17T21:46:23.000Z"
+      "valid_from": "2026-08-18T18:22:44.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--38778f43-c2d0-474b-be5a-5487531a9220",
-      "created": "2026-08-17T21:46:23.000Z",
-      "modified": "2026-08-17T21:46:23.000Z",
+      "id": "indicator--07717498-27ef-4caa-aa74-03086bc1531c",
+      "created": "2026-08-18T18:22:44.000Z",
+      "modified": "2026-08-18T18:22:44.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '65168c8dd93b16d3b77092fb70c0fa6fba4dffcc']",
-      "valid_from": "2026-08-17T21:46:23.000Z"
+      "valid_from": "2026-08-18T18:22:44.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4455763e-1e7b-4103-96f3-54e9ddbd4731",
-      "created": "2026-08-17T21:46:23.000Z",
-      "modified": "2026-08-17T21:46:23.000Z",
+      "id": "indicator--c4887649-7d77-4083-a048-a43161356382",
+      "created": "2026-08-18T18:22:44.000Z",
+      "modified": "2026-08-18T18:22:44.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = 'eca7ed7b699835fadc2c2997a2845864e02b8dfe']",
-      "valid_from": "2026-08-17T21:46:23.000Z"
+      "valid_from": "2026-08-18T18:22:44.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--88b1d1dc-b2e9-4e4a-97a5-d25bbb4bbd97",
-      "created": "2026-08-17T21:46:23.000Z",
-      "modified": "2026-08-17T21:46:23.000Z",
+      "id": "indicator--072bb28b-2620-401a-a6d0-770fff8ab16d",
+      "created": "2026-08-18T18:22:44.000Z",
+      "modified": "2026-08-18T18:22:44.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'frehf.oss-cn-hongkong.aliyuncs.com']",
-      "valid_from": "2026-08-17T21:46:23.000Z"
+      "valid_from": "2026-08-18T18:22:44.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--0fdad1ff-c056-422c-b911-cc9b2cbdac76",
-      "created": "2026-08-17T21:46:23.000Z",
-      "modified": "2026-08-17T21:46:23.000Z",
+      "id": "indicator--2f9daf14-c3fb-485b-82d0-14a0586e9b84",
+      "created": "2026-08-18T18:22:44.000Z",
+      "modified": "2026-08-18T18:22:44.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '154.92.16.22']",
-      "valid_from": "2026-08-17T21:46:23.000Z"
+      "valid_from": "2026-08-18T18:22:44.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--32890992-bb34-409f-9504-a32bc37ac640",
-      "created": "2026-08-17T21:46:23.000Z",
-      "modified": "2026-08-17T21:46:23.000Z",
+      "id": "threat-actor--ef5ac53d-a1fa-4150-b030-922166ea4053",
+      "created": "2026-08-18T18:22:44.000Z",
+      "modified": "2026-08-18T18:22:44.000Z",
       "name": "SilverFox"
     }
   ]
