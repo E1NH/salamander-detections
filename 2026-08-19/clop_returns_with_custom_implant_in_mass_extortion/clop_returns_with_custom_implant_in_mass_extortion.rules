@@ -1,0 +1,6 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Clop Returns with Custom Implant in Mass-Extortion Campaign  (defensive signatures; not endorsements)
+
+alert ip any any -> 78.128.113.10 any (msg:"[Salamander CTI] Clop infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 216.152.151.204 any (msg:"[Salamander CTI] Clop infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 185.227.83.236 any (msg:"[Salamander CTI] Clop infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)

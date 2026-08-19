@@ -1,0 +1,80 @@
+{
+  "type": "bundle",
+  "id": "bundle--7c2cd6ae-ac76-4f52-94b2-8729d2e702f9",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2bcab715-b0ff-4cd6-9ec5-da079c7ea6e3",
+      "created": "2026-08-19T14:40:49.000Z",
+      "modified": "2026-08-19T14:40:49.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '321e1fb01eb3462b48ff6ccdef132acc1182e3f7456548439f0d4ead12fd98bf']",
+      "valid_from": "2026-08-19T14:40:49.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bdaf7783-8e21-445b-9829-24d45f6d0c2b",
+      "created": "2026-08-19T14:40:49.000Z",
+      "modified": "2026-08-19T14:40:49.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '71a7b6b8fa5e21765aeb60d897009aa3']",
+      "valid_from": "2026-08-19T14:40:49.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7ec803ae-2dfd-4045-bb71-0aac14885b4c",
+      "created": "2026-08-19T14:40:49.000Z",
+      "modified": "2026-08-19T14:40:49.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '2989c71984b9a464c741e5d93171ca9c153baf5d']",
+      "valid_from": "2026-08-19T14:40:49.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2dfe8bd0-5506-4dbd-800a-d89da4632a54",
+      "created": "2026-08-19T14:40:49.000Z",
+      "modified": "2026-08-19T14:40:49.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '78.128.113.10']",
+      "valid_from": "2026-08-19T14:40:49.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--768cf86c-2d27-44c1-a124-a04c8b554dd2",
+      "created": "2026-08-19T14:40:49.000Z",
+      "modified": "2026-08-19T14:40:49.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '216.152.151.204']",
+      "valid_from": "2026-08-19T14:40:49.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b88d2ba3-2791-48dc-bf96-8985dbf30ab5",
+      "created": "2026-08-19T14:40:49.000Z",
+      "modified": "2026-08-19T14:40:49.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '185.227.83.236']",
+      "valid_from": "2026-08-19T14:40:49.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--515d67ee-96dd-47fa-98ae-6c82d7df8bae",
+      "created": "2026-08-19T14:40:49.000Z",
+      "modified": "2026-08-19T14:40:49.000Z",
+      "name": "Clop"
+    }
+  ]
+}
