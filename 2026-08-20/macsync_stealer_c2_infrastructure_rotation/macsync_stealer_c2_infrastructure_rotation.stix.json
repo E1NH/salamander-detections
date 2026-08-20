@@ -1,0 +1,223 @@
+{
+  "type": "bundle",
+  "id": "bundle--04b32a0c-ea0b-43ae-8f01-2ae11980b3dc",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--eaf3b9ed-f175-4baf-a58a-2acf4cfe1e06",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '5190ef1733183a0dc63fb623357f56d6']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b4ed3890-1294-4dbb-a7be-d7ff355cb4b7",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '277acd8e241c1341852ebcd401203ecc']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e9d765ac-fd26-40f8-8e88-7c3f047ab855",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '7d28507870e94b809f25883dc9dae838549ddfac']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b093be5c-ad13-4c9d-b8a7-b736e57c5360",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '2728a7d444cd65550f652a8c66eaced0fe6d0389161f86393ab73da8f446a362']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ad1841cf-0bfa-4a58-b3c6-d0a786a16a2f",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "Malicious file (SHA-256)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-256' = '7980485fb1e0b1b1d6307a92b5750c7055bc53b662005cbaa662ac634984363d']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2d5a4d5c-91c9-4d6f-92f2-74d1027dc867",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'tintingsd.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6b8f11d5-279e-4140-9929-8062069e04cf",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'houstongaragedoorinstallers.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--eb7c60c8-d2a7-4257-9bb4-829494e5f121",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'pressureulcerlawyer.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2f16e280-8cc3-439c-9d4f-c8293b00a861",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'mansfieldpediatrics.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cf086e5c-ebeb-4d23-bda5-d72644514c7a",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'helxiagent.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--75a41f03-9895-4ddb-ab90-07e2402e4db9",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'lumenagnet.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--310d1ea2-5483-4bf5-ad0b-4a4d0ba663de",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'blzaeagent.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--66e210c8-1ea6-402a-8f7f-faa985bdf008",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'nailscanai.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5b9c6688-4f7b-4eb8-9c15-d232182c2f8d",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'glowmedaesthetics.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f38775f0-0d97-4c10-a38a-b6a89f7a9328",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'wechatstablecoin.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--354c970c-8a00-4cdf-93b8-768de4526230",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'numericagent.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a0b1dac1-d464-4ecc-9e47-6d726733f323",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'jacksonvillemma.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7a4a4407-eab9-4c74-b83d-7e6fd4a3db42",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'lalandscapelighting.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d665c8ea-3848-49b6-88d2-345afd357466",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'harveylewisinsuranceagency.com']",
+      "valid_from": "2026-08-20T11:11:12.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--c0d44a1a-c5f6-441b-9d69-a1dd4f10fe49",
+      "created": "2026-08-20T11:11:12.000Z",
+      "modified": "2026-08-20T11:11:12.000Z",
+      "name": "mentalpositive"
+    }
+  ]
+}
