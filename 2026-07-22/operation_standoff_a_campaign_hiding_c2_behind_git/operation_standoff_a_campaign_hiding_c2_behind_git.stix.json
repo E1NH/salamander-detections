@@ -1,497 +1,497 @@
 {
   "type": "bundle",
-  "id": "bundle--ba16e3ff-62bb-4cb6-9af1-936ec1efb0eb",
+  "id": "bundle--0ba36047-5aab-4ad5-a325-52d9d5439ce1",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--3c3da5db-cc26-4260-9654-922a335de3b4",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--57f937d5-89a0-46ae-881c-a6e958e37a0e",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = 'e77221d7a4b47b9107ba1b61a551ca89']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--68b10217-aa3d-4172-843b-4731cbd06237",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--26dfd9a8-ab04-4755-bb16-f01c4cdcc83d",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '95c5ae3fec0d900e4634e11b3ad81971e78e2b31']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--112c155b-2830-48b9-ac99-be4ff00aa9a6",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--3ab5a3eb-894e-4cca-8495-10b9d7ce046d",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '22ebb950592ccc987fd1dab9ddcd34c4fc519975dc1b82e4a793dc038d2d8e41']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--cabf5bab-acdc-4fc2-bf93-774bad9f610c",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--12236f75-2b1b-454c-9136-75a88a0be5ed",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'listincode.com']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--6f32f492-b89f-4ea6-9cd3-97d7830a2903",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--8ab8e4be-603d-4255-a34f-158292af8d18",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'www.listincode.com']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--81770dae-fa1a-497f-90c3-ca320602ae03",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--7a21125c-c93b-4106-90a6-3a386b481188",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'wfsdragon.ru']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e8df88e3-3789-42a8-a8ac-cce64ac9a6f7",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--cbd36a1d-76d6-4f66-b8d0-26b8fc9ebfc7",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'topniemannpickshop.cc']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--dffc7ab6-6acc-4e97-a46b-6728fa3791c4",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--e42c7a06-4951-48bf-b429-5d5944c1d9ac",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'all-mobile-pa1ments.com.mx']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7c266e7d-386e-4a99-8d07-f2611bdfdb5c",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--4f46cffc-8dbd-4561-881e-33c6481ed2d7",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'buy-fantasy-gxmes.com.sg']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--056fa013-593a-4790-be7c-b643c922d7de",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--3d291d8f-947d-462b-90c0-86c03eaf168e",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'buy-fantasy-football.com.sg']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--12e994c9-4872-4282-b92c-c5f5ed54258f",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--d1660711-ac26-4b99-8385-452cad71da25",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'new-androidapps.me']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--3957f3cb-8bd3-4512-b04f-b4545892c5e2",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--fac01432-c42d-44ca-87ab-d8a93296171b",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'rcacademy.at']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--99c0fbf2-7ac7-444e-8d4b-c3a357cede9d",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--f2454ef7-9535-41c9-9036-e2a690a0d4e3",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'cloudjah.com']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--1f312998-63cb-4ce5-80d8-480633c59fd0",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--432752b4-359a-4764-883f-c827e432817a",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'www.wgqpw.com']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9f67bc35-a134-440d-91e8-8083a3daf371",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--1fa5194c-e4ff-440e-b52a-8f31e957fb26",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'server5.trumops.com']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9a1b9209-b8dd-4079-ab6e-bdc280d908ed",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--9974f0ac-6e35-4945-8554-e84d18acbfcd",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'bull-drops.online']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8bfdd301-ac70-4884-961a-fb8eb15376ea",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--f6de132a-ebfb-4814-b823-dab9028d28a1",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'bull-drops.ru']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8313c9bc-4473-4783-82ed-fad1e2055209",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--71fbae6c-6b63-457a-a524-26af83b50200",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'bulldrops.online']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4cf6b569-7d9b-4191-b1fe-c5d78c60670b",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--fca254b6-d964-4528-bbe1-832d437ebc7d",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'bulldrops.ru']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--51eb8cf0-4fc6-416f-b07e-6aeddb63e149",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--e37725f9-0710-4154-b7fc-bbb76c79de05",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '188.225.72.157']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--02e32439-4ebd-4a2e-9add-c07cae6e5427",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--2656b113-e663-4dea-83b6-05dd994aad97",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '185.215.113.35']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f3d3b40e-2d5c-4e02-8a52-9da9931a67c1",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--c10a058c-d477-4e16-ba22-b9eb32bfc120",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '212.192.241.62']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--cb73e97b-3218-4bae-86f9-a5870afb1735",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--d8d9d044-cc6b-4aa8-b1b9-442d5dd3c2fd",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '212.193.30.29']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--34a9b66e-3bcd-461a-9a08-f4d4b3e736ca",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--262d7940-7105-4e25-9d2f-69c9dbd00c1f",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '185.225.19.18']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9124649a-ead8-4871-806b-b9d0b75fd75c",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--ebd9a92d-8cb0-4e53-a35e-99d639a53fba",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '185.215.113.44']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d1eb6096-35f6-4393-ac30-2e0c1b96d638",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--5d4d8b1c-9cf5-4e0a-bc2e-efb537805e1f",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '212.193.30.45']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f95a2c98-07a3-484b-8173-cf8720c981b8",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--cb429b38-3f54-4228-b86c-b2008f1f3e76",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '147.45.183.198']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--be093a17-8acc-45b5-8d6c-b3468e7e7208",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--8f59cfb2-b2b5-4570-b2f0-e54e65b7685c",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '147.45.237.23']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a7166a19-4202-4b9d-9a38-376551e4485a",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--00bbca2d-6900-4be1-a258-9e5bfa584dc1",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '185.247.185.85']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d12cef3d-df3e-47e4-9945-cd4877a0428e",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--c68a3a7b-2f7f-468f-896e-f3bc262f4b37",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '188.225.39.252']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a2d1b10c-caf3-4a61-8ea8-ff6e2de4248b",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--db77ebb4-e2f7-4c82-b19b-275b4b76f254",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '188.225.82.125']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--0363b730-d08a-4899-b857-81ef69bfeb0a",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--f232ab60-f66c-4235-96a2-7db19e23bad4",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '194.87.131.30']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d649c8b5-d56a-44d7-991e-6de5b6d787ef",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--585d1aeb-3345-4018-bf0f-b183c12dd7ff",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '194.87.56.156']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4ceb9177-456e-41b1-b839-d2bea472ee1a",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--187b023f-854d-44b8-a1c0-b1b0e2deed66",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '195.133.73.225']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--2ffabde8-5c8b-4fc2-b5d0-0bf880045220",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--32ce5384-00fc-4319-b7fc-5dcbe5195142",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '212.60.21.249']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--11614bc5-60d1-4e50-9f2c-0b21bdf780e5",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--892d72f9-628f-419b-82e8-db3c355fff98",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '217.198.13.211']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--2847791a-9472-4766-9ca1-aa4fa5c9befa",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--4db786be-1ca8-4fd4-8455-f4fe8d8e514e",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '37.252.21.227']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--63df60ba-b6b8-4d5e-823f-1664a652d6f7",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--724dfc27-00c3-4660-994b-1a063cf18324",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '45.139.78.67']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7cf8d1ba-f6ef-46b1-8ba1-106355d576d8",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--8909aacd-baf0-43af-8539-cb267f8e1b26",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '46.149.70.18']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--becda9ae-044b-484f-851e-0ad6cebba24b",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--41553582-b15a-4ef2-8892-fe509a222b8b",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '5.129.196.85']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c358a92a-2574-4ef8-a0fa-3964133f022f",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--95250262-aa7d-4d8e-9fc8-8a8118a97329",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '89.223.71.207']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e51ea9af-268c-4cec-9555-941858708179",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--3d42cd8a-cc6d-45ee-8450-7d17b769f15f",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '90.156.224.57']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--81504016-051a-4364-96a5-0aa640376186",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--a1d915e7-7b5a-43ad-892c-dcdc51403823",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '92.51.22.34']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--0160d6ad-761d-4519-ae19-5ad81fdd8386",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "indicator--3ecd8bfa-d825-4d57-8e17-39e95e023092",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '93.183.80.126']",
-      "valid_from": "2026-08-21T16:34:16.000Z"
+      "valid_from": "2026-08-23T14:39:59.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--232d69f5-eca4-4a3e-8181-7ac819994cdc",
-      "created": "2026-08-21T16:34:16.000Z",
-      "modified": "2026-08-21T16:34:16.000Z",
+      "id": "threat-actor--a7d83aac-beec-4acc-a4e4-024c52cc52c1",
+      "created": "2026-08-23T14:39:59.000Z",
+      "modified": "2026-08-23T14:39:59.000Z",
       "name": "Operation STANDOFF"
     }
   ]
