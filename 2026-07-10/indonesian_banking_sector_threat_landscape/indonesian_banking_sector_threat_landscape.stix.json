@@ -1,376 +1,376 @@
 {
   "type": "bundle",
-  "id": "bundle--b4e41775-dbc1-45f7-9f9c-9488c45ccc47",
+  "id": "bundle--f34757b9-4812-4f2c-a921-3ba597b103c9",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--0abc4492-f5c2-4d3a-a733-db0291aea17e",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--0e0494ca-2c58-44e9-8d73-37e9c2a310e1",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '4741c2884d1ca3a40dadd3f3f61cb95a59b11f99a0f980dbadc663b85eb77a2a']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--3a372df5-197a-4c0f-9cdc-8967c50dee1f",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--647ca707-5703-482b-9cb2-5257d0380979",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '09b0bc41f8838949d5a1c442ee2e2ec9ff892fdc']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--39a9963c-17dc-4bde-af7c-8f7f9b6863b8",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--1947bace-33fc-431f-a0d7-998982b1ae87",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = 'a12db7b72879ac0f46079efd8c67e8ca0621f73b']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--8dfe8db3-27e4-44d0-8d6c-bf4bc99d1f32",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--5478c1c7-65ed-4ea4-afec-35ccc46bd6b3",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = 'cc6fd90785a528883b0203138348df8bad69bb1a']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c5f83963-9c54-4239-8ca0-d47873d39ba8",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--e641acd1-e365-45de-a999-ab233e68e8e9",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = 'f0b182423107a04cf5f09b8559e656242a4fcc89']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4aa4589a-2d7b-461a-8b84-ad0cc4228703",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--6505f0b1-a04f-480d-8763-c322002f99bb",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'emezonhe.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--dc8b3a7a-bbc4-4bda-a410-aa58b36aca86",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--95d40436-c962-4d18-9627-5d2ef0b1478e",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'skycloudcenter.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--0ac84183-5962-41c8-b3e3-b1e358ee1e8f",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--f170c9b9-4e80-474b-9187-5763981f5ae3",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'dog3rj.tech']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--2484a047-c8fc-4a2e-bd84-a78c426cf1f4",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--2c09beb3-54f3-4701-8081-6028dee17fdd",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'q74vn.live']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a48f2cb4-f40e-4fd3-8b91-5b278a1f37d2",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--49bcc429-f064-41f8-8f0c-d7c483e758fb",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abwxjp5.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--80c55c64-6170-4aba-8d89-808b40ad5790",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--cdfb4195-16b5-4636-8819-926715d85819",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'servgate.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--508b5217-b58c-4791-a6ac-4469bc04a1f8",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--50e5c781-94d5-46b2-9a7f-e6d68d93a567",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'pr0fu5a.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c0f3461f-d518-4760-9a26-66da144c07d2",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--998092c2-7dcf-481f-914d-71c5f8966bc8",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'zamstats.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--914e54af-5f19-4ea2-894b-f85bb237659b",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--b3eef32e-5e08-4059-b5f1-8f260f61052c",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'pickupweb.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c2a51712-5e84-46b7-8758-c628e19638fc",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--6903028f-feec-40ce-bab9-a2cf47cfd7e2",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'zrheblirsy.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9716cd3f-59d0-4c98-a367-183eb235d70c",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--09eac874-d90e-4060-a94b-c15d0aa7597b",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'msonline.help']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--5f786987-934f-4757-82b0-1966398cf47c",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--b1fb82e4-fd3c-462c-b774-d29ca6153ffe",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'gouvn.me']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--9ca452cf-6966-4cc7-9e09-624aa3ca7830",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--fe979648-9123-4e9e-b2fe-b7d15772eefe",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.doublemobile.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f713c6e6-6ed9-45a3-a497-885647fb284c",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--86a5c17c-a1ea-4661-8f2d-8ad86ef246fb",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'editor.gleeze.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--2515c98b-c00f-4e17-8283-55f16ff5c171",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--89246b26-1b79-417d-973a-2006631e8cd3",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'www.cosmosmusic.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7e2de319-a2a6-45db-8f7a-9596f45f92c7",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--b5ceb28b-f89e-4d00-8122-08362b8eb9fa",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'mcagov.cc']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e999d44a-d552-4362-aa97-d892a084c7d5",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--79126d9b-0182-4b45-ad29-30299c8591f1",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'roldco.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--2a310ac0-bc26-40b9-90f8-91e8e7135019",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--e0832cb8-f5ac-440b-b4f4-649473d677e9",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.3mkorealtd.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--09ee86ee-17c4-4685-9c87-dbbfdb74fd78",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--a8d89609-7e68-4687-b83c-36ea4e70a20e",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.fetish-friends.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d604ee88-465b-44e1-bc0e-baaa7abbc547",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--26811ffe-cb89-4761-80d3-b6375b9370c8",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.haijing88.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--6cc76237-9919-42c0-b829-ff7515030d6e",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--aa05d504-a2d1-40b3-b566-937a7bb8b654",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.ilptour.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--6099a081-31c1-4041-91fe-f77ff86348dc",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--66a4d0a7-8856-45f7-ba04-be89011e9e6c",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.petitechanson.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--4b554a2c-6ead-433e-9450-6689748ce431",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--d05d0b0d-10dd-4bcc-85d9-db9c2c6bbc15",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.sudsmama.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--ff847286-7429-46ff-9412-c0ba0f51268a",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--b59dfe7b-6dc8-493b-b789-41999c88ba41",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'abc.woopami.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--54755e53-598d-4081-bb47-7409803209a6",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--9b3117fb-1718-4cee-9c29-ed88c46a8f7a",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'vnc.kcii2.com']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--137dbecd-5ec7-40b6-9788-3051c13d7f72",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--60d45e14-2dfb-4d18-8820-3a149a5fd045",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'gpsfinance.co.id']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--36c452e9-213b-431b-82f3-ceaaed535a1f",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--75576732-d72c-41d9-ba60-5b8a88c3e6b2",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '188.127.251.171']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--86bfdf06-a4c5-452a-8619-03be0f03fa68",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "indicator--db6c15dc-97ff-4f34-9e5a-560be9a2d8af",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '59.110.7.32']",
-      "valid_from": "2026-08-25T13:55:18.000Z"
+      "valid_from": "2026-08-26T10:57:05.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--abad50f8-86a5-476b-96b6-6b72149b5cd3",
-      "created": "2026-08-25T13:55:18.000Z",
-      "modified": "2026-08-25T13:55:18.000Z",
+      "id": "threat-actor--e89bca3b-f7a8-4666-8ba3-1065baba066c",
+      "created": "2026-08-26T10:57:05.000Z",
+      "modified": "2026-08-26T10:57:05.000Z",
       "name": "SilverFox, Mustang Panda, Amaranth-Dragon, Lotus Blossom, Shadow Campaigns, TripleX, ICARUS, The Gen"
     }
   ]
