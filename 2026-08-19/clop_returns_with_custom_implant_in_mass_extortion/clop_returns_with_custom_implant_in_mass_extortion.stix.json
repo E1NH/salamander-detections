@@ -1,79 +1,79 @@
 {
   "type": "bundle",
-  "id": "bundle--6bc071e9-8882-4a4d-bc96-4abf4de5f53c",
+  "id": "bundle--50a7ac1a-aa84-4ad1-8ea9-520a0a5c6d79",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--642a91f4-0e04-4b0f-9ac2-52d1c57e38c6",
-      "created": "2026-08-26T10:57:06.000Z",
-      "modified": "2026-08-26T10:57:06.000Z",
+      "id": "indicator--5032711d-5225-475f-a738-b9c9961f4a6d",
+      "created": "2026-08-27T17:17:31.000Z",
+      "modified": "2026-08-27T17:17:31.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '321e1fb01eb3462b48ff6ccdef132acc1182e3f7456548439f0d4ead12fd98bf']",
-      "valid_from": "2026-08-26T10:57:06.000Z"
+      "valid_from": "2026-08-27T17:17:31.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--ab93d9e2-6697-4952-b0d8-f45cfa6560d3",
-      "created": "2026-08-26T10:57:06.000Z",
-      "modified": "2026-08-26T10:57:06.000Z",
+      "id": "indicator--3715fe8c-8604-48de-8f62-e2b4a737baac",
+      "created": "2026-08-27T17:17:31.000Z",
+      "modified": "2026-08-27T17:17:31.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = '71a7b6b8fa5e21765aeb60d897009aa3']",
-      "valid_from": "2026-08-26T10:57:06.000Z"
+      "valid_from": "2026-08-27T17:17:31.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--5b911d4f-ab20-43f9-82c1-33daa84aadda",
-      "created": "2026-08-26T10:57:06.000Z",
-      "modified": "2026-08-26T10:57:06.000Z",
+      "id": "indicator--938aa164-94a2-495e-9dc2-ead6af854cbb",
+      "created": "2026-08-27T17:17:31.000Z",
+      "modified": "2026-08-27T17:17:31.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '2989c71984b9a464c741e5d93171ca9c153baf5d']",
-      "valid_from": "2026-08-26T10:57:06.000Z"
+      "valid_from": "2026-08-27T17:17:31.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--b65662e9-450e-44ce-8e27-284282102d83",
-      "created": "2026-08-26T10:57:06.000Z",
-      "modified": "2026-08-26T10:57:06.000Z",
+      "id": "indicator--73c11942-565f-41ac-8cbf-a9b01b10f8f6",
+      "created": "2026-08-27T17:17:31.000Z",
+      "modified": "2026-08-27T17:17:31.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '78.128.113.10']",
-      "valid_from": "2026-08-26T10:57:06.000Z"
+      "valid_from": "2026-08-27T17:17:31.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--5067a5b5-9ae5-4141-adfa-29a93f0c76e2",
-      "created": "2026-08-26T10:57:06.000Z",
-      "modified": "2026-08-26T10:57:06.000Z",
+      "id": "indicator--6af6e99a-7382-4258-86d2-a60aa09a7067",
+      "created": "2026-08-27T17:17:31.000Z",
+      "modified": "2026-08-27T17:17:31.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '216.152.151.204']",
-      "valid_from": "2026-08-26T10:57:06.000Z"
+      "valid_from": "2026-08-27T17:17:31.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--368466c7-28bb-49fb-b551-ba12d50750a8",
-      "created": "2026-08-26T10:57:06.000Z",
-      "modified": "2026-08-26T10:57:06.000Z",
+      "id": "indicator--d7c174c3-bd32-47f6-a097-fba0f639b3bd",
+      "created": "2026-08-27T17:17:31.000Z",
+      "modified": "2026-08-27T17:17:31.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '185.227.83.236']",
-      "valid_from": "2026-08-26T10:57:06.000Z"
+      "valid_from": "2026-08-27T17:17:31.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--8c9161d0-0a0a-498f-8f61-b0c793bb2e68",
-      "created": "2026-08-26T10:57:06.000Z",
-      "modified": "2026-08-26T10:57:06.000Z",
+      "id": "threat-actor--18f3bd50-b214-4496-90e8-da649bc31fea",
+      "created": "2026-08-27T17:17:31.000Z",
+      "modified": "2026-08-27T17:17:31.000Z",
       "name": "Clop"
     }
   ]
