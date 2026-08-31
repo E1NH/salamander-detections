@@ -1,0 +1,8 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Attacks on AI Infrastructure: 90-Day Honeypot Telemetry  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Qilin infrastructure domain"; dns.query; content:"crazyeltonproxy.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Qilin infrastructure domain"; dns.query; content:"1710.rwlp.be"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 185.84.98.85 any (msg:"[Salamander CTI] Qilin infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 94.26.106.29 any (msg:"[Salamander CTI] Qilin infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 185.62.1.8 any (msg:"[Salamander CTI] Qilin infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)

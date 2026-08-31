@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Caught in 4K: The Aurora Files  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Aurora infrastructure domain"; dns.query; content:"ijexszhscln27nl263lmcd7tx3jttkhm4wjhd4e3y6r4csdbfyeprvid.onion"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
