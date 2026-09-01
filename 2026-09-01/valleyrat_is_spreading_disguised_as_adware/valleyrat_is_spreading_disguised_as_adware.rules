@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# ValleyRAT is spreading disguised as adware  (defensive signatures; not endorsements)
+
+alert ip any any -> 103.45.66.18 any (msg:"[Salamander CTI] Void Arachne infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 192.253.225.173 any (msg:"[Salamander CTI] Void Arachne infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

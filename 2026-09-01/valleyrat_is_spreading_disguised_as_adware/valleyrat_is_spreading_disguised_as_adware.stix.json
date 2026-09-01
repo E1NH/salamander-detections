@@ -1,0 +1,69 @@
+{
+  "type": "bundle",
+  "id": "bundle--dab52197-4079-408e-bfe3-09601d270d5e",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c7602728-2ba4-4000-b29b-708575a015cd",
+      "created": "2026-09-01T13:16:39.000Z",
+      "modified": "2026-09-01T13:16:39.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = 'c24e99f9437feacaa63766a3cde3fe3d']",
+      "valid_from": "2026-09-01T13:16:39.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0bc75a07-4b62-4b43-b38b-e420431d144b",
+      "created": "2026-09-01T13:16:39.000Z",
+      "modified": "2026-09-01T13:16:39.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '07ddbbe2c71c45577a7a4fbcdba0df91']",
+      "valid_from": "2026-09-01T13:16:39.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--20416de9-a7ae-44de-9f0d-c8eb672d54ff",
+      "created": "2026-09-01T13:16:39.000Z",
+      "modified": "2026-09-01T13:16:39.000Z",
+      "name": "Malicious file (MD5)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'MD5' = '8a626d844943da3456b044f38deae3a2']",
+      "valid_from": "2026-09-01T13:16:39.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3511a6f6-7703-4dc1-b086-b9c06e6be619",
+      "created": "2026-09-01T13:16:39.000Z",
+      "modified": "2026-09-01T13:16:39.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '103.45.66.18']",
+      "valid_from": "2026-09-01T13:16:39.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ffefde59-6f51-48f0-a290-1b31268b1f11",
+      "created": "2026-09-01T13:16:39.000Z",
+      "modified": "2026-09-01T13:16:39.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '192.253.225.173']",
+      "valid_from": "2026-09-01T13:16:39.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--87fd1daa-a90b-435e-8cb6-82f716828f8a",
+      "created": "2026-09-01T13:16:39.000Z",
+      "modified": "2026-09-01T13:16:39.000Z",
+      "name": "Void Arachne"
+    }
+  ]
+}

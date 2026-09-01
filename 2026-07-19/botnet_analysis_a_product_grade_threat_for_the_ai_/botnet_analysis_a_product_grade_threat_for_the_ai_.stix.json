@@ -1,61 +1,61 @@
 {
   "type": "bundle",
-  "id": "bundle--70149594-a80d-4194-bc0c-2b78a334cee3",
+  "id": "bundle--f823a8eb-c2de-4c93-be66-748eda621d3a",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--bc4a5307-33b9-4658-98fe-fc427e14e4a9",
-      "created": "2026-08-31T12:39:47.000Z",
-      "modified": "2026-08-31T12:39:47.000Z",
+      "id": "indicator--9d9fbaa7-a73c-47f5-9758-0120c772bbdc",
+      "created": "2026-09-01T13:16:38.000Z",
+      "modified": "2026-09-01T13:16:38.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = 'ca024acead8f54cfe5b07ac4bdf7fcea']",
-      "valid_from": "2026-08-31T12:39:47.000Z"
+      "valid_from": "2026-09-01T13:16:38.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--992db0a7-1bd1-4078-ab39-ef4632e4fdde",
-      "created": "2026-08-31T12:39:47.000Z",
-      "modified": "2026-08-31T12:39:47.000Z",
+      "id": "indicator--355ec986-620e-4cc4-afc9-d01f1709f14c",
+      "created": "2026-09-01T13:16:38.000Z",
+      "modified": "2026-09-01T13:16:38.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = '31c69b3e12936abca770d430066f379ec1d997ec']",
-      "valid_from": "2026-08-31T12:39:47.000Z"
+      "valid_from": "2026-09-01T13:16:38.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--88bfb1fe-bda3-4a4c-805c-1392a4398176",
-      "created": "2026-08-31T12:39:47.000Z",
-      "modified": "2026-08-31T12:39:47.000Z",
+      "id": "indicator--16bcb3b8-cfdb-4568-b918-5e6ed9d87cc6",
+      "created": "2026-09-01T13:16:38.000Z",
+      "modified": "2026-09-01T13:16:38.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'fc4109f5dd1d30b65dd60e57dc639ac1d313bfa5241e36e61fbc4aabc1cda482']",
-      "valid_from": "2026-08-31T12:39:47.000Z"
+      "valid_from": "2026-09-01T13:16:38.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--31fa8035-fb06-49cb-b58e-14487ea3d580",
-      "created": "2026-08-31T12:39:47.000Z",
-      "modified": "2026-08-31T12:39:47.000Z",
+      "id": "indicator--e0a1e764-48fd-4e96-9033-122eeedd022d",
+      "created": "2026-09-01T13:16:38.000Z",
+      "modified": "2026-09-01T13:16:38.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'cdnorigin.net']",
-      "valid_from": "2026-08-31T12:39:47.000Z"
+      "valid_from": "2026-09-01T13:16:38.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--d8e2d72b-40b4-409c-a377-6a0d4439ad81",
-      "created": "2026-08-31T12:39:47.000Z",
-      "modified": "2026-08-31T12:39:47.000Z",
+      "id": "indicator--b2bdb0b0-b7b1-427a-880b-d379d27c23af",
+      "created": "2026-09-01T13:16:38.000Z",
+      "modified": "2026-09-01T13:16:38.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '209.99.186.235']",
-      "valid_from": "2026-08-31T12:39:47.000Z"
+      "valid_from": "2026-09-01T13:16:38.000Z"
     }
   ]
 }
