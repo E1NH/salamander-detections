@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Expands Toolset With New Backdoor, SSH Tunnel  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] Tortoiseshell infrastructure domain"; dns.query; content:"locat.sbs"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] Tortoiseshell infrastructure domain"; dns.query; content:"tiktok-u.sbs"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

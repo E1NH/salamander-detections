@@ -1,0 +1,69 @@
+{
+  "type": "bundle",
+  "id": "bundle--a9b15ad4-5808-41d8-961e-5354b850bf46",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8aca8f1e-21a4-48e2-ac88-a05c380cd66a",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'api.cemg.xyz']",
+      "valid_from": "2026-09-02T09:35:55.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e6ea6c28-e11e-4f46-a578-eb095341d69d",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '162.141.92.192']",
+      "valid_from": "2026-09-02T09:35:55.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c85ec764-0396-4707-917d-b0a600ecc828",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '112.21.241.27']",
+      "valid_from": "2026-09-02T09:35:55.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c0e71eec-39f8-41e3-b6a7-f41689722786",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '39.175.139.108']",
+      "valid_from": "2026-09-02T09:35:55.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ccf2a2ea-efaf-418d-bd0d-2eddb6f7f46b",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "C2/infra IP",
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '86.53.111.212']",
+      "valid_from": "2026-09-02T09:35:55.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--02c0307b-133f-4684-a66d-c078bef6a1b0",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "APT28"
+    }
+  ]
+}

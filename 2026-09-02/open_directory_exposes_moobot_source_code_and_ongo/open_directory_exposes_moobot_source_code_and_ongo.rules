@@ -1,0 +1,8 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Open Directory Exposes Moobot Source Code and Ongoing Activity Post 2024 Court-Authorized Disruption  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] APT28 infrastructure domain"; dns.query; content:"api.cemg.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert ip any any -> 162.141.92.192 any (msg:"[Salamander CTI] APT28 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert ip any any -> 112.21.241.27 any (msg:"[Salamander CTI] APT28 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert ip any any -> 39.175.139.108 any (msg:"[Salamander CTI] APT28 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert ip any any -> 86.53.111.212 any (msg:"[Salamander CTI] APT28 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)

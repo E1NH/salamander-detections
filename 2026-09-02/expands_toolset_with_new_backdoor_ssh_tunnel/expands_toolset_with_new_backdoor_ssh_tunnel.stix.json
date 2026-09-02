@@ -1,0 +1,36 @@
+{
+  "type": "bundle",
+  "id": "bundle--2412f9dd-54c0-430c-8e79-4f6899592ac8",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--27c5e00d-9320-42ab-a50d-e90512157342",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'locat.sbs']",
+      "valid_from": "2026-09-02T09:35:55.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6d7bdbb5-c5df-49ab-a2a9-bf624f4a9b8d",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'tiktok-u.sbs']",
+      "valid_from": "2026-09-02T09:35:55.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--e233d0ae-6077-4008-b5ad-f8dab2f99768",
+      "created": "2026-09-02T09:35:55.000Z",
+      "modified": "2026-09-02T09:35:55.000Z",
+      "name": "Tortoiseshell"
+    }
+  ]
+}
