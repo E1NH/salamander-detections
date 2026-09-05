@@ -1,0 +1,58 @@
+{
+  "type": "bundle",
+  "id": "bundle--02e3f242-118d-4ad4-a430-6e1e45135dfe",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6c6698c3-db76-4ad1-917d-c5b42204f1d5",
+      "created": "2026-09-05T17:43:43.000Z",
+      "modified": "2026-09-05T17:43:43.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '365d4eb738d3146583431948d3ba6e27a32556be']",
+      "valid_from": "2026-09-05T17:43:43.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d6cc99cb-151b-4af0-bdf2-0d5809f81e86",
+      "created": "2026-09-05T17:43:43.000Z",
+      "modified": "2026-09-05T17:43:43.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = 'ec7876d6c917dad516ba69bbfafc948b834bf0ab']",
+      "valid_from": "2026-09-05T17:43:43.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c2ce332b-7b98-482a-8cb9-17c4ba0a1068",
+      "created": "2026-09-05T17:43:43.000Z",
+      "modified": "2026-09-05T17:43:43.000Z",
+      "name": "Malicious file (SHA-1)",
+      "pattern_type": "stix",
+      "pattern": "[file:hashes.'SHA-1' = '043fb46d1a93c77aae656e7c1c64a875d1fc6a0a']",
+      "valid_from": "2026-09-05T17:43:43.000Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1ebc5c95-671e-4a44-9fcb-090d2d753c8d",
+      "created": "2026-09-05T17:43:43.000Z",
+      "modified": "2026-09-05T17:43:43.000Z",
+      "name": "C2/infra domain",
+      "pattern_type": "stix",
+      "pattern": "[domain-name:value = 'poopy.com']",
+      "valid_from": "2026-09-05T17:43:43.000Z"
+    },
+    {
+      "type": "threat-actor",
+      "spec_version": "2.1",
+      "id": "threat-actor--05886c37-1dbf-4a18-bbb1-124aacf29db2",
+      "created": "2026-09-05T17:43:43.000Z",
+      "modified": "2026-09-05T17:43:43.000Z",
+      "name": "TeamPCP"
+    }
+  ]
+}

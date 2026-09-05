@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Inside The Gentlemen: Undisclosed TukTuk C2 Framework and EDR Neutralization Research  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] The Gentlemen infrastructure domain"; dns.query; content:"borjumaniya.store"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
