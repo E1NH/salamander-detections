@@ -1,46 +1,46 @@
 {
   "type": "bundle",
-  "id": "bundle--e14f1114-99c3-4555-8008-f844cb0eb0a4",
+  "id": "bundle--b0d45447-d5f6-40bc-b23d-9212eb730cf9",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--70920854-82d2-4623-bf64-a1f0a3eb7d6b",
-      "created": "2026-09-05T17:43:43.000Z",
-      "modified": "2026-09-05T17:43:43.000Z",
+      "id": "indicator--252b8b41-cc69-446b-9e1b-5063ac39fe72",
+      "created": "2026-09-06T15:59:41.000Z",
+      "modified": "2026-09-06T15:59:41.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'a4af136d159a8eb96b54924fa80355ca52874913301300f55af7d67ae97edcfe']",
-      "valid_from": "2026-09-05T17:43:43.000Z"
+      "valid_from": "2026-09-06T15:59:41.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--7ad270dc-93b2-4548-aead-39a960004f1d",
-      "created": "2026-09-05T17:43:43.000Z",
-      "modified": "2026-09-05T17:43:43.000Z",
+      "id": "indicator--d67b3ee4-540e-4bda-8bd8-a638612e5a1e",
+      "created": "2026-09-06T15:59:41.000Z",
+      "modified": "2026-09-06T15:59:41.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'eb0aab1e892d7e09e2c7bcf1d21fd83c1743ed9196b3efac6c78482fb0d99207']",
-      "valid_from": "2026-09-05T17:43:43.000Z"
+      "valid_from": "2026-09-06T15:59:41.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--41369d6e-f8f0-4a99-b6c0-5a0ac894fdf2",
-      "created": "2026-09-05T17:43:43.000Z",
-      "modified": "2026-09-05T17:43:43.000Z",
+      "id": "indicator--b93bbe44-fbdc-409b-9db0-2bfc2bcd63d5",
+      "created": "2026-09-06T15:59:41.000Z",
+      "modified": "2026-09-06T15:59:41.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'ijexszhscln27nl263lmcd7tx3jttkhm4wjhd4e3y6r4csdbfyeprvid.onion']",
-      "valid_from": "2026-09-05T17:43:43.000Z"
+      "valid_from": "2026-09-06T15:59:41.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--78ac272d-4321-43c3-a1d6-468411f4df43",
-      "created": "2026-09-05T17:43:43.000Z",
-      "modified": "2026-09-05T17:43:43.000Z",
+      "id": "threat-actor--790f93d1-17f3-4863-9654-d1b8e5de45ce",
+      "created": "2026-09-06T15:59:41.000Z",
+      "modified": "2026-09-06T15:59:41.000Z",
       "name": "Aurora"
     }
   ]
