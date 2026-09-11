@@ -1,46 +1,46 @@
 {
   "type": "bundle",
-  "id": "bundle--b9effd45-8f51-4752-bbda-36c50a3d85f1",
+  "id": "bundle--68447fa0-83bf-4d84-8217-fb05088ffa8c",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--5b8f6237-9e73-46b4-a045-d38d97cbf261",
-      "created": "2026-09-10T19:49:43.000Z",
-      "modified": "2026-09-10T19:49:43.000Z",
+      "id": "indicator--b40b7261-b31d-489c-bda9-1178b97db9e0",
+      "created": "2026-09-11T12:13:53.000Z",
+      "modified": "2026-09-11T12:13:53.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = 'bfadbeee63a4f0bf19ec9deb8fa58f58']",
-      "valid_from": "2026-09-10T19:49:43.000Z"
+      "valid_from": "2026-09-11T12:13:53.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--c8e7185c-41dd-4ac8-b319-2ecc004287ab",
-      "created": "2026-09-10T19:49:43.000Z",
-      "modified": "2026-09-10T19:49:43.000Z",
+      "id": "indicator--fb5300db-8e28-44f0-99a4-50183bb01503",
+      "created": "2026-09-11T12:13:53.000Z",
+      "modified": "2026-09-11T12:13:53.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = '7916c33688385525078bee504c90f359']",
-      "valid_from": "2026-09-10T19:49:43.000Z"
+      "valid_from": "2026-09-11T12:13:53.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--136a2b4e-2ad9-4256-8985-65db97bd27a0",
-      "created": "2026-09-10T19:49:43.000Z",
-      "modified": "2026-09-10T19:49:43.000Z",
+      "id": "indicator--ab02ca06-5f2b-439c-b36c-c5921f97155e",
+      "created": "2026-09-11T12:13:53.000Z",
+      "modified": "2026-09-11T12:13:53.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'meet.element.tw']",
-      "valid_from": "2026-09-10T19:49:43.000Z"
+      "valid_from": "2026-09-11T12:13:53.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--3753ff8f-a1aa-4a6d-9f91-d092b19601d9",
-      "created": "2026-09-10T19:49:43.000Z",
-      "modified": "2026-09-10T19:49:43.000Z",
+      "id": "threat-actor--b15c61f7-fbde-4fd5-95f1-4dfe6a0c0a34",
+      "created": "2026-09-11T12:13:53.000Z",
+      "modified": "2026-09-11T12:13:53.000Z",
       "name": "Toy Ghouls"
     }
   ]

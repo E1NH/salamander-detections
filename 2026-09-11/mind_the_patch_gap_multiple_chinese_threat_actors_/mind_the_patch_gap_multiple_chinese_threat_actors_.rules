@@ -1,0 +1,12 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0-day Exploits in Chrome & Windows  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"msbenefit.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"gitprogram.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"cloud.shinewrist.net"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"document.gitprogram.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"ocr.opusaccel.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"photos.msbenefit.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"proof.gitprogram.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure domain"; dns.query; content:"xyz0102.gitprogram.com"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert ip any any -> 206.166.251.164 any (msg:"[Salamander CTI] UTA0560, JungleBamboo infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)

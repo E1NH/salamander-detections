@@ -1,0 +1,4 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Threat Snapshot: Djinn Stealer  (defensive signatures; not endorsements)
+
+alert ip any any -> 96.126.130.126 any (msg:"[Salamander CTI] Data Insufficient infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
