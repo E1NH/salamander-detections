@@ -1,0 +1,5 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# Gray Rabbits and the Tale of a One-Click Backdoor  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] UNC3569 infrastructure domain"; dns.query; content:"noht1ng.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] UNC3569 infrastructure domain"; dns.query; content:"mail.uaiubifas.top"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)

@@ -1,79 +1,79 @@
 {
   "type": "bundle",
-  "id": "bundle--ad7c36ec-3d7e-4011-85d4-1862a18de715",
+  "id": "bundle--f3de7a59-b12b-48a2-bf5a-3a6dd3fcf58c",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--e317cc33-3183-44a2-a86b-c4e23fec4645",
-      "created": "2026-09-11T12:13:48.000Z",
-      "modified": "2026-09-11T12:13:48.000Z",
+      "id": "indicator--c1eab256-053b-4b79-988c-71271b3a787e",
+      "created": "2026-09-12T14:56:19.000Z",
+      "modified": "2026-09-12T14:56:19.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '069ac1dc7f7649b76bc72a11ac700f373804bfd81dab7e561157b703999f44ce']",
-      "valid_from": "2026-09-11T12:13:48.000Z"
+      "valid_from": "2026-09-12T14:56:19.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--205fa41f-66e0-43f9-91c8-440e2735ffc3",
-      "created": "2026-09-11T12:13:48.000Z",
-      "modified": "2026-09-11T12:13:48.000Z",
+      "id": "indicator--a9ecee5d-f1a6-434f-9e3b-10c0c79ea458",
+      "created": "2026-09-12T14:56:19.000Z",
+      "modified": "2026-09-12T14:56:19.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '7d80b3ef74ad7992b93c31966962612e4e2ceb93e7727cdbd1d2a9af47d44ba8']",
-      "valid_from": "2026-09-11T12:13:48.000Z"
+      "valid_from": "2026-09-12T14:56:19.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--10730bf5-45c4-4910-8ab7-63e78ef025b8",
-      "created": "2026-09-11T12:13:48.000Z",
-      "modified": "2026-09-11T12:13:48.000Z",
+      "id": "indicator--6ffe50d4-dd15-4fc4-8369-58a0e233d900",
+      "created": "2026-09-12T14:56:19.000Z",
+      "modified": "2026-09-12T14:56:19.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '877ff2531a63393c4cb9c3c86908b62d9c4fc3db971bc231c48537faae6cb3ec']",
-      "valid_from": "2026-09-11T12:13:48.000Z"
+      "valid_from": "2026-09-12T14:56:19.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--96306110-9a0a-41b8-981e-52132cd00151",
-      "created": "2026-09-11T12:13:48.000Z",
-      "modified": "2026-09-11T12:13:48.000Z",
+      "id": "indicator--0233bc7e-f05f-47c9-8738-c003f4b20142",
+      "created": "2026-09-12T14:56:19.000Z",
+      "modified": "2026-09-12T14:56:19.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'aeaf583e20347bf850e2fabdcd6f4982996ba023f8c2cd56bbd299cfd56516f5']",
-      "valid_from": "2026-09-11T12:13:48.000Z"
+      "valid_from": "2026-09-12T14:56:19.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--efbb0ce3-5c0d-46f2-87d5-b86aade48b49",
-      "created": "2026-09-11T12:13:48.000Z",
-      "modified": "2026-09-11T12:13:48.000Z",
+      "id": "indicator--a2d10633-7e52-4c2f-9353-d1b3b79c03af",
+      "created": "2026-09-12T14:56:19.000Z",
+      "modified": "2026-09-12T14:56:19.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 't.m-kosche.com']",
-      "valid_from": "2026-09-11T12:13:48.000Z"
+      "valid_from": "2026-09-12T14:56:19.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--fbe3d6be-9a18-4eb8-b669-6611e44a8c8a",
-      "created": "2026-09-11T12:13:48.000Z",
-      "modified": "2026-09-11T12:13:48.000Z",
+      "id": "indicator--ece3ccca-d8d1-434d-b478-a61268c5a048",
+      "created": "2026-09-12T14:56:19.000Z",
+      "modified": "2026-09-12T14:56:19.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'check.git-service.com']",
-      "valid_from": "2026-09-11T12:13:48.000Z"
+      "valid_from": "2026-09-12T14:56:19.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--765bc28f-6b6e-444c-9d74-6a96e20a2918",
-      "created": "2026-09-11T12:13:48.000Z",
-      "modified": "2026-09-11T12:13:48.000Z",
+      "id": "threat-actor--6cbcd0d2-7440-4b9e-8f28-fe516825725c",
+      "created": "2026-09-12T14:56:19.000Z",
+      "modified": "2026-09-12T14:56:19.000Z",
       "name": "TeamPCP"
     }
   ]
