@@ -1,83 +1,83 @@
 {
   "type": "bundle",
-  "id": "bundle--20b02f83-73b0-4297-b76a-a77f9fa71f9f",
+  "id": "bundle--5c969167-eaa0-4987-ac7a-32486922f91a",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--51910902-9dd8-4c61-978d-95474a5ea189",
-      "created": "2026-09-12T14:56:19.000Z",
-      "modified": "2026-09-12T14:56:19.000Z",
+      "id": "indicator--aedfdf21-cf47-4941-a4b9-ece60a476acd",
+      "created": "2026-09-15T12:04:12.000Z",
+      "modified": "2026-09-15T12:04:12.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = 'd8bf355a198fb5db3ea65cfdfcdfbd19']",
-      "valid_from": "2026-09-12T14:56:19.000Z"
+      "valid_from": "2026-09-15T12:04:12.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--bc8709f2-6114-4d62-8e48-9b2c5d2c2a1d",
-      "created": "2026-09-12T14:56:19.000Z",
-      "modified": "2026-09-12T14:56:19.000Z",
+      "id": "indicator--ca304bb9-9d4d-4c78-9b23-01beb8e2781d",
+      "created": "2026-09-15T12:04:12.000Z",
+      "modified": "2026-09-15T12:04:12.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '8c4e4804f21649e5ddc6a5670f3b3828a43bff304f02f184f9842c2569570f3d']",
-      "valid_from": "2026-09-12T14:56:19.000Z"
+      "valid_from": "2026-09-15T12:04:12.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--f55533ac-1871-4def-a9c3-322f9b00d322",
-      "created": "2026-09-12T14:56:19.000Z",
-      "modified": "2026-09-12T14:56:19.000Z",
+      "id": "indicator--64fbffa7-e9af-4555-9b83-235c8a0d1f28",
+      "created": "2026-09-15T12:04:12.000Z",
+      "modified": "2026-09-15T12:04:12.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'b7443b0ab48d2f5786d1b6f3a580f02621e9ae5a3877ee3a44e01df13d984328']",
-      "valid_from": "2026-09-12T14:56:19.000Z"
+      "valid_from": "2026-09-15T12:04:12.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a598f5e8-ff87-48cf-af84-b22ae2a44adc",
-      "created": "2026-09-12T14:56:19.000Z",
-      "modified": "2026-09-12T14:56:19.000Z",
+      "id": "indicator--0886a95f-a93e-4dc5-847a-89fb84554f02",
+      "created": "2026-09-15T12:04:12.000Z",
+      "modified": "2026-09-15T12:04:12.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'pipicka.xyz']",
-      "valid_from": "2026-09-12T14:56:19.000Z"
+      "valid_from": "2026-09-15T12:04:12.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--78eb164f-614b-4652-94c6-43aee90f2919",
-      "created": "2026-09-12T14:56:19.000Z",
-      "modified": "2026-09-12T14:56:19.000Z",
+      "id": "indicator--e9f31267-2680-4faa-9e40-aabb450ef88c",
+      "created": "2026-09-15T12:04:12.000Z",
+      "modified": "2026-09-15T12:04:12.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '168.222.254.204']",
-      "valid_from": "2026-09-12T14:56:19.000Z"
+      "valid_from": "2026-09-15T12:04:12.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--0f620bb2-3946-48e5-a57a-c345ea3c01c4",
-      "created": "2026-09-12T14:56:19.000Z",
-      "modified": "2026-09-12T14:56:19.000Z",
+      "id": "indicator--68725cd0-d04c-4412-89ed-c82f1bf296e4",
+      "created": "2026-09-15T12:04:12.000Z",
+      "modified": "2026-09-15T12:04:12.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '191.44.109.130']",
-      "valid_from": "2026-09-12T14:56:19.000Z"
+      "valid_from": "2026-09-15T12:04:12.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--a3671a94-0ac6-4541-9e5d-76224bf1790a",
-      "created": "2026-09-12T14:56:19.000Z",
-      "modified": "2026-09-12T14:56:19.000Z",
+      "id": "indicator--5669cf33-e34b-4e97-ad3f-dee6e6abd925",
+      "created": "2026-09-15T12:04:12.000Z",
+      "modified": "2026-09-15T12:04:12.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '87.120.108.18']",
-      "valid_from": "2026-09-12T14:56:19.000Z"
+      "valid_from": "2026-09-15T12:04:12.000Z"
     }
   ]
 }

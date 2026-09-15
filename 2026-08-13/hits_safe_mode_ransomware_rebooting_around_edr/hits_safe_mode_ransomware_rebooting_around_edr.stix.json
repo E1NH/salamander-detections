@@ -1,68 +1,68 @@
 {
   "type": "bundle",
-  "id": "bundle--f5d4602c-62c3-46d7-bd72-63a4a4a48c81",
+  "id": "bundle--cfdb9188-4323-4482-8461-a2417155bf83",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--110dd3f2-cb52-4f2b-8659-6ce27935ee8b",
-      "created": "2026-09-12T14:56:20.000Z",
-      "modified": "2026-09-12T14:56:20.000Z",
+      "id": "indicator--f458225b-8490-4444-938a-fcc858bd97b4",
+      "created": "2026-09-15T12:04:13.000Z",
+      "modified": "2026-09-15T12:04:13.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = 'e2356c742c74cce5c6b6100162d0071a3f71e2fed2ed895c2011061a95b3299a']",
-      "valid_from": "2026-09-12T14:56:20.000Z"
+      "valid_from": "2026-09-15T12:04:13.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--02e5ea29-c48d-491e-8250-27822adb68d1",
-      "created": "2026-09-12T14:56:20.000Z",
-      "modified": "2026-09-12T14:56:20.000Z",
+      "id": "indicator--8c8cb359-ed6b-41b8-8c78-1ba7301ee625",
+      "created": "2026-09-15T12:04:13.000Z",
+      "modified": "2026-09-15T12:04:13.000Z",
       "name": "Malicious file (MD5)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'MD5' = '61a1ad1b6a028a1833c85e6544383999']",
-      "valid_from": "2026-09-12T14:56:20.000Z"
+      "valid_from": "2026-09-15T12:04:13.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--bea241d9-788e-4f78-b806-7803e84ca7ba",
-      "created": "2026-09-12T14:56:20.000Z",
-      "modified": "2026-09-12T14:56:20.000Z",
+      "id": "indicator--fdf1026a-4bef-4562-9789-3f30454e0a23",
+      "created": "2026-09-15T12:04:13.000Z",
+      "modified": "2026-09-15T12:04:13.000Z",
       "name": "Malicious file (SHA-1)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-1' = 'bb6f97878c8cbf762d69717b3480658fe9157ff0']",
-      "valid_from": "2026-09-12T14:56:20.000Z"
+      "valid_from": "2026-09-15T12:04:13.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--34a63112-ecb4-4794-acfa-20ee26ad4c8c",
-      "created": "2026-09-12T14:56:20.000Z",
-      "modified": "2026-09-12T14:56:20.000Z",
+      "id": "indicator--b2f7b619-05d9-4fb2-b470-9f5a919dcc1e",
+      "created": "2026-09-15T12:04:13.000Z",
+      "modified": "2026-09-15T12:04:13.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '414b9985f46714f44dd1bd63860d2a48dcfababcfe5c712a4b4f575378127a56']",
-      "valid_from": "2026-09-12T14:56:20.000Z"
+      "valid_from": "2026-09-15T12:04:13.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--02d99476-5d71-41b3-96a9-5915a4531d72",
-      "created": "2026-09-12T14:56:20.000Z",
-      "modified": "2026-09-12T14:56:20.000Z",
+      "id": "indicator--4c956207-8aae-470a-bc12-2956cbc108c4",
+      "created": "2026-09-15T12:04:13.000Z",
+      "modified": "2026-09-15T12:04:13.000Z",
       "name": "C2/infra IP",
       "pattern_type": "stix",
       "pattern": "[ipv4-addr:value = '72.23.77.35']",
-      "valid_from": "2026-09-12T14:56:20.000Z"
+      "valid_from": "2026-09-15T12:04:13.000Z"
     },
     {
       "type": "threat-actor",
       "spec_version": "2.1",
-      "id": "threat-actor--89e0350d-6191-41e3-a1b0-1308af252572",
-      "created": "2026-09-12T14:56:20.000Z",
-      "modified": "2026-09-12T14:56:20.000Z",
+      "id": "threat-actor--ad2a0aa3-b765-4f55-91b2-1d7bd5fcc2ab",
+      "created": "2026-09-15T12:04:13.000Z",
+      "modified": "2026-09-15T12:04:13.000Z",
       "name": "Storm-1567"
     }
   ]
