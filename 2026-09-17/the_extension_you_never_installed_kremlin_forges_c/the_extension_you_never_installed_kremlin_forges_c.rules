@@ -1,0 +1,18 @@
+# Salamander CTI detection ruleset  //  https://salacti.com
+# The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions  (defensive signatures; not endorsements)
+
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"codecaudiog.site"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100001; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"codecvideowin.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100002; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"zaviro.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100003; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"granderevolucao.store"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100004; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"volmira.site"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100005; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"affordableonline.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100006; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"cheapzone.space"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100007; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"lojinhadoluiz.online"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100008; rev:1;)
+alert dns any any -> any any (msg:"[Salamander CTI] REF9334 infrastructure domain"; dns.query; content:"mysterylink.xyz"; nocase; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100009; rev:1;)
+alert ip any any -> 144.172.112.239 any (msg:"[Salamander CTI] REF9334 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100010; rev:1;)
+alert ip any any -> 178.92.162.38 any (msg:"[Salamander CTI] REF9334 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100011; rev:1;)
+alert ip any any -> 185.221.23.133 any (msg:"[Salamander CTI] REF9334 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100012; rev:1;)
+alert ip any any -> 37.16.74.100 any (msg:"[Salamander CTI] REF9334 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100013; rev:1;)
+alert ip any any -> 37.16.74.34 any (msg:"[Salamander CTI] REF9334 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100014; rev:1;)
+alert ip any any -> 45.90.13.210 any (msg:"[Salamander CTI] REF9334 infrastructure IP"; classtype:trojan-activity; reference:url,https://salacti.com; sid:6100015; rev:1;)

@@ -1,39 +1,39 @@
 {
   "type": "bundle",
-  "id": "bundle--0ecd026e-2c93-4372-bd99-7126da92d645",
+  "id": "bundle--8dac36c2-78cc-4ea6-ad84-149bf7c6332c",
   "objects": [
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--38407399-7f44-49a2-a2cd-e5e2b323bdd4",
-      "created": "2026-09-15T12:04:12.000Z",
-      "modified": "2026-09-15T12:04:12.000Z",
+      "id": "indicator--542a54a9-eb26-4318-a114-af6af13a3495",
+      "created": "2026-09-17T09:33:14.000Z",
+      "modified": "2026-09-17T09:33:14.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '103c4e6181151c1bcfedc41506cd1815458c38375d08a8fcd9981dbe0b965ce0']",
-      "valid_from": "2026-09-15T12:04:12.000Z"
+      "valid_from": "2026-09-17T09:33:14.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--53aacd55-2880-4ef2-b3c0-cbb8bdd655b3",
-      "created": "2026-09-15T12:04:12.000Z",
-      "modified": "2026-09-15T12:04:12.000Z",
+      "id": "indicator--f2cf20a4-2a28-49e4-b43f-1ef0e81914dc",
+      "created": "2026-09-17T09:33:14.000Z",
+      "modified": "2026-09-17T09:33:14.000Z",
       "name": "Malicious file (SHA-256)",
       "pattern_type": "stix",
       "pattern": "[file:hashes.'SHA-256' = '9a59eb454f3ca3fe91214136ee5edd417cc47a80e6f169b52099d6561944baf9']",
-      "valid_from": "2026-09-15T12:04:12.000Z"
+      "valid_from": "2026-09-17T09:33:14.000Z"
     },
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--3a0959ff-90a3-492e-92f7-f162b09d8676",
-      "created": "2026-09-15T12:04:12.000Z",
-      "modified": "2026-09-15T12:04:12.000Z",
+      "id": "indicator--414e3e17-3f47-4202-81eb-0126e7ffaeb1",
+      "created": "2026-09-17T09:33:14.000Z",
+      "modified": "2026-09-17T09:33:14.000Z",
       "name": "C2/infra domain",
       "pattern_type": "stix",
       "pattern": "[domain-name:value = 'testnet.archival.chain.grpc-web.injective.network']",
-      "valid_from": "2026-09-15T12:04:12.000Z"
+      "valid_from": "2026-09-17T09:33:14.000Z"
     }
   ]
 }
